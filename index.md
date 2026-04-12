@@ -39,6 +39,7 @@ Map of content for the paper vault. See [[README]] for conventions, and **[[conc
 - [[KQML Language And Protocol]]
 - [[ACL Rethinking Principles]] — Singh
 - [[Agent Communication Languages - Rethinking the Principles]] — Singh (companion)
+- [[KQML - A Language And Protocol For Knowledge And Information Exchange]] — Finin et al. AAAI WS-94
 - [[The State of the Art in Agent Communication Languages]]
 - [[Trends in Agent Communication Language]]
 - [[A Common Ontology Of ACLs]]
@@ -56,6 +57,7 @@ Map of content for the paper vault. See [[README]] for conventions, and **[[conc
 - [[Intelligent Agents Theory and Practice]] — Wooldridge
 - [[Multiagent Systems Sycara]]
 - [[Agent-Oriented Programming]] — Shoham
+- [[The BOID Architecture]] — Broersen et al. (deontic BDI)
 - [[Multi-Agent Collaboration in AI - Wasif Tunkel]]
 - [[Are Multiagent Systems Resilient to Communication Failures]]
 - [[Ensuring Trustworthy and Ethical Behaviour in Intelligent Logical Agents]]
@@ -73,6 +75,11 @@ Map of content for the paper vault. See [[README]] for conventions, and **[[conc
 - [[Ripple Effect Protocol]]
 - [[AI Agents Under Threat]]
 - [[MalTool Malicious Tool Attacks]]
+- [[ClawWorm Self-Propagating Attacks Across LLM Agent Ecosystems]]
+- [[SoK The Attack Surface of Agentic AI]]
+- [[Agents of Chaos]]
+- [[Inter-Agent Trust Models - A Comparative Study]]
+- [[Intent Formalization - A Grand Challenge for Reliable Coding]]
 - [[From Eliza to XiaoIce - Social Chatbots]]
 
 ## Emergent Communication & Language Games
@@ -110,6 +117,8 @@ Map of content for the paper vault. See [[README]] for conventions, and **[[conc
 - [[Architectural Patterns for Dependable Software Systems - SOL]]
 - [[Principled Design Of The Modern Web Architecture]]
 - [[Extensible Distributed Coordination]]
+- [[Security Applications Of Formal Language Theory]] — Sassaman et al. LangSec foundational
+- [[Exploit Programming - From Buffer Overflows To Weird Machines]] — Bratus et al.
 
 ## Gossip & Peer-to-Peer
 
