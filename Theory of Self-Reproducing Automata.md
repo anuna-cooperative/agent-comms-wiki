@@ -19,6 +19,10 @@ The core argument concerns complication: below a threshold, a system cannot perf
 - [[Multi-Agent Systems]]
 - [[Edge Intelligence]]
 - [[Large Population Models]]
+- [[ClawWorm Self-Propagating Attacks Across LLM Agent Ecosystems]] — modern self-replicating agent, direct lineal descendant
+- [[Myconet Fungi Inspired Superpeer Overlay]] — biological self-organisation
+- [[Computational Boundary of a Self]] — selfhood extended to scale-free cognition
+- [[Programming Erlang Second Edition]] — engineered local-error-tolerance
 
 ## Conceptual Contribution
 - **Claim:** There exists a threshold of "complication" below which automata can only degrade and above which qualitatively new capacities (self-reproduction, evolvable organisation) become possible; biological automata survive precisely because their architecture tolerates local error rather than halting on any single fault.

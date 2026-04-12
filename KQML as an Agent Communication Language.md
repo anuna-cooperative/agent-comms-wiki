@@ -22,6 +22,9 @@ The paper describes the three-layer structure (content / message / communication
 - [[Ontologies]]
 - [[Multi-Agent Systems]]
 - [[A Scalable Communication Protocol for Networks of LLMs]]
+- [[KQML Overview]]
+- [[KQML Language And Protocol]]
+- [[KQML - A Language And Protocol For Knowledge And Information Exchange]]
 
 ## Conceptual Contribution
 - **Claim:** Interoperable knowledge sharing among heterogeneous intelligent agents requires a three-layer communication language (content / message / communication) whose message layer is built from speech-act-inspired *performatives*, and whose runtime infrastructure provides facilitator agents for matchmaking and brokering.

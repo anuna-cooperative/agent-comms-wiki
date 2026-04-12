@@ -21,6 +21,9 @@ Drawing on examples from compiler development, military weapons systems, and pub
 - [[Standard Operating Procedures (SOPs)]]
 - [[Protocol Documents]]
 - [[Interaction Protocols]]
+- [[Levels Of Social Orchestration]] — extends Conway to agent-population architecture
+- [[A Scalable Communication Protocol for Networks of LLMs]] — Agora protocol documents as "language = organisation"
+- [[Vibe Coding]] — the organisation-mirror problem when the "organisation" includes AI agents
 
 ## Conceptual Contribution
 - **Claim:** The structure of a designed system is homomorphic to the communication structure of the organization that designs it (Conway's Law); therefore design-team topology pre-determines the space of realisable architectures.

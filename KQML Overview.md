@@ -22,6 +22,9 @@ KQML is organized as three layers: a content layer (domain content in KIF or oth
 - [[Speech Act Theory]]
 - [[Performatives]]
 - [[Facilitators]]
+- [[KQML Language And Protocol]] — journal companion
+- [[KQML as an Agent Communication Language]] — tutorial companion
+- [[KQML - A Language And Protocol For Knowledge And Information Exchange]] — 1994 workshop original
 - [[KIF]]
 - [[Mentalistic Semantics]]
 - [[Conceptualization]]

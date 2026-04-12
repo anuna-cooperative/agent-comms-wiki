@@ -27,6 +27,11 @@ The root cause is identified as the *flat context trust model*: the LLM cannot d
 - [[Model Context Protocol]]
 - [[Gossip Protocols]]
 - [[Trust and Reputation]]
+- [[Theory of Self-Reproducing Automata]] — foundational ancestor of self-replicating computation
+- [[Agents of Chaos]] — empirical companion on agent-ecosystem failures
+- [[MalTool Malicious Tool Attacks]] — the tool/skill-supply-chain attack surface
+- [[SoK The Attack Surface of Agentic AI]] — systematic context
+- [[Inter-Agent Trust Models - A Comparative Study]] — why flat trust is brittle
 
 ## Conceptual Contribution
 - **Claim:** Production-scale autonomous LLM-agent ecosystems are vulnerable to single-message, self-replicating worms whose root cause is architectural (flat context trust, unconditional config loading, unreviewed skill supply chains), not model-specific.

@@ -19,6 +19,9 @@ The paper defines completeness and consistency of a semantic definition, gives g
 - [[Agent-Oriented Programming]]
 - [[Verifiable Semantics]]
 - [[Code as Data]]
+- [[Intent Formalization - A Grand Challenge for Reliable Coding]] — Floyd/Hoare specs as the LLM-era correctness oracle
+- [[Making Smart Contracts Smarter]] — semantic-gap diagnostics in a blockchain setting
+- [[Hoare Logic]]
 
 ## Conceptual Contribution
 - **Claim:** A programming language's semantics can be defined independently of any implementation by attaching propositions to flowchart edges and constructing per-command verification conditions; global program properties then follow by induction.

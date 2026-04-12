@@ -18,6 +18,8 @@ Beyond core averaging, the authors show how to compute more complex aggregates (
 - [[Gossip Protocols]]
 - [[Self-Adaptive Systems]]
 - [[Multi-Agent Systems]]
+- [[CALM Theorem]] — push-pull averaging is monotonic, hence coordination-free
+- [[Keeping CALM - When Distributed Consistency is Easy]]
 
 ## Conceptual Contribution
 - **Claim:** A simple push-pull averaging gossip protocol — paired with a peer-sampling service — provides proactive, continuously-updated aggregates (average, sum, count, variance, network size, extrema) at large scale with geometric-rate convergence and robustness to churn and message loss.

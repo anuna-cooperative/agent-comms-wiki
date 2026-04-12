@@ -20,6 +20,9 @@ KQML is organised as three layers - content, message, and communication - where 
 - [[Agent Communication Languages]]
 - [[Ontologies]]
 - [[Multi-Agent Systems]]
+- [[KQML Overview]]
+- [[KQML as an Agent Communication Language]]
+- [[KQML - A Language And Protocol For Knowledge And Information Exchange]]
 
 ## Conceptual Contribution
 - **Claim:** Knowledge sharing among heterogeneous intelligent agents is best realised by a layered, performative-based message protocol whose content is opaque and whose routing is mediated by special facilitator agents.
