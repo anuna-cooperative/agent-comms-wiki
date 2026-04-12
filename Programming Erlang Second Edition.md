@@ -24,7 +24,7 @@ Part III covers the concurrency primitives (spawn/send/receive), error handling 
 ## Conceptual Contribution
 - **Claim:** Concurrent, distributed and fault-tolerant software is simpler and more reliable when built on isolated processes that share nothing and communicate only by asynchronous messages, with failures handled by supervision rather than defensive programming ("let it crash").
 - **Mechanism:** Armstrong teaches the Erlang trinity of spawn / send / receive, reinforces isolation via immutability and pattern matching, and then layers links, monitors and supervisor trees for systemic recovery. Distribution uses the same primitives as local concurrency, so topology becomes deployment-time. Supporting libraries (ports for C, sockets, ETS/DETS, Mnesia, tracing/profiling, web/WebSocket) show how the model scales to realistic systems.
-- **Concepts introduced/used:** [[Actor Model]], [[Let It Crash]], [[Supervision Tree]], [[Erlang Process]], [[Pattern Matching]], [[Link and Monitor]], [[Mnesia]], [[ETS/DETS]], [[Bit Syntax]], [[OTP]]
+- **Concepts introduced/used:** [[Actor Model]], [[Let It Crash]], [[Supervision Tree]], [[Erlang Process]], [[Pattern Matching]], [[Link and Monitor]], [[Mnesia]], [[ETS-DETS]], [[Bit Syntax]], [[OTP]]
 - **Stance:** engineering
 - **Relates to:** The practical counterpart to the fault-tolerance philosophy of [[Theory of Self-Reproducing Automata]] and the architectural dependability of [[Architectural Patterns for Dependable Software Systems - SOL]]; its message-passing primitives underpin agent frameworks surveyed in [[Intelligent Agents Theory and Practice]] and mesh with the calculus-level treatment in [[Secure Communications Processing for Distributed Languages]].
 
