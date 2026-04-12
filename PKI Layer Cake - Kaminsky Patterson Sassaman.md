@@ -21,7 +21,7 @@ The paper is largely a case study in how ambiguity at the interface between comp
 ## Conceptual Contribution
 - **Claim:** The global X.509 PKI is vulnerable not only because of weak hashes (MD2/MD5) but because layered, ambiguously-specified parsers (ASN.1 BER, PKCS#10, Subject Name handling) disagree about what a certificate says — an *inter-layer semantic gap* exploitable by attackers.
 - **Mechanism:** Demonstrate concrete attacks: MD2RSA signature transfer from Verisign's root, Subject Name Confusion via implementation-dependent CN-selection policies, PKCS#10-tunneled SQL/ASN.1 injection, OID leading-zero/integer-overflow tricks, null-terminator CN spoofing, SSL Client Authentication EKU bypass, and EV hijacking via mixed-trust scripting.
-- **Concepts introduced/used:** [[Parser Differentials]], [[X.509 / PKI]], [[ASN.1 BER Ambiguity]], [[Certificate Authorities]], [[Protocol Layering Attacks]], [[Distributed Security]], [[Language-theoretic Security]]
+- **Concepts introduced/used:** [[Parser Differential]], [[Parser Differentials]], [[X.509 / PKI]], [[ASN.1 BER Ambiguity]], [[Certificate Authorities]], [[Protocol Layering Attacks]], [[Distributed Security]], [[LangSec]], [[Language-theoretic Security]], [[Postel's Robustness Principle]]
 - **Stance:** empirical / security-critique
 - **Relates to:** Canonical case study for [[Distributed Security]] and a prime example of why [[A Language-Based Approach To Prevent DDoS]]-style disciplined parsing matters. The ambiguity of ASN.1 BER mirrors the semantic-drift concerns in agent communication languages ([[A Common Ontology Of ACLs]], [[ACL Rethinking Principles]]) — when two parties disagree about message meaning, security or coordination fails.
 

@@ -23,7 +23,7 @@ The paper also surveys open challenges: coordination overhead, response consiste
 ## Conceptual Contribution
 - **Claim:** Multi-agent LLM systems, with role-specialised agents (coder, tester, documenter) communicating through structured dialogue, outperform single-agent LLMs on software-engineering tasks by mirroring human team division-of-labour.
 - **Mechanism:** Survey-plus-experiment discussion: assign distinct agents to requirement analysis, code generation, debugging, documentation; use iterative feedback loops and structured prompts; report efficiency/accuracy gains while flagging coordination overhead, bias propagation, and security concerns; advocate human-in-the-loop governance.
-- **Concepts introduced/used:** [[LLM Agents]], [[Role-specialised Agents]], [[Human-in-the-loop]], [[Agent Coordination Overhead]], [[Explainable AI]], [[Multi-Agent Systems]]
+- **Concepts introduced/used:** [[LLM Agents]], [[Role-specialised Agents]], [[Human-in-the-loop]], [[Agent Coordination Overhead]], [[Explainable AI]], [[Multi-Agent Systems]], [[Retrieval-Augmented Generation]], [[Division of Labour]]
 - **Stance:** engineering / survey
 - **Relates to:** A light-weight practitioner view of the same problem space that [[Why Do Multi-Agent LLM Systems Fail]] tackles rigorously, and that [[Agents Framework - Zhou et al]] operationalises as an open-source library. Shares the communication-protocol concern with [[A Scalable Communication Protocol for Networks of LLMs]].
 

@@ -23,7 +23,7 @@ It develops axiomatic propositional illocutionary logic, laws of illocutionary e
 ## Conceptual Contribution
 - **Claim:** The space of possible speech acts is generated recursively from five illocutionary points and seven components of illocutionary force, and admits a genuine formal logic of success and entailment.
 - **Mechanism:** Axiomatic propositional illocutionary logic: laws of illocutionary entailment, commitment, negation, conjunction, and conditionalisation; closes with semantic definitions of over a hundred English performative verbs.
-- **Concepts introduced/used:** [[Speech Act Theory]], [[Performatives]], [[Illocutionary Force]], [[Direction of Fit]], [[Sincerity Conditions]], [[Preparatory Conditions]], [[Commitment-based Semantics]]
+- **Concepts introduced/used:** [[Speech Act Theory]], [[Performatives]], [[Illocutionary Force]], [[Direction of Fit]], [[Sincerity Conditions]], [[Preparatory Conditions]], [[Commitment-based Semantics]], [[Mental State]], [[Mentalistic Semantics]]
 - **Stance:** foundational / formal-semantic
 - **Relates to:** Supplies the philosophical semantics imported by [[KQML Language And Protocol]] and [[FIPA-ACL]], and re-examined publicly in [[Agent Communication And Institutional Reality]] and [[A Common Ontology Of ACLs]].
 

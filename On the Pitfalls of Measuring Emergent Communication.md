@@ -18,6 +18,8 @@ To disentangle the phenomenon, they propose decomposing communication into posit
 - [[Multi-Agent Systems]]
 - [[LLM Agents]]
 - [[Agent Communication Languages]]
+- [[Emergent Communication]]
+- [[Verifiable Semantics]]
 - [[Speech Act Theory]]
 
 ## Conceptual Contribution

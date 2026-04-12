@@ -18,6 +18,7 @@ The survey then applies this framework to representative models (Marsh's early t
 - [[Trust and Reputation]]
 - [[Multi-Agent Systems]]
 - [[Gossip Protocols]]
+- [[Negotiation]]
 - [[Agent Communication Languages]]
 
 ## Conceptual Contribution

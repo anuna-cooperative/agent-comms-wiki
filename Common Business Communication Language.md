@@ -23,7 +23,7 @@ He proposes messages as nested parenthesized lists (a Lisp-like syntax McCarthy 
 ## Conceptual Contribution
 - **Claim:** Organisations should exchange business messages in a common, open-ended language without pre-arranged bilateral formats; partial understanding must degrade gracefully to human-readable fallback.
 - **Mechanism:** Lisp-style S-expression messages (isomorphic to but simpler than XML), adjectival modifiers (ADJECTIVE x y) for partial-match semantics, Russell description operators for referring expressions, non-monotonic reasoning for NL-like expressivity; 1998 footnotes advise XML/W3C/ICE communities.
-- **Concepts introduced/used:** [[Common Business Communication Language]], [[S-expressions]], [[EDI]], [[Non-monotonic Reasoning]], [[Adjectival Modifiers]], [[Agent Communication Languages]], [[Ontologies]], [[Performatives]]
+- **Concepts introduced/used:** [[Common Business Communication Language]], [[S-expressions]], [[EDI]], [[Non-monotonic Reasoning]], [[Adjectival Modifiers]], [[Agent Communication Languages]], [[Ontologies]], [[Performatives]], [[Speech Act Theory]], [[KQML]]
 - **Stance:** foundational
 - **Relates to:** Anticipates the performative-based vision of [[KQML Language And Protocol]] and the open discovery ambitions of [[Agent Network Protocol]] / [[Survey Of Agent Interoperability Protocols]]; its syntactic minimalism resonates with REST's uniform interface in [[Principled Design Of The Modern Web Architecture]].
 

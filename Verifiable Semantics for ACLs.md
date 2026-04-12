@@ -19,6 +19,12 @@ He shows that KQML and FIPA-97 ACL, which define the "sincerity condition" for a
 - [[FIPA-ACL]]
 - [[Speech Act Theory]]
 - [[Agent Communication Languages]]
+- [[Verifiable Semantics]]
+- [[Public Semantics]]
+- [[Commitment-based Semantics]]
+- [[Mental State]]
+- [[Mentalistic Semantics]]
+- [[BDI]]
 
 ## Conceptual Contribution
 - **Claim:** An ACL standard is only useful if one can check whether an implementation respects it; existing ACLs (KQML, FIPA-97) whose semantics are given in multi-modal BDI logics are not practically verifiable, so ACL semantics should instead be grounded in program states.

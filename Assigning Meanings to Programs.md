@@ -17,6 +17,8 @@ The paper defines completeness and consistency of a semantic definition, gives g
 ## Connections
 - [[Language Workbenches]]
 - [[Agent-Oriented Programming]]
+- [[Verifiable Semantics]]
+- [[Code as Data]]
 
 ## Conceptual Contribution
 - **Claim:** A programming language's semantics can be defined independently of any implementation by attaching propositions to flowchart edges and constructing per-command verification conditions; global program properties then follow by induction.

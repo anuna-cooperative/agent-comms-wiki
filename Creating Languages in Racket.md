@@ -23,7 +23,7 @@ The article demonstrates the full spectrum from simple syntactic abstraction via
 ## Conceptual Contribution
 - **Claim:** Language-oriented programming — building a small DSL exactly fitted to a task — should be cheap and incremental, not a heavyweight "build a compiler" affair; Racket's macro system and module-language machinery make this the normal way to program.
 - **Mechanism:** Walk through a text-adventure game implementation that evolves from plain-Racket library → syntactic abstractions (`define-syntax-rule` for `define-place`, `define-thing`) → a full `#lang txtadv` module language with custom reader, static checks via compile-time elaboration, and replaceable surface syntax; show each step as a small syntactic or module addition rather than a rewrite.
-- **Concepts introduced/used:** [[Language-oriented Programming]], [[Racket Macros]], [[Module Languages]], [[Syntactic Abstraction]], [[DSLs]], [[Language Workbenches]], [[Hygienic Macros]]
+- **Concepts introduced/used:** [[Language-oriented Programming]], [[Racket Macros]], [[Module Languages]], [[Syntactic Abstraction]], [[DSLs]], [[Domain-Specific Languages]], [[Language Workbenches]], [[Hygienic Macros]], [[Macros as Language Extension]]
 - **Stance:** engineering / tutorial
 - **Relates to:** Modern realisation of the paraphrase-extension ideal diagnosed in [[Extensibility in Programming Language Design - Standish]] and evangelised in [[The Extensible Language - Graham]]. Provides the *practice* for which [[A Modular Approach to Metatheoretic Reasoning for Extensible Languages]] supplies a metatheoretic backbone.
 

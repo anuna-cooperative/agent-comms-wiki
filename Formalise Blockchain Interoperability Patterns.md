@@ -21,7 +21,7 @@ The contribution is a formal-methods bridge for a family of informally described
 ## Conceptual Contribution
 - **Claim:** Blockchain interoperability design patterns — currently specified in ambiguous natural language — can and should be given formal, machine-checkable specifications; Event-B is a suitable vehicle.
 - **Mechanism:** Take the Temporal Transfer pattern (gateway-based) and produce an Event-B specification with eight safety properties (lock, mint, transfer, burn, unlock events) refined from abstract to concrete; validate via Rodin/ProB model checker and simulation, discharging Proof Obligations to prove correctness-by-construction.
-- **Concepts introduced/used:** [[Event-B]], [[Refinement]], [[Blockchain Interoperability]], [[Temporal Transfer Pattern]], [[Cross-chain Smart Contracts]], [[Formal Verification]], [[Proof Obligations]]
+- **Concepts introduced/used:** [[Event-B]], [[Refinement]], [[Blockchain Interoperability]], [[Temporal Transfer Pattern]], [[Cross-chain Smart Contracts]], [[Smart Contracts]], [[Formal Verification]], [[Proof Obligations]], [[Model Checking]], [[Design Patterns]]
 - **Stance:** formal / engineering
 - **Relates to:** Applies the same formal-specification impulse to cross-chain coordination that [[Making Smart Contracts Smarter]] applies to single-chain contract semantics. Shares a methodology with [[A Modular Approach to Metatheoretic Reasoning for Extensible Languages]] (refinement, rule-based specs) and a motivation with [[Agent Communication And Institutional Reality]] (precise semantics for inter-party protocols).
 

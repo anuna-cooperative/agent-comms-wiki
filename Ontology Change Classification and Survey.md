@@ -16,6 +16,8 @@ The paper organizes these subfields into four groups: heterogeneity resolution (
 
 ## Connections
 - [[Ontologies]]
+- [[Ontology]]
+- [[Conceptualization]]
 - [[Agent Communication Languages]]
 - [[FIPA-ACL]]
 - [[Multi-Agent Systems]]

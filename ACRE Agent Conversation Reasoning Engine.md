@@ -23,7 +23,7 @@ The paper integrates ACRE with the Agent Factory framework: conversations are ex
 ## Conceptual Contribution
 - **Claim:** Agents need conversations, not just messages, as first-class abstractions; existing AOP languages (AgentSpeak, Jason, AFAPL2) lack native protocol reasoning.
 - **Mechanism:** Models FIPA-ACL interaction protocols as Coloured Petri Nets / Dooley Graphs instantiated per conversation-id; surfaces conversation state as `BELIEF(status(...))` predicates usable in plan pre/postconditions; validated via Vickrey auction (Contract Net).
-- **Concepts introduced/used:** [[Interaction Protocols]], [[Coloured Petri Nets]], [[Dooley Graphs]], [[Conversations]], [[FIPA-ACL]], [[Performatives]], [[Agent-Oriented Programming]], [[Multi-Agent Systems]]
+- **Concepts introduced/used:** [[Interaction Protocols]], [[Coloured Petri Nets]], [[Dooley Graphs]], [[Conversations]], [[Conversation Policy]], [[FIPA-ACL]], [[Performatives]], [[Contract Net Protocol]], [[BDI]], [[Agent-Oriented Programming]], [[Multi-Agent Systems]]
 - **Stance:** engineering
 - **Relates to:** Operationalises the protocol-tracking needs implicit in [[FIPA-ACL]] and [[KQML]]; its plan-level conversation awareness is an ancestor of task/session tracking in modern [[Agent-to-Agent Protocol]] as covered by [[Survey Of Agent Interoperability Protocols]].
 

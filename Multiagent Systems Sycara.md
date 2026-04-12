@@ -19,6 +19,15 @@ She organizes the field around issues (enabling communication, individual agent 
 - [[KQML]]
 - [[Agent Communication Languages]]
 - [[Speech Act Theory]]
+- [[Contract Net Protocol]]
+- [[Negotiation]]
+- [[Joint Intentions]]
+- [[BDI]]
+- [[Mental State]]
+- [[Strong Agency]]
+- [[Weak Agency]]
+- [[Facilitators]]
+- [[Emergent Communication]]
 
 ## Conceptual Contribution
 - **Claim:** Multi-agent systems are the appropriate paradigm for open, distributed, heterogeneous problem-solving; they are characterised by four structural properties (incomplete info, no global control, decentralised data, async computation) and unified by the problem of achieving *coherence* through local decisions.

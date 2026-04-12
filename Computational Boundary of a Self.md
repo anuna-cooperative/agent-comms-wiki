@@ -18,6 +18,11 @@ The central mechanism is *developmental bioelectricity* — the ability of cells
 - [[Multi-Agent Systems]]
 - [[Self-Adaptive Systems]]
 - [[Agent-Oriented Programming]]
+- [[Strong Agency]]
+- [[Weak Agency]]
+- [[Metacognitive Loop]]
+- [[Mental State]]
+- [[Large Population Models]]
 
 ## Conceptual Contribution
 - **Claim:** A cognitive "Individual" is demarcated not by anatomy but by a computational surface — the spatio-temporal cognitive light cone over which it can measure, model, and act — and such Selves scale up smoothly via developmental bioelectricity from single cells to multicellular organisms.

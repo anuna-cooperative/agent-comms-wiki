@@ -21,6 +21,12 @@ The paper emphasizes tensions between mentalistic semantics (inherited from Sear
 - [[Speech Act Theory]]
 - [[Ontologies]]
 - [[Multi-Agent Systems]]
+- [[Mentalistic Semantics]]
+- [[Commitment-based Semantics]]
+- [[Verifiable Semantics]]
+- [[Performatives]]
+- [[Conversation Policy]]
+- [[Interaction Protocols]]
 
 ## Conceptual Contribution
 - **Claim:** ACL research clusters around five persistent issues — theory of agency, ACL semantics, verification, ontologies, and completeness of message-type repertoires — and progress requires reconciling mentalistic and social semantics via practical conversation policies.

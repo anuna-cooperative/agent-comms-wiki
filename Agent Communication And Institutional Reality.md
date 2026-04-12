@@ -23,7 +23,7 @@ Special institutions (e.g., English Auctions) extend the Basic Institution with 
 ## Conceptual Contribution
 - **Claim:** An [[Agent Communication Languages|ACL]] is best understood as a set of conventions operating on *institutional reality*; all communicative act types reduce to declarations within a Basic Institution that governs the lifecycle of social commitments.
 - **Mechanism:** Defines artificial institutions with counts-as rules; models message effects as declarations creating/updating/cancelling commitments; layers domain norms in Special Institutions (English Auction worked example).
-- **Concepts introduced/used:** [[Commitment-based Semantics]], [[Institutional Reality]], [[Counts-as Rules]], [[Declarations]], [[Performatives]], [[Speech Act Theory]], [[FIPA-ACL]], [[Multi-Agent Systems]]
+- **Concepts introduced/used:** [[Commitment-based Semantics]], [[Institutional Reality]], [[Counts-as Rules]], [[Declarations]], [[Performatives]], [[Speech Act Theory]], [[Public Semantics]], [[Verifiable Semantics]], [[Mentalistic Semantics]], [[Ontologies]], [[FIPA-ACL]], [[Multi-Agent Systems]]
 - **Stance:** formal-semantic
 - **Relates to:** Offers the publicly-verifiable alternative to mental-state semantics of [[FIPA-ACL]], which [[A Common Ontology Of ACLs]] then unifies via roles; grounded philosophically in [[Foundations Of Illocutionary Logic]].
 

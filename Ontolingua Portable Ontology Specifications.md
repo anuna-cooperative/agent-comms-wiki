@@ -16,7 +16,10 @@ The solution is Ontolingua, a system that specifies ontologies in a standard dec
 
 ## Connections
 - [[Ontologies]]
+- [[Ontology]]
 - [[KQML]]
+- [[KIF]]
+- [[Conceptualization]]
 - [[Agent Communication Languages]]
 - [[Multi-Agent Systems]]
 

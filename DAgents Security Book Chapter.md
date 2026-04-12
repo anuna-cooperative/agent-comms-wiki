@@ -18,6 +18,8 @@ For machine and inter-agent protection, D'Agents relies on PGP-based cryptograph
 - [[Distributed Security]]
 - [[Multi-Agent Systems]]
 - [[Agent-Oriented Programming]]
+- [[Capability Security]]
+- [[LangSec]]
 
 ## Conceptual Contribution
 - **Claim:** Mobile-agent security comprises four distinct but interrelated problems (protecting machine, protecting other agents, protecting agent from host, protecting group of machines); solving them requires layered mechanisms that cleanly separate enforcement from policy and span multiple execution languages.

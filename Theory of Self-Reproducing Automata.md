@@ -18,6 +18,7 @@ The core argument concerns complication: below a threshold, a system cannot perf
 - [[Self-Adaptive Systems]]
 - [[Multi-Agent Systems]]
 - [[Edge Intelligence]]
+- [[Large Population Models]]
 
 ## Conceptual Contribution
 - **Claim:** There exists a threshold of "complication" below which automata can only degrade and above which qualitatively new capacities (self-reproduction, evolvable organisation) become possible; biological automata survive precisely because their architecture tolerates local error rather than halting on any single fault.

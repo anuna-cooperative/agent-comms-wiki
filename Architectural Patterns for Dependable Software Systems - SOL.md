@@ -19,6 +19,8 @@ The authors illustrate SOL by formalizing a stack safety policy (a `safestack` m
 - [[Self-Adaptive Systems]]
 - [[Agent-Oriented Programming]]
 - [[Language Workbenches]]
+- [[Distributed Security]]
+- [[Capability Security]]
 
 ## Conceptual Contribution
 - **Claim:** Dependability (security, fault tolerance, real-time) in distributed systems is best achieved by specifying architectural patterns as formal modules in a synchronous agent language and deploying them on a middleware that enforces the same semantics at runtime.

@@ -18,6 +18,8 @@ Evaluation shows Myconet converges to approximately optimal superpeer counts acr
 - [[Gossip Protocols]]
 - [[Self-Adaptive Systems]]
 - [[Multi-Agent Systems]]
+- [[Peer Sampling Service]]
+- [[Large Population Models]]
 
 ## Conceptual Contribution
 - **Claim:** Fungal mycelium growth — biomass flowing along hyphae toward productive regions — is a productive metaphor for self-organising superpeer overlays, yielding topologies that are near-optimal in superpeer count, highly utilised, and resilient to targeted attack.

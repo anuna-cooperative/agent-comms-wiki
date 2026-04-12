@@ -16,6 +16,9 @@ Through examples (X.509 ASN.1 parsing, SQL injection, network-stack fingerprinti
 
 ## Connections
 - [[Language Workbenches]]
+- [[LangSec]]
+- [[Parser Differential]]
+- [[Protocol Documents]]
 - [[Agent Communication Languages]]
 - [[Multi-Agent Systems]]
 

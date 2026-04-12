@@ -19,6 +19,11 @@ Wooldridge and Jennings distinguish a weak notion of agency (autonomy, social ab
 - [[Agent-Oriented Programming]]
 - [[Agent Communication Languages]]
 - [[Speech Act Theory]]
+- [[Weak Agency]]
+- [[Strong Agency]]
+- [[BDI]]
+- [[Mental State]]
+- [[Mentalistic Semantics]]
 
 ## Conceptual Contribution
 - **Claim:** The emerging field of agent-based computing should be structured around the interlocking triad of agent theories, architectures and languages, and tensions between weak (behavioural) and strong (mentalistic) notions of agency should be kept explicit rather than elided.

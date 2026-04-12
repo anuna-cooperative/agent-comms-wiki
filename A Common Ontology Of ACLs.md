@@ -24,7 +24,7 @@ They develop Role-SL, a BDI logic extended with roles and dialogue sessions, the
 ## Conceptual Contribution
 - **Claim:** Mental-attitude and social-commitment ACL semantics can be unified under a common ontology by attributing both to *roles* instantiated in dialogue sessions, rather than to private agent minds.
 - **Mechanism:** Extends FIPA-SL into Role-SL (BDI + roles + dialogue sessions); provides translation schemes from FIPA speech acts and from action/propositional commitment semantics; handles mixed dialogues (persuasion + negotiation).
-- **Concepts introduced/used:** [[Roles]], [[BDI]], [[Commitment-based Semantics]], [[Mental Attitudes]], [[Dialogue Sessions]], [[FIPA-ACL]], [[Speech Act Theory]], [[Ontologies]], [[Agent Communication Languages]]
+- **Concepts introduced/used:** [[Roles]], [[BDI]], [[Commitment-based Semantics]], [[Mental Attitudes]], [[Mentalistic Semantics]], [[Public Semantics]], [[Verifiable Semantics]], [[Dialogue Sessions]], [[FIPA-ACL]], [[Speech Act Theory]], [[Ontologies]], [[Agent Communication Languages]]
 - **Stance:** formal-semantic
 - **Relates to:** Bridges the two traditions typified by [[FIPA-ACL]] (mentalist) and [[Agent Communication And Institutional Reality]] (commitment-based); uses ontology machinery catalogued in [[Handbook On Ontologies]].
 

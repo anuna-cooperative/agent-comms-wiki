@@ -20,6 +20,12 @@ The paper maps the design space of ACLs along perspective (private/public), type
 - [[KQML]]
 - [[Speech Act Theory]]
 - [[Multi-Agent Systems]]
+- [[Commitment-based Semantics]]
+- [[Mentalistic Semantics]]
+- [[Public Semantics]]
+- [[Verifiable Semantics]]
+- [[Interaction Protocols]]
+- [[Conversation Policy]]
 
 ## Conceptual Contribution
 - **Claim:** Mentalistic ACL semantics (KQML, FIPA/ARCOL) cannot ground interoperability because compliance with sincerity and belief conditions is externally unverifiable; ACLs should be rebuilt on a social semantics of public commitments, roles and conventions.

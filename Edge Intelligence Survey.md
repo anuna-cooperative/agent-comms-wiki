@@ -19,6 +19,9 @@ The paper surveys architectures (centralized, decentralized, hybrid distributed 
 - [[LLM Agents]]
 - [[Multi-Agent Systems]]
 - [[Self-Adaptive Systems]]
+- [[Edge Intelligence]]
+- [[Gossip Protocols]]
+- [[Large Population Models]]
 
 ## Conceptual Contribution
 - **Claim:** AI training and inference should be distributed across a cloud-edge-device hierarchy rather than centralised in the cloud; the optimal split is application-dependent and can be described by a six-level rating.

@@ -23,7 +23,7 @@ Four composition operators (Unification, Conjunction, Concealing, Externalizatio
 ## Conceptual Contribution
 - **Claim:** Agent design patterns should be formalised as typed semantic networks with explicit composition operators, so that FIPA-compliant systems can be built by pattern algebra rather than ad-hoc composition.
 - **Mechanism:** Introduces Pattern Semantic Description (PSD) diagrams typed against a MAS meta-model; defines Unification, Conjunction, Concealing, and Externalization operators; integrates with the PASSI methodology; worked example composes GenericAgent + Request into SequentialShareResource.
-- **Concepts introduced/used:** [[Design Patterns]], [[PASSI Methodology]], [[MAS Meta-model]], [[Pattern Composition]], [[FIPA-ACL]], [[Agent-Oriented Programming]], [[Ontologies]], [[Multi-Agent Systems]]
+- **Concepts introduced/used:** [[Design Patterns]], [[PASSI Methodology]], [[MAS Meta-model]], [[Pattern Composition]], [[Interaction Protocols]], [[Roles]], [[FIPA-ACL]], [[Agent-Oriented Programming]], [[Ontologies]], [[Multi-Agent Systems]]
 - **Stance:** engineering
 - **Relates to:** Supplies a pattern language for the protocol-level conversations tracked by [[ACRE Agent Conversation Reasoning Engine]]; its MAS meta-model leans on ontology foundations surveyed in [[Handbook On Ontologies]].
 

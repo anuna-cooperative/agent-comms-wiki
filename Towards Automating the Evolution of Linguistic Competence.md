@@ -19,6 +19,9 @@ When the ACL proves inadequate to express content the agent wishes to communicat
 - [[Multi-Agent Systems]]
 - [[Speech Act Theory]]
 - [[Language Workbenches]]
+- [[Negotiation]]
+- [[Emergent Communication]]
+- [[Mental State]]
 
 ## Conceptual Contribution
 - **Claim:** The content and extension of an agent communication language can be derived from rational-decision principles: every message carries measurable expected utility, and when the current ACL is insufficient, agents rationally negotiate new lexicon and grammar.

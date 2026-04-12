@@ -17,6 +17,11 @@ Agents communicate via speech-act-inspired primitives (inform, request, offer, p
 ## Connections
 - [[Agent-Oriented Programming]]
 - [[Speech Act Theory]]
+- [[Mental State]]
+- [[Mentalistic Semantics]]
+- [[Performatives]]
+- [[BDI]]
+- [[Strong Agency]]
 - [[KQML]]
 - [[Multi-Agent Systems]]
 - [[Agent Communication Languages]]

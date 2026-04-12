@@ -20,6 +20,11 @@ KQML is organized as three layers: a content layer (domain content in KIF or oth
 - [[Agent Communication Languages]]
 - [[Ontologies]]
 - [[Speech Act Theory]]
+- [[Performatives]]
+- [[Facilitators]]
+- [[KIF]]
+- [[Mentalistic Semantics]]
+- [[Conceptualization]]
 
 ## Conceptual Contribution
 - **Claim:** Large heterogeneous knowledge-based systems need a standard high-level language and protocol for interchange that separates domain content (ontologies/KIF) from communicative intent (performatives) and from transport — KQML provides this missing middle layer.

@@ -22,7 +22,7 @@ The chapter covers the invariance theorem, uncomputability, relation to entropy,
 ## Conceptual Contribution
 - **Claim:** The information content of an individual object is objectively measured by the length of the shortest program that prints it — Kolmogorov complexity — and this gives a formal basis for Occam's razor, randomness, and "meaningful" vs "random" information.
 - **Mechanism:** Define K(x) via a universal Turing machine (invariance up to additive constant); extend via prefix codes, the Kolmogorov structure function (separating structural/model part from random/noise part), and the Minimum Description Length principle for inductive inference.
-- **Concepts introduced/used:** [[Kolmogorov Complexity]], [[Minimum Description Length]], [[Kolmogorov Structure Function]], [[Shannon Information]], [[Occam's Razor]], [[Universal Turing Machine]], [[Invariance Theorem]]
+- **Concepts introduced/used:** [[Kolmogorov Complexity]], [[Minimum Description Length]], [[Kolmogorov Structure Function]], [[Shannon Information]], [[Shannon Entropy]], [[Occam's Razor]], [[Universal Turing Machine]], [[Invariance Theorem]], [[Normalized Compression Distance]], [[Inductive Inference]], [[Prefix Codes]]
 - **Stance:** formal-mathematical / foundational
 - **Relates to:** Provides the information-theoretic backdrop for why compact emergent codes arise in [[Emergence of Grounded Compositional Language in Multi-Agent Populations]] and [[Multi-Agent Cooperation and the Emergence of Natural Language]]; and for the description-length intuition behind compositional protocol negotiation in [[A Scalable Communication Protocol for Networks of LLMs]]. Complements Chomsky's grammar-based view in [[Three Models for the Description of Language]].
 

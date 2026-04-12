@@ -18,6 +18,8 @@ The architecture has four layers (transport, server, interpreter, agents) and su
 - [[Distributed Security]]
 - [[Multi-Agent Systems]]
 - [[Agent-Oriented Programming]]
+- [[Capability Security]]
+- [[LangSec]]
 
 ## Conceptual Contribution
 - **Claim:** A mobile-agent system can be both simple and secure by building on an interpreted scripting language (Tcl) augmented with Safe Tcl sandboxing, exposing migration as a single instruction that transparently captures/restores complete interpreter state.

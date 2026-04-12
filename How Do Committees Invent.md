@@ -18,6 +18,9 @@ Drawing on examples from compiler development, military weapons systems, and pub
 - [[Multi-Agent Systems]]
 - [[Agent Communication Languages]]
 - [[Self-Adaptive Systems]]
+- [[Standard Operating Procedures (SOPs)]]
+- [[Protocol Documents]]
+- [[Interaction Protocols]]
 
 ## Conceptual Contribution
 - **Claim:** The structure of a designed system is homomorphic to the communication structure of the organization that designs it (Conway's Law); therefore design-team topology pre-determines the space of realisable architectures.

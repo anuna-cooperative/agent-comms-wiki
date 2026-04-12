@@ -16,6 +16,9 @@ The paper details the guessing game as a canonical example: a speaker picks a to
 
 ## Connections
 - [[Language Workbenches]]
+- [[Language Games]]
+- [[Conceptualization]]
+- [[Emergent Communication]]
 - [[Multi-Agent Systems]]
 - [[Agent Communication Languages]]
 - [[Speech Act Theory]]

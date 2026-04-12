@@ -20,6 +20,10 @@ They survey existing approaches (COOL state machines, Dooley Graphs, Push-Down T
 - [[Agent Communication Languages]]
 - [[Multi-Agent Systems]]
 - [[Speech Act Theory]]
+- [[Interaction Protocols]]
+- [[Conversation Policy]]
+- [[Performatives]]
+- [[Negotiation]]
 
 ## Conceptual Contribution
 - **Claim:** Isolated speech-act messages are insufficient for agent coordination; shareable, verifiable conversation protocols — best specified as Colored Petri Nets — are the appropriate layer above ACL performatives.

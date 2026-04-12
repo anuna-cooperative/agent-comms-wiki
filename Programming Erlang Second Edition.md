@@ -19,6 +19,7 @@ Part III covers the concurrency primitives (spawn/send/receive), error handling 
 - [[Agent-Oriented Programming]]
 - [[Self-Adaptive Systems]]
 - [[Gossip Protocols]]
+- [[Distributed Security]]
 
 ## Conceptual Contribution
 - **Claim:** Concurrent, distributed and fault-tolerant software is simpler and more reliable when built on isolated processes that share nothing and communicate only by asynchronous messages, with failures handled by supervision rather than defensive programming ("let it crash").

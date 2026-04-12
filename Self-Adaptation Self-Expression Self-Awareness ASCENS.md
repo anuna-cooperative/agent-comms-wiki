@@ -18,6 +18,9 @@ The authors organize adaptation along two dimensions: *where* (individual vs. co
 - [[Self-Adaptive Systems]]
 - [[Multi-Agent Systems]]
 - [[Edge Intelligence]]
+- [[Metacognitive Loop]]
+- [[Large Population Models]]
+- [[Interaction Protocols]]
 
 ## Conceptual Contribution
 - **Claim:** Building autonomic service-component ensembles requires distinguishing three complementary self-* capabilities — self-adaptation (behaviour), self-expression (structure/protocols/topology), and self-awareness (meta-choice among schemes) — along two orthogonal dimensions: individual vs. collective and behavioural vs. structural.

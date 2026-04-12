@@ -22,7 +22,7 @@ Two sender architectures (agnostic vs informed) are compared; the informed sende
 ## Conceptual Contribution
 - **Claim:** Two neural-network agents playing a referential game (sender/receiver over image pairs) can develop a symbolic code from scratch; with architectural and supervisory nudges, that code can be made to align with human-interpretable object categories.
 - **Mechanism:** Lewis-style signalling game with REINFORCE training; contrast *agnostic* vs *informed* sender architectures; analyse symbol-to-category purity; then mix supervised image-labelling with self-play to ground emergent symbols in human vocabulary (AlphaGo-inspired). Crowdsourced evaluation shows humans can guess the correct image 68% of the time from emitted symbols.
-- **Concepts introduced/used:** [[Emergent Communication]], [[Referential Games]], [[Lewis Signalling Games]], [[Grounding in Human Language]], [[Cheap Talk]], [[Symbol-Category Purity]]
+- **Concepts introduced/used:** [[Emergent Communication]], [[Referential Games]], [[Lewis Signalling Games]], [[Language Games]], [[Grounding in Human Language]], [[Symbol Grounding Problem]], [[Cheap Talk]], [[Symbol-Category Purity]], [[REINFORCE]], [[Compositionality]]
 - **Stance:** empirical / deep-learning
 - **Relates to:** Companion/precursor to [[Emergence of Grounded Compositional Language in Multi-Agent Populations]] (physical grounding, >2 agents). Feeds the emergent-protocol thesis of [[A Scalable Communication Protocol for Networks of LLMs]]. Contrasts with stipulated-semantics ACLs ([[KQML as an Agent Communication Language]], [[FIPA-ACL]]).
 

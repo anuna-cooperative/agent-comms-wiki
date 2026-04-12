@@ -16,6 +16,8 @@ The architecture separates language-parametric infrastructure from language-spec
 
 ## Connections
 - [[Language Workbenches]]
+- [[Macros as Language Extension]]
+- [[Code as Data]]
 - [[Agent-Oriented Programming]]
 
 ## Conceptual Contribution

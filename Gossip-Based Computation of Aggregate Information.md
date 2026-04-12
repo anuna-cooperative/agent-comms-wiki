@@ -18,6 +18,8 @@ The second contribution is a precise *diffusion speed* formalism linking protoco
 - [[Gossip Protocols]]
 - [[Multi-Agent Systems]]
 - [[Self-Adaptive Systems]]
+- [[Peer Sampling Service]]
+- [[Large Population Models]]
 
 ## Conceptual Contribution
 - **Claim:** Aggregates (sums, averages, quantiles, random samples) over a massive, volatile network can be computed by simple gossip protocols that converge exponentially fast; a mass-conservation trick (Push-Sum) gives precise averages with only local pairwise exchange.

@@ -19,6 +19,8 @@ Security in LACIOS is handled as an orthogonal layer of access-control rules exp
 - [[Distributed Security]]
 - [[Agent-Oriented Programming]]
 - [[Agent Communication Languages]]
+- [[Capability Security]]
+- [[LangSec]]
 
 ## Conceptual Contribution
 - **Claim:** Data-driven coordination languages (Linda, Klaim, SecSpaces, SecOS) lack a principled separation between application logic and security; a richer, property-based description model with orthogonal access-control rules fixes this without abandoning the shared-space paradigm.

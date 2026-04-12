@@ -21,7 +21,7 @@ They propose protocol-level remediations (guarded transactions, deterministic ti
 ## Conceptual Contribution
 - **Claim:** Ethereum smart contracts suffer from a *semantic gap* between developers' assumptions and the actual EVM execution model — documenting and fixing this gap at the language-semantics level is critical and tractable.
 - **Mechanism:** Identify four concrete bug classes: *transaction-ordering dependence* (TOD), *timestamp dependence*, *mishandled exceptions* (caller must explicitly check return of send), and *reentrancy* (the DAO vulnerability); formalise a lightweight operational semantics of Ethereum (EtherLite); propose semantic fixes (guarded transactions, deterministic timestamps, exception propagation); build OYENTE, a symbolic-execution tool that scans 19,366 real contracts and flags 8,833 vulnerable.
-- **Concepts introduced/used:** [[Smart Contracts]], [[Transaction-Ordering Dependence]], [[Reentrancy]], [[Operational Semantics]], [[Symbolic Execution]], [[EVM]], [[Semantic Gap]]
+- **Concepts introduced/used:** [[Smart Contracts]], [[Transaction-Ordering Dependence]], [[Reentrancy]], [[Operational Semantics]], [[Symbolic Execution]], [[EVM]], [[Semantic Gap]], [[Ethereum]], [[Solidity]], [[TheDAO]], [[Guarded Transactions]]
 - **Stance:** formal-semantic / empirical security
 - **Relates to:** Same "formalise ambiguous informal specs" move as [[Formalise Blockchain Interoperability Patterns]]. Shares the *semantic-gap* diagnostic style with [[PKI Layer Cake - Kaminsky Patterson Sassaman]]. In the broader vault, complements [[Agents Secure Interaction in Data Driven Languages]] and [[Distributed Security]] as a case study of formal-method-driven vulnerability discovery.
 

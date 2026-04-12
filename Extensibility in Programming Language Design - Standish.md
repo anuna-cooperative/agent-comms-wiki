@@ -23,7 +23,7 @@ The paper is an early, honest assessment of why language extension is harder tha
 ## Conceptual Contribution
 - **Claim:** The 1960s-70s dream of universal extensible languages largely failed because extension techniques divide into qualitatively different kinds with very different labor costs; only the cheapest (paraphrase, macros) proved practically useful.
 - **Mechanism:** Taxonomy of extension techniques — *paraphrase* (define new forms in terms of existing ones: macros, procedures, syntax macros, data/operator definitions), *orthophrase* (add genuinely new features outside the base language's span, e.g. I/O primitives), and *metaphrase* (alter interpretation rules: scoping, evaluation order). Argues orthophrase/metaphrase require near-compiler-writer expertise and rarely pay off.
-- **Concepts introduced/used:** [[Paraphrase]], [[Orthophrase]], [[Metaphrase]], [[Macros as Language Extension]], [[Language Extensibility Taxonomy]], [[Extensible Languages Movement]]
+- **Concepts introduced/used:** [[Paraphrase]], [[Orthophrase]], [[Metaphrase]], [[Macros as Language Extension]], [[Language Extensibility Taxonomy]], [[Extensible Languages Movement]], [[Domain-Specific Languages]]
 - **Stance:** retrospective-critique / taxonomic
 - **Relates to:** Direct intellectual ancestor of [[The Extensible Language - Graham]] and [[Creating Languages in Racket]], both of which represent the paraphrase/macro wing that Standish judged successful. [[A Modular Approach to Metatheoretic Reasoning for Extensible Languages]] tackles the metatheoretic difficulties Standish foresaw for orthophrase extensions.
 

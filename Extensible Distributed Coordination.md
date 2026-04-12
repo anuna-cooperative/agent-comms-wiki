@@ -18,6 +18,9 @@ They describe a model where extensions are sandboxed for safety (bounded resourc
 - [[Multi-Agent Systems]]
 - [[Gossip Protocols]]
 - [[Self-Adaptive Systems]]
+- [[Capability Security]]
+- [[LangSec]]
+- [[Bottom-up Programming]]
 
 ## Conceptual Contribution
 - **Claim:** Coordination kernels (ZooKeeper, DepSpace) are fundamentally limited by fixed primitive APIs that force clients into inefficient multi-RPC workarounds; allowing dynamically-installed, sandboxed, server-side extensions preserves safety while dramatically improving throughput.

@@ -20,6 +20,11 @@ Commitment-based protocols give a public, verifiable meaning to actions (replaci
 - [[Multi-Agent Systems]]
 - [[Agent-Oriented Programming]]
 - [[Self-Adaptive Systems]]
+- [[Agents and Artifacts]]
+- [[Commitment-based Semantics]]
+- [[Interaction Protocols]]
+- [[Public Semantics]]
+- [[Verifiable Semantics]]
 
 ## Conceptual Contribution
 - **Claim:** Open multi-agent systems need a single, publicly verifiable interaction semantics that unifies direct (speech-act) and indirect (environment-mediated) communication; commitments plus Agents-and-Artifacts supply it and can be layered onto an existing AOP stack.

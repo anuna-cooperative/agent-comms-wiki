@@ -20,6 +20,10 @@ Language creation is modeled as a negotiation game drawing on Rubinstein bargain
 - [[FIPA-ACL]]
 - [[Ontologies]]
 - [[Multi-Agent Systems]]
+- [[Language Games]]
+- [[Emergent Communication]]
+- [[Negotiation]]
+- [[Conceptualization]]
 
 ## Conceptual Contribution
 - **Claim:** Agent communication languages need not be standardised top-down (KQML, FIPA); rational agents can initiate, enrich, and evolve a shared ACL through game-theoretic negotiation driven by expected-utility gains from improved communication.

@@ -18,6 +18,9 @@ The technical core uses the join-calculus and its cryptographic extension, the s
 - [[Multi-Agent Systems]]
 - [[Agent Communication Languages]]
 - [[Language Workbenches]]
+- [[Distributed Security]]
+- [[Capability Security]]
+- [[LangSec]]
 
 ## Conceptual Contribution
 - **Claim:** The communications-processing layer of a distributed language (marshalling + crypto) can be compiled automatically from a local-semantics specification in such a way that distribution becomes observationally transparent even under an active network attacker.

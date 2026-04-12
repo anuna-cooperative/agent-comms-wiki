@@ -21,6 +21,13 @@ The paper surveys major ACLs — KQML with KIF and facilitator mediation, France
 - [[Speech Act Theory]]
 - [[Ontologies]]
 - [[Multi-Agent Systems]]
+- [[Performatives]]
+- [[Facilitators]]
+- [[Negotiation]]
+- [[Mentalistic Semantics]]
+- [[Public Semantics]]
+- [[Strong Agency]]
+- [[Weak Agency]]
 
 ## Conceptual Contribution
 - **Claim:** An ACL should be evaluated against eight design principles and factored into four orthogonal components, revealing systematic gaps (formal semantics, heterogeneity, shared ontologies, negotiation) in the ACLs available at the turn of the millennium.

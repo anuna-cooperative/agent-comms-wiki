@@ -19,6 +19,8 @@ Unlike prior approaches that assume crisp binary relations, this model uses weig
 - [[Trust and Reputation]]
 - [[Multi-Agent Systems]]
 - [[Gossip Protocols]]
+- [[Peer Sampling Service]]
+- [[Negotiation]]
 
 ## Conceptual Contribution
 - **Claim:** Decentralised task-allocation networks self-organise more effectively when agents adapt weighted (rather than binary) relations via a composite mechanism that fuses a DSmT-based trust model with multi-agent Q-learning.
