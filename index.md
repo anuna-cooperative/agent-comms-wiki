@@ -24,6 +24,11 @@ Map of content for the paper vault. See [[README]] for conventions, and **[[conc
 
 - [[Keeping CALM - When Distributed Consistency is Easy]] — Hellerstein & Alvaro 2019 ([[CALM Theorem]])
 - [[Three Models for the Description of Language]] — Chomsky 1956
+- [[Ascribing Mental Qualities to Machines]] — McCarthy 1979
+- [[Intention Is Choice with Commitment]] — Cohen & Levesque 1990 (BDI logic)
+- [[Deals Among Rational Agents]] — Rosenschein & Genesereth 1985
+- [[The Synthesis of Digital Machines with Provable Epistemic Properties]] — Rosenschein & Kaelbling 1986
+- [[IPFS Content-Addressed Versioned P2P File System]] — Benet 2014
 - [[Theory of Self-Reproducing Automata]] — von Neumann
 - [[Foundations of Logic Programming - Lloyd]]
 - [[Foundations Of Illocutionary Logic]] — Searle & Vanderveken
@@ -31,6 +36,23 @@ Map of content for the paper vault. See [[README]] for conventions, and **[[conc
 - [[Algorithmic Information Theory - Grunwald Vitanyi]]
 - [[How Do Committees Invent]] — Conway
 - [[Seven Turrets Of Babel]]
+
+## Cited Foundations (mined from top papers)
+
+- [[Semantics and Conversations for an ACL]] — Labrou & Finin 1998
+- [[Multi-Agent Collaboration Mechanisms - Survey of LLMs]]
+- [[Beyond Self-Talk - Communication-Centric Survey Of LLM Multi-Agent Systems]]
+- [[Augmented Language Models - A Survey]] — Mialon et al.
+- [[AutoGen - Multi-Agent Conversation Framework]]
+- [[CAMEL Communicative Agents for Mind Exploration of LLM Society]]
+- [[MetaGPT Meta Programming for Multi-Agent Collaboration]]
+- [[MCP Landscape Security Threats And Future Research Directions]]
+- [[Toolformer]]
+- [[Chain-of-Thought Prompting]]
+- [[Language Models are Few-Shot Learners]]
+- [[Generative Agents]]
+- [[The Rise and Potential of LLM-Based Agents]]
+- [[Cicero Human-Level Play in Diplomacy]]
 
 ## Agent Communication Languages (ACLs)
 
