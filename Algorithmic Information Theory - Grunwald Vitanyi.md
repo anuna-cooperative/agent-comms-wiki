@@ -1,6 +1,6 @@
 # Algorithmic Information Theory
 
-**Reference:** Peter D. Grünwald and Paul M.B. Vitányi (2008). *arXiv:0809.2754v2 (book chapter, Handbook of Philosophy of Information)*. Source file: `0809.2754v2 (1).pdf`
+**Reference:** Peter D. Grünwald and Paul M.B. Vitányi (2008). *arXiv:0809.2754v2 (book chapter, Handbook of Philosophy of Information)*. Source file: `0809.2754v2 (1).pdf`. URL: https://arxiv.org/abs/0809.2754
 
 ## Summary
 A tutorial survey of algorithmic information theory (Kolmogorov complexity) and its relationship to Shannon information theory. The authors explain how the amount of information in an individual object can be measured by the length of the shortest program that produces it, and how this quantity — invariant up to an additive constant — supports a non-probabilistic theory of information.

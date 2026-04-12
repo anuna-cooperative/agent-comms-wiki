@@ -1,6 +1,6 @@
 # Emergence of Grounded Compositional Language in Multi-Agent Populations
 
-**Reference:** Igor Mordatch and Pieter Abbeel (2018). *AAAI-18*. Source file: `11492-13-15020-1-2-20201228.pdf`
+**Reference:** Igor Mordatch and Pieter Abbeel (2018). *AAAI-18*. Source file: `11492-13-15020-1-2-20201228.pdf`. URL: https://ojs.aaai.org/index.php/AAAI/article/view/11492
 
 ## Summary
 Proposes a multi-agent environment and differentiable training procedure in which agents develop an abstract compositional communication protocol purely from the need to coordinate on non-linguistic goals (move-to-location, look-at, etc.) in a 2D world with landmarks. Agents emit streams of discrete symbols (Gumbel-Softmax relaxed) along with physical actions; symbols acquire stable, interpretable meanings corresponding to goal types, landmarks, and agent identities.

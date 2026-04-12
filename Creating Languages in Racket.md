@@ -1,6 +1,6 @@
 # Creating Languages in Racket
 
-**Reference:** Matthew Flatt (2012). *Communications of the ACM, Vol. 55, No. 1*. Source file: `2063176.2063195.pdf`
+**Reference:** Matthew Flatt (2012). *Communications of the ACM, Vol. 55, No. 1*. Source file: `2063176.2063195.pdf`. URL: https://queue.acm.org/detail.cfm?id=2068896
 
 ## Summary
 Practitioner-oriented introduction to Racket's support for *language-oriented programming*: building domain-specific languages as a natural extension of ordinary programming. Flatt develops a text-adventure game incrementally, starting from Racket's core, adding pattern-matching macros (`define-syntax-rule`) for `define-place`, `define-thing`, `define-verb`, then packaging these extensions into a module language (`#lang txtadv`) with its own non-parenthesised reader syntax and IDE (DrRacket) support.

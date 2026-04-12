@@ -1,6 +1,6 @@
 # On Self-adaptation, Self-expression, and Self-awareness in Autonomic Service Component Ensembles
 
-**Reference:** Franco Zambonelli, Nicola Bicocchi, Giacomo Cabri, Letizia Leonardi, Mariachiara Puviani (2011). *SASO Workshops 2011*. Source file: `On_Self-Adaptation_Self-Expression_and_Self-Awaren.pdf`
+**Reference:** Franco Zambonelli, Nicola Bicocchi, Giacomo Cabri, Letizia Leonardi, Mariachiara Puviani (2011). *SASO Workshops 2011*. Source file: `On_Self-Adaptation_Self-Expression_and_Self-Awaren.pdf`. URL: https://ieeexplore.ieee.org/document/6114583/
 
 ## Summary
 This ASCENS-project position paper frames three research issues for building autonomic service-component ensembles: (i) schemes that enable self-adaptive behavior in individual components and ensembles, (ii) mechanisms for *self-expression* — dynamic changes to the structure of interaction protocols and coordination topology — and (iii) *self-awareness* — components knowing enough about context and peers to choose appropriate adaptation schemes.

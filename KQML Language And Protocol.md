@@ -1,6 +1,6 @@
 # KQML - A Language and Protocol for Knowledge and Information Exchange
 
-**Reference:** Finin, Fritzson, McKay, McEntire (1994). *AAAI Technical Report WS-94-02* (ARPA Knowledge Sharing Effort). Source file: `741.pdf`
+**Reference:** Finin, Fritzson, McKay, McEntire (1994). *AAAI Technical Report WS-94-02* (ARPA Knowledge Sharing Effort). Source file: `741.pdf`. URL: https://cdn.aaai.org/Workshops/1994/WS-94-02/WS94-02-007.pdf
 
 ## Summary
 This paper describes the design of the Knowledge Query and Manipulation Language (KQML), an agent communication language developed under the ARPA Knowledge Sharing Effort. KQML is both a message format and a message-handling protocol supporting run-time knowledge sharing among cooperating intelligent agents. Its core contribution is an extensible set of *performatives* (speech-act-style operations such as tell, ask-if, ask-all, subscribe, advertise, broker, recruit) that define what an agent may do with another agent's knowledge and goal stores.

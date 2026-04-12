@@ -1,6 +1,6 @@
 # Toward Automated Evolution of Agent Communication Languages
 
-**Reference:** Piotr J. Gmytrasiewicz, Matthew Summers, Dhruva Gopal (2001). *AAAI* (American Association for Artificial Intelligence). Source file: `gmytrasiewicz02towardAutomated.pdf`
+**Reference:** Piotr J. Gmytrasiewicz, Matthew Summers, Dhruva Gopal (2001). *AAAI* (American Association for Artificial Intelligence). Source file: `gmytrasiewicz02towardAutomated.pdf`. URL: https://www.cs.uic.edu/bin/view/Piotr/Publications
 
 ## Summary
 Instead of designing ACLs centrally (like KQML or FIPA), the authors propose letting rational, self-interested agents *evolve* a shared ACL on the fly when they encounter each other. Each agent has its own internal knowledge representation language (KRL) and decides, via Bayesian decision theory and expected-utility calculations, which messages are worth sending and which new ACL constructs are worth negotiating into the shared vocabulary.

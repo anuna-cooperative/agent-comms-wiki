@@ -1,6 +1,6 @@
 # The Common Business Communication Language
 
-**Reference:** John McCarthy (1975/1982, revised 1998/1999). *Stanford CS Department*. Source file: `cbcl2.pdf`
+**Reference:** John McCarthy (1975/1982, revised 1998/1999). *Stanford CS Department*. Source file: `cbcl2.pdf`. URL: http://www-formal.stanford.edu/jmc/cbcl2.pdf
 
 ## Summary
 McCarthy's 1975 memo (revived in 1998 with footnotes anticipating XML and electronic commerce) sketches a Common Business Communication Language (CBCL) allowing computers from different organizations to exchange business messages - requests for quotations, offers, order status, delivery queries - without pre-arranged bilateral formats. The paper enumerates requirements: open-endedness, pre-existing compatibility, independence of internal data formats, and ability to fall back to human-readable form when a receiver does not understand a new message.

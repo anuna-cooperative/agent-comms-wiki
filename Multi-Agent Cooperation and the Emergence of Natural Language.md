@@ -1,6 +1,6 @@
 # Multi-Agent Cooperation and the Emergence of (Natural) Language
 
-**Reference:** Angeliki Lazaridou, Alexander Peysakhovich, and Marco Baroni (2017). *ICLR 2017*. Source file: `1612.07182v2.pdf`
+**Reference:** Angeliki Lazaridou, Alexander Peysakhovich, and Marco Baroni (2017). *ICLR 2017*. Source file: `1612.07182v2.pdf`. URL: https://arxiv.org/abs/1612.07182
 
 ## Summary
 Introduces a referential-game framework for studying emergent communication: a sender sees a target/distractor image pair and sends a single symbol from a fixed vocabulary; a receiver must identify the target using that symbol. The agents are blank-slate neural networks trained only by communication-success reward. The paper studies whether agents converge, whether the emergent symbols align with human-interpretable semantics, and how to nudge the system toward natural-language-compatible codes.

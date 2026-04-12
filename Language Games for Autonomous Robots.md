@@ -1,6 +1,6 @@
 # Language Games for Autonomous Robots
 
-**Reference:** Steels, L. (2001). *IEEE Intelligent Systems, Sept/Oct 2001*. Source file: `steels01languageGames.pdf`
+**Reference:** Steels, L. (2001). *IEEE Intelligent Systems, Sept/Oct 2001*. Source file: `steels01languageGames.pdf`. URL: https://digital.csic.es/bitstream/10261/128135/1/Language%20games.pdf
 
 ## Summary
 Steels presents language games as a paradigm for creating grounded, open-ended dialogue between autonomous robots and humans. A language game is a scripted verbal interaction situated in a shared environment that simultaneously exercises perception, conceptualization, verbalization, interpretation, and action. By playing repeated games, agents integrate disparate AI components (vision, speech, planning, learning) into a coherent whole and bootstrap shared vocabulary and meaning without a central designer.

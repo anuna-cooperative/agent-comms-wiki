@@ -1,6 +1,6 @@
 # How Do Committees Invent?
 
-**Reference:** Melvin E. Conway (1968). *Datamation*, April 1968, pp. 28-31. Source file: `Conway, Melvin E._ How Do Committees Invent_. In_ Datamation (1968).pdf`
+**Reference:** Melvin E. Conway (1968). *Datamation*, April 1968, pp. 28-31. Source file: `Conway, Melvin E._ How Do Committees Invent_. In_ Datamation (1968).pdf`. URL: https://www.melconway.com/Home/pdf/committees.pdf
 
 ## Summary
 Conway's classic essay articulates what is now known as Conway's Law: "organizations which design systems are constrained to produce designs which are copies of the communication structures of these organizations." He argues that the structure (graph) of any designed system is homomorphic to the structure of the design organization that produced it, because each interface in the system corresponds to a coordination path between subgroups.

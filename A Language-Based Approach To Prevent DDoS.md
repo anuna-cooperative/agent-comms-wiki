@@ -1,6 +1,6 @@
 # A Language-Based Approach to Prevent DDoS Attacks in Distributed Financial Agent Systems
 
-**Reference:** Fazeldehkordi, Owe, Ramezanifarkhani (2018). *University of Oslo*. Source file: `A language-based approach to prevent DDoS attacks in distributed financial agent systems.pdf`
+**Reference:** Fazeldehkordi, Owe, Ramezanifarkhani (2018). *University of Oslo*. Source file: `A language-based approach to prevent DDoS attacks in distributed financial agent systems.pdf`. URL: https://www.mn.uio.no/ifi/english/people/emeriti/olaf/papers/ddosesoricsfinsec19.pdf
 
 ## Summary
 The authors propose adding a language-based layer of defense against DoS/DDoS to distributed financial agent systems built on the actor model with asynchronous method calls and futures (in the style of Creol/ABS). Because such languages make it cheap to launch non-blocking floods, they adapt a static analysis for detecting call-flooding cycles to the many-to-one DDoS setting.

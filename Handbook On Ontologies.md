@@ -1,6 +1,6 @@
 # Handbook on Ontologies
 
-**Reference:** Staab & Studer, eds. (2004). *International Handbooks on Information Systems, Springer*. Source file: `CAP_LIB_05.pdf`
+**Reference:** Staab & Studer, eds. (2004). *International Handbooks on Information Systems, Springer*. Source file: `CAP_LIB_05.pdf`. URL: https://oa.upm.es/6427/1/CAP_LIB_05.pdf
 
 ## Summary
 The Handbook on Ontologies provides a comprehensive reference on ontology research and practice. It is organized into four parts: (A) Ontology Representation and Reasoning (Description Logics, Frame Logic, RDF(S), OWL, ontology algebra); (B) Ontology Engineering (methodologies, large case studies, OntoClean, ontology learning, knowledge patterns, lexicons); (C) Ontology Infrastructure (management environments, problem-solving methods, multi-agent interaction, merging/mapping, browsing, visualization); and (D) Ontology Applications (knowledge management, eCommerce, semantic portals, hypermedia, enterprise integration, bioinformatics).

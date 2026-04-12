@@ -1,6 +1,6 @@
 # Keeping CALM: When Distributed Consistency is Easy
 
-**Reference:** Joseph M. Hellerstein & Peter Alvaro (2019). *arXiv:1901.01930v2*. Source file: `../1901.01930v2.pdf` (in parent directory).
+**Reference:** Joseph M. Hellerstein & Peter Alvaro (2019). *arXiv:1901.01930v2*. Source file: `../1901.01930v2.pdf` (in parent directory). URL: https://arxiv.org/abs/1901.01930
 
 ## Summary
 An accessible, updated statement of the **CALM Theorem** — *Consistency As Logical Monotonicity*: a program has a consistent, coordination-free distributed implementation **if and only if** it is *monotonic* in a formal logical sense. Monotonic programs are "safe" under missing information and can proceed without waiting: once something has been concluded, it stays concluded. Non-monotonic programs ("change their mind" in the face of new inputs) are necessarily *order-sensitive* and therefore require coordination to produce a single deterministic outcome.

@@ -1,6 +1,6 @@
 # Secure Communications Processing for Distributed Languages
 
-**Reference:** Abadi, Fournet, Gonthier (1999). *Compaq SRC / Microsoft Research / INRIA technical paper*. Source file: `Secure_communications_processing_for_dis.pdf`
+**Reference:** Abadi, Fournet, Gonthier (1999). *Compaq SRC / Microsoft Research / INRIA technical paper*. Source file: `Secure_communications_processing_for_dis.pdf`. URL: https://www.microsoft.com/en-us/research/publication/secure-communications-processing-distributed-languages/
 
 ## Summary
 Abadi, Fournet, and Gonthier formalize communications processing — the marshaling, unmarshaling, and cryptographic operations that wrap distributed language primitives like RPC and RMI — within a process calculus. They study how local communication semantics (single machine or protected network) can be extended transparently to hostile distributed networks through a generic cryptographic "wrapper" that operates like a firewall with an encrypting tunnel.

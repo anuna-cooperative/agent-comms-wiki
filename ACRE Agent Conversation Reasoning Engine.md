@@ -1,6 +1,6 @@
 # ACRE: Agent Conversation Reasoning Engine
 
-**Reference:** Lillis & Collier (University College Dublin). Source file: `ACRE_Agent_Conversation_Reasoning_Engine.pdf`
+**Reference:** Lillis & Collier (University College Dublin). Source file: `ACRE_Agent_Conversation_Reasoning_Engine.pdf`. URL: https://www.researchgate.net/publication/228725198_ACRE_Agent_Conversation_Reasoning_Engine
 
 ## Summary
 ACRE complements existing rule-based agent programming languages (AFAPL2, AgentSpeak, Jason, Jack) with explicit support for modelling, managing, and reasoning about complex multi-message conversations. Rather than handling each FIPA-ACL message individually, ACRE represents conversations as instances of *protocols* specified as Coloured Petri Nets or Dooley Graphs, so agents can track which performatives are expected next and react accordingly.

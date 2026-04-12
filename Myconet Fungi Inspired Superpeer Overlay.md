@@ -1,6 +1,6 @@
 # Myconet: A Fungi-Inspired Model for Superpeer-based Peer-to-Peer Overlay Topologies
 
-**Reference:** Paul L. Snyder, Rachel Greenstadt, Giuseppe Valetto. *Drexel University Dept. of Computer Science*. Source file: `Myconet_A_Fungi_Inspired_Model_for_Super.pdf`
+**Reference:** Paul L. Snyder, Rachel Greenstadt, Giuseppe Valetto. *Drexel University Dept. of Computer Science*. Source file: `Myconet_A_Fungi_Inspired_Model_for_Super.pdf`. URL: https://www.cs.drexel.edu/tech-reports/myconet-saso2009.pdf
 
 ## Summary
 Myconet is a biologically inspired self-organizing overlay-construction protocol for superpeer-based P2P networks, drawing its design from the growth patterns of fungal mycelia. Each node is modeled as a "biomass peer" with a capacity; hyphal peers extend links toward high-capacity regions, branch when saturated, and become immobile superpeers at full utilization. The protocol layers these stigmergic transitions on top of Newscast-style gossip to move biomass toward the highest-capacity peers and dynamically maintain a near-optimal number of well-connected superpeers.

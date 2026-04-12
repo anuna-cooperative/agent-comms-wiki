@@ -1,6 +1,6 @@
 # A Translation Approach to Portable Ontology Specifications
 
-**Reference:** Thomas R. Gruber (1993). *Knowledge Acquisition*, 5(2):199-220 (KSL Technical Report KSL-92-71). Source file: `ontolingua-kaj-1993.pdf`
+**Reference:** Thomas R. Gruber (1993). *Knowledge Acquisition*, 5(2):199-220 (KSL Technical Report KSL-92-71). Source file: `ontolingua-kaj-1993.pdf`. URL: https://tomgruber.org/writing/ontolingua-kaj-1993.pdf
 
 ## Summary
 Gruber's landmark paper defines an *ontology* as "an explicit specification of a conceptualization" — a formal vocabulary of classes, relations, functions, and axioms that captures the intended meaning of terms shared among knowledge-based systems. He addresses the portability problem: ontologies need to be reused across applications built in different representation languages (frame-based, description-logic, relational, Prolog), which would otherwise each need bespoke versions.

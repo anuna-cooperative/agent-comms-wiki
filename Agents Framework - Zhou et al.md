@@ -1,6 +1,6 @@
 # Agents: An Open-source Framework for Autonomous Language Agents
 
-**Reference:** Wangchunshu Zhou et al. (2023). *arXiv:2309.07870v3 (AIWaves, Zhejiang University, ETH Zürich)*. Source file: `2309.07870v3.pdf`
+**Reference:** Wangchunshu Zhou et al. (2023). *arXiv:2309.07870v3 (AIWaves, Zhejiang University, ETH Zürich)*. Source file: `2309.07870v3.pdf`. URL: https://arxiv.org/abs/2309.07870
 
 ## Summary
 Introduces AGENTS, an open-source framework for building LLM-powered autonomous agents with first-class support for planning, long/short-term memory, tool use and web navigation, multi-agent communication, human-agent interaction, and fine-grained symbolic control via *Standard Operating Procedures* (SOPs). SOPs are state-graphs with LLM-editable transition rules and per-state prompt/tool configurations, giving users predictable, tunable control over otherwise stochastic agent behaviour.

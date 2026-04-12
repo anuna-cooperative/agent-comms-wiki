@@ -1,6 +1,6 @@
 # The Seven Turrets of Babel: A Taxonomy of LangSec Errors and How to Expunge Them
 
-**Reference:** Momot, Bratus, Hallberg, Patterson (2016). *IEEE Cybersecurity Development (SecDev)*. Source file: `7turretsaspublished.pdf`
+**Reference:** Momot, Bratus, Hallberg, Patterson (2016). *IEEE Cybersecurity Development (SecDev)*. Source file: `7turretsaspublished.pdf`. URL: http://smhallberg.de/res/langsec-cwes-secdev2016.pdf
 
 ## Summary
 The authors catalogue seven recurring classes of input-handling bugs under the LangSec (language-theoretic security) lens: shotgun parsing, non-minimalist input-handling code, differing interpretations of the input language, incomplete protocol specification, overloaded fields in input format, permissive processing of invalid input, and inability to express input languages in the Chomsky hierarchy. Each class is grounded in concrete CVEs (Heartbleed, Android Master Key, Rosetta Flash, OpenSSL CVE-2016-0752).

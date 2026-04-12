@@ -1,6 +1,6 @@
 # Are Multiagent Systems Resilient to Communication Failures?
 
-**Reference:** Philip N. Brown, Holly P. Borowski, and Jason R. Marden (2017). *arXiv:1710.08500 (American Control Conference 2018)*. Source file: `1710.08500v1.pdf`
+**Reference:** Philip N. Brown, Holly P. Borowski, and Jason R. Marden (2017). *arXiv:1710.08500 (American Control Conference 2018)*. Source file: `1710.08500v1.pdf`. URL: https://arxiv.org/abs/1710.08500
 
 ## Summary
 Studies whether game-theoretic multiagent systems that tolerate "offline" design-time information loss also tolerate "online" runtime communication failures. Using potential games as the canonical setting, the authors show a surprising negative result: even a single communication failure about a weakly-coupled ("inconsequential") agent's action can drive best-response and log-linear-learning dynamics to arbitrarily poor equilibria, regardless of which proxy-payoff evaluator the ignorant agent uses.

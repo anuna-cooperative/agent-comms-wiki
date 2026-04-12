@@ -1,6 +1,6 @@
 # From Eliza to XiaoIce: Challenges and Opportunities with Social Chatbots
 
-**Reference:** Heung-Yeung Shum, Xiaodong He, and Di Li (2018). *arXiv:1801.01957v2 (Frontiers of IT & EE)*. Source file: `1801.01957v2.pdf`
+**Reference:** Heung-Yeung Shum, Xiaodong He, and Di Li (2018). *arXiv:1801.01957v2 (Frontiers of IT & EE)*. Source file: `1801.01957v2.pdf`. URL: https://arxiv.org/abs/1801.01957
 
 ## Summary
 Survey of conversational AI that traces the arc from Eliza (1966) and Parry through ALICE, DARPA Communicator, and modern IPAs (Siri, Cortana, Alexa) to Microsoft's social chatbot XiaoIce. The authors distinguish task-completion from chitchat systems, and argue that the next frontier — social chatbots — must integrate IQ (knowledge/reasoning/skills) with EQ (empathy, social skills, personality) to build long-term emotional connections with users.

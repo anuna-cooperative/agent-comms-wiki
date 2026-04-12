@@ -1,6 +1,6 @@
 # Agent Communication and Institutional Reality
 
-**Reference:** Fornara, Viganò, Colombetti (2005). *Agent Communication II, LNAI 3396, Springer*. Source file: `978-3-540-32258-0_1.pdf`
+**Reference:** Fornara, Viganò, Colombetti (2005). *Agent Communication II, LNAI 3396, Springer*. Source file: `978-3-540-32258-0_1.pdf`. URL: https://people.lu.usi.ch/fornaran/papers/AC2004FornaraViganoColombetti.pdf
 
 ## Summary
 Fornara, Viganò, and Colombetti propose regarding an Agent Communication Language as a set of conventions acting on a fragment of *institutional reality*, defined within an artificial institution. They reformulate commitment-based ACL semantics so that all commonly used communicative act types reduce to a single basic type, *declarations*, within a Basic Institution that regulates the lifecycle of social commitments.

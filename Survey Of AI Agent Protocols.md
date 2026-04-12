@@ -1,6 +1,6 @@
 # A Survey of AI Agent Protocols
 
-**Reference:** Yang, Chai, Song, Qi, Wen, Li, Liao, Hu, Lin, Chang, Liu, Wen, Yu, Zhang (2025). *arXiv:2504.16736*. Source file: `2504.16736v2.pdf`
+**Reference:** Yang, Chai, Song, Qi, Wen, Li, Liao, Hu, Lin, Chang, Liu, Wen, Yu, Zhang (2025). *arXiv:2504.16736*. Source file: `2504.16736v2.pdf`. URL: https://arxiv.org/abs/2504.16736
 
 ## Summary
 This survey offers the first comprehensive classification and analysis of emerging AI agent protocols for LLM-based agents. The authors propose a two-dimensional taxonomy: (object orientation) context-oriented vs inter-agent protocols, and (application scenario) general-purpose vs domain-specific, covering MCP, A2A, ANP, ACP, Agora, LMOS, agents.json, LOKA, PXP, CrowdES, and others.

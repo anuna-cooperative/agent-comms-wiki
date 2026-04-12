@@ -1,6 +1,6 @@
 # A Common Ontology of Agent Communication Languages: Modeling Mental Attitudes and Social Commitments using Roles
 
-**Reference:** Boella, Damiano, Hulstijn, van der Torre (2006). *Applied Ontology 3(1-3)*. Source file: `ao07b.pdf`
+**Reference:** Boella, Damiano, Hulstijn, van der Torre (2006). *Applied Ontology 3(1-3)*. Source file: `ao07b.pdf`. URL: https://icr.uni.lu/leonvandertorre/papers/ao07b.pdf
 
 ## Summary
 The authors propose a common ontology that bridges the two dominant semantic traditions for Agent Communication Languages: mental-attitude-based semantics (FIPA-ACL) and social-commitment-based semantics (Singh, Colombetti). The unifying device is the *role*: each agent plays role instances in dialogue sessions, and both beliefs/intentions and commitments are attributed to role instances rather than to private mental states, sidestepping the unverifiability problem.

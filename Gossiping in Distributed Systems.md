@@ -1,6 +1,6 @@
 # Gossiping in Distributed Systems
 
-**Reference:** Anne-Marie Kermarrec, Maarten van Steen (2007). *ACM SIGOPS Operating Systems Review*, Vol. 41, No. 5. Source file: `Gossiping_in_distributed_systems.pdf`
+**Reference:** Anne-Marie Kermarrec, Maarten van Steen (2007). *ACM SIGOPS Operating Systems Review*, Vol. 41, No. 5. Source file: `Gossiping_in_distributed_systems.pdf`. URL: https://www.distributed-systems.net/my-data/papers/2007.osr.pdf
 
 ## Summary
 This tutorial surveys the "gossip revival" in distributed systems, providing a unifying framework for reasoning about the broad space of gossip-based protocols now used far beyond their original role as epidemic reliable multicast. The authors organize gossip protocols by three crucial parameters: *peer selection* (who to talk to), *data exchanged* (what to send), and *data processing* (what to do with what arrives); varying these three gives rise to dissemination, peer sampling, aggregation, overlay/topology construction, resource monitoring, and slicing protocols.

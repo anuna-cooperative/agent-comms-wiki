@@ -1,6 +1,6 @@
 # A Security Kernel Based on the Lambda-Calculus
 
-**Reference:** Jonathan A. Rees (1996). *MIT AI Laboratory Memo No. 1564*. Source file: `AIM-1564.pdf`
+**Reference:** Jonathan A. Rees (1996). *MIT AI Laboratory Memo No. 1564*. Source file: `AIM-1564.pdf`. URL: https://dspace.mit.edu/handle/1721.1/5944
 
 ## Summary
 Rees describes Scheme 48, a programming environment whose design is guided by operating-system security principles. The security kernel is W7, a call-by-value lambda-calculus with extensions for abstract data types, object mutation, and hardware access. Each user or subsystem runs in a separate evaluation environment holding the objects representing that user's privileges; because environments determine availability of object references, protection and sharing are controlled by construction.

@@ -1,6 +1,6 @@
 # Agent Communication Languages: Rethinking the Principles
 
-**Reference:** Singh, M. P. (1998). *IEEE Computer (December 1998)*. Source file: `singh-acl.pdf`
+**Reference:** Singh, M. P. (1998). *IEEE Computer (December 1998)*. Source file: `singh-acl.pdf`. URL: https://doi.org/10.1109/2.735849
 
 ## Summary
 Singh argues that mainstream ACLs like KQML and FIPA/Arcol are built on an untenable mentalistic semantics — grounding message meaning in the sender's beliefs and intentions — which cannot be verified from the outside and therefore cannot serve as a compliance standard. For true interoperability in heterogeneous multi-agent systems, he proposes shifting to a *social agency* model in which ACL semantics is defined in terms of public commitments, roles, and conventions rather than private mental states.

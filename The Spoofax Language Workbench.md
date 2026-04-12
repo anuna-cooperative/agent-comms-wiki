@@ -1,6 +1,6 @@
 # The Spoofax Language Workbench: Rules for Declarative Specification of Languages and IDEs
 
-**Reference:** Kats, L. C. L., Visser, E. (2010). *Proc. OOPSLA 2010, ACM SIGPLAN Notices*. Source file: `The_Spoofax_Language_Workbench_Rules_for_Declarati.pdf`
+**Reference:** Kats, L. C. L., Visser, E. (2010). *Proc. OOPSLA 2010, ACM SIGPLAN Notices*. Source file: `The_Spoofax_Language_Workbench_Rules_for_Declarati.pdf`. URL: https://lennart.cl/publications/the-spoofax-language-workbench/
 
 ## Summary
 Spoofax is an Eclipse-based language workbench that lets developers define a DSL's syntax, semantics, and full IDE support (syntax highlighting, content completion, reference resolution, refactoring, error marking, code generation) entirely via concise declarative specifications. Syntax is expressed in SDF with permissive error-recovery grammars; transformations, name analysis, and code generation are written in Stratego; editor services are declared in rule-based service descriptors.

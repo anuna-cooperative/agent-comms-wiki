@@ -1,6 +1,6 @@
 # Review on Computational Trust and Reputation Models
 
-**Reference:** Sabater, Sierra (2005). *Artificial Intelligence Review*. Source file: `Review_on_Computational_Trust_and_Reputation_Model.pdf`
+**Reference:** Sabater, Sierra (2005). *Artificial Intelligence Review*. Source file: `Review_on_Computational_Trust_and_Reputation_Model.pdf`. URL: https://www.iiia.csic.es/~jsabater/Publications/2005-AIR.pdf
 
 ## Summary
 A panoramic review of computational trust and reputation models developed for multi-agent systems and electronic commerce. Sabater and Sierra classify models along several dimensions: conceptual basis (cognitive vs. game-theoretical), information sources (direct experience, witness information, sociological signals, prejudice), visibility (global vs. subjective), granularity (single- vs. multi-context), assumptions about cheating behavior, type of exchanged information, and provision of reliability measures.

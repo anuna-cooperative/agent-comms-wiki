@@ -1,6 +1,6 @@
 # The Extensible Language
 
-**Reference:** Paul Graham (1993). *On Lisp (Chapter 1)*. Source file: `01theExtensibleLanguage.pdf`
+**Reference:** Paul Graham (1993). *On Lisp (Chapter 1)*. Source file: `01theExtensibleLanguage.pdf`. URL: http://www.paulgraham.com/onlisp.html
 
 ## Summary
 Opening chapter of Graham's *On Lisp* that argues Lisp's defining quality is its extensibility: the language can be molded into a dialect suited to the program being written. Graham distinguishes top-down from bottom-up design and claims Lisp programmers customarily do both — building the language up toward the problem while writing the program down toward it.

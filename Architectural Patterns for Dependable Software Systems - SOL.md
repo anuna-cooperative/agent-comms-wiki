@@ -1,6 +1,6 @@
 # Specification, Analysis and Implementation of Architectural Patterns for Dependable Software Systems
 
-**Reference:** Yau, S. S., Mukhopadhyay, S., Bharadwaj, R. (2005). *Proc. 10th IEEE Intl. Workshop on Object-Oriented Real-Time Dependable Systems (WORDS'05)*. Source file: `WORD2005-2.pdf`
+**Reference:** Yau, S. S., Mukhopadhyay, S., Bharadwaj, R. (2005). *Proc. 10th IEEE Intl. Workshop on Object-Oriented Real-Time Dependable Systems (WORDS'05)*. Source file: `WORD2005-2.pdf`. URL: https://doi.org/10.1109/WORDS.2005.50
 
 ## Summary
 The paper presents the Secure Operations Language (SOL) and the agent-based SINS middleware for specifying, analyzing, and deploying architectural patterns that realize non-functional requirements (security, fault tolerance, real-time) of distributed dependable systems. SOL is a synchronous specification language with a precise formal semantics supporting automated analysis (theorem proving, model checking); SINS runs SOL agents on virtual machines distributed over hosts, with encrypted inter-agent messaging via a Secure Agent Control Protocol.

@@ -1,6 +1,6 @@
 # The Computational Boundary of a "Self": Developmental Bioelectricity Drives Multicellularity and Scale-Free Cognition
 
-**Reference:** Michael Levin (2019). *Frontiers in Psychology*, Vol. 10, Article 2688. Source file: `fpsyg-10-02688.pdf`
+**Reference:** Michael Levin (2019). *Frontiers in Psychology*, Vol. 10, Article 2688. Source file: `fpsyg-10-02688.pdf`. URL: https://doi.org/10.3389/fpsyg.2019.02688
 
 ## Summary
 Levin proposes a biologically grounded, scale-free definition of cognitive "Individuals" based on their capacity to pursue goals at a characteristic level of scale and organization. A Self is demarcated by a *computational surface* — a spatio-temporal "cognitive light cone" defining what events it can measure, model, and influence. Higher goal-directed agency, he argues, evolves smoothly from the primal homeostatic TOTE loop that living things use to reduce stress between current and life-optimal conditions.

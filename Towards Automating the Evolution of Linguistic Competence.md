@@ -1,6 +1,6 @@
 # Towards Automating the Evolution of Linguistic Competence in Artificial Agents
 
-**Reference:** Gmytrasiewicz, P. J., Gopal, D. (2000). *Technical article, University of Texas at Arlington*. Source file: `Towards_Automating_the_Evolution_of_Linguistic_Com.pdf`
+**Reference:** Gmytrasiewicz, P. J., Gopal, D. (2000). *Technical article, University of Texas at Arlington*. Source file: `Towards_Automating_the_Evolution_of_Linguistic_Com.pdf`. URL: https://www.cs.uic.edu/bin/view/Piotr/Publications
 
 ## Summary
 Gmytrasiewicz and Gopal propose a decision-theoretic framework for artificial agents to autonomously enrich and evolve their shared agent communication language. Each agent has a frame/object-based knowledge representation language (KRL) encoding beliefs about the world and nested beliefs about other agents. Decisions about which messages to send are grounded in expected-utility computations over the effect on the hearer's mental state, so every well-defined message carries measurable value to the speaker.

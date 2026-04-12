@@ -1,6 +1,6 @@
 # A Composite Self-organisation Mechanism in an Agent Network
 
-**Reference:** Ye, D., Zhang, M., Bai, Q. (2011). *WISE 2011, LNCS 6997, Springer*. Source file: `WISE2011-2.pdf`
+**Reference:** Ye, D., Zhang, M., Bai, Q. (2011). *WISE 2011, LNCS 6997, Springer*. Source file: `WISE2011-2.pdf`. URL: https://doi.org/10.1007/978-3-642-24434-6_19
 
 ## Summary
 The authors propose a decentralized self-organization mechanism that lets agents in a collaborative task-allocation network dynamically adapt their weighted relations (peer-to-peer and subordinate-superior) to improve overall profit. The mechanism combines two components: a Dezert-Smarandache-theory-based trust model that fuses direct experience and neighbor opinions to select candidate partners, and a multi-agent Q-learning algorithm that learns which relation-adaptation actions (enhance/weaken the relation type) pay off.

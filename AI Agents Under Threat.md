@@ -1,6 +1,6 @@
 # AI Agents Under Threat: A Survey of Key Security Challenges and Future Pathways
 
-**Reference:** Deng, Guo, Han, Ma, Xiong, Wen, Xiang (2025). *ACM Computing Surveys 57(7), Article 182*. Source file: `3716628.pdf`
+**Reference:** Deng, Guo, Han, Ma, Xiong, Wen, Xiang (2025). *ACM Computing Surveys 57(7), Article 182*. Source file: `3716628.pdf`. URL: https://arxiv.org/abs/2406.02630
 
 ## Summary
 This survey organizes the emerging threat landscape of LLM-powered AI agents around four knowledge gaps: unpredictability of multi-step user inputs, complexity of internal execution, variability of operational environments, and interactions with untrusted external entities. It unifies single-agent and multi-agent attack surfaces within a perception/brain/action + agent2agent/agent2env/agent2memory taxonomy.

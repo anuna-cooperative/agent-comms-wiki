@@ -1,6 +1,6 @@
 # Agents Secure Interaction in Data Driven Languages
 
-**Reference:** Mahdi Zargayouna, Flavien Balbo, Serge Haddad. *INRETS / LAMSADE / LSV-CNRS*. Source file: `ladspaper9.pdf`
+**Reference:** Mahdi Zargayouna, Flavien Balbo, Serge Haddad. *INRETS / LAMSADE / LSV-CNRS*. Source file: `ladspaper9.pdf`. URL: https://ceur-ws.org/Vol-494/ladspaper9.pdf
 
 ## Summary
 The authors focus on a distinct class of Multi-Agent Systems where agents coordinate indirectly through a shared, data-driven space (like Linda tuple spaces or Klaim) rather than via point-to-point ACL messaging. They argue existing data-driven coordination languages conflate security with the data layer, leaving no principled way to separate agent-level access-control policies from the shared space. They propose LACIOS (Language for Agent Contextual Interaction in Open Systems), which introduces *properties* (predicate-based descriptions) and symbolic matching as a richer alternative to tuple templates.

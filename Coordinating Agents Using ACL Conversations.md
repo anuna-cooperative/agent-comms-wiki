@@ -1,6 +1,6 @@
 # Coordinating Agents using Agent Communication Languages Conversations
 
-**Reference:** R. Scott Cost, Yannis Labrou, Tim Finin (2000). *Springer-Verlag book chapter*, March 2000. Source file: `Coordinating_Agents_using_Agent_Communication_Lang.pdf`
+**Reference:** R. Scott Cost, Yannis Labrou, Tim Finin (2000). *Springer-Verlag book chapter*, March 2000. Source file: `Coordinating_Agents_using_Agent_Communication_Lang.pdf`. URL: https://doi.org/10.1007/978-3-662-04401-8_7
 
 ## Summary
 This chapter argues that ACLs like KQML and FIPA-ACL provide the vocabulary for exchanging propositional attitudes but not the higher-level coordination structures agents need when carrying out task-oriented interactions. The authors advocate *conversation protocols* — pre-arranged message-exchange patterns — as the missing layer above individual speech acts, giving context for interpretation and enabling agents to expect and verify sequences of messages.

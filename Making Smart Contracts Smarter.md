@@ -1,6 +1,6 @@
 # Making Smart Contracts Smarter
 
-**Reference:** Loi Luu, Duc-Hiep Chu, Hrishi Olickel, Prateek Saxena, and Aquinas Hobor (2016). *ACM CCS 2016*. Source file: `2016-633.pdf`
+**Reference:** Loi Luu, Duc-Hiep Chu, Hrishi Olickel, Prateek Saxena, and Aquinas Hobor (2016). *ACM CCS 2016*. Source file: `2016-633.pdf`. URL: https://eprint.iacr.org/2016/633.pdf
 
 ## Summary
 Investigates security bugs in Ethereum smart contracts arising from a *semantic gap* between developers' intuitions and the actual behaviour of the underlying platform. The authors document four classes of vulnerability — transaction-ordering dependence, timestamp dependence, mishandled exceptions, and reentrancy — and formalise a lightweight operational semantics (EtherLite) for EVM execution.

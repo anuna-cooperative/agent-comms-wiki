@@ -1,6 +1,6 @@
 # Three Models for the Description of Language
 
-**Reference:** Noam Chomsky (1956). *IRE Transactions on Information Theory*. Source files: `195609-.pdf`, `chomksy.txt`
+**Reference:** Noam Chomsky (1956). *IRE Transactions on Information Theory*. Source files: `195609-.pdf`, `chomksy.txt`. URL: https://www.chomsky.info/wp-content/uploads/195609-.pdf
 
 ## Summary
 Chomsky's seminal paper comparing three candidate models of linguistic structure — finite-state Markov processes, phrase-structure grammars, and transformational grammars — and showing that each is strictly more powerful than the last. He proves that English cannot be described by any finite-state grammar (via dependencies like "either…or", "if…then" that require unbounded memory), and argues that even phrase-structure grammars, while formally adequate, yield awkward and complex descriptions of phenomena (auxiliaries, passives, discontinuous elements) that transformational rules handle elegantly.
