@@ -1,6 +1,6 @@
 # Foundations of Illocutionary Logic
 
-**Reference:** Searle & Vanderveken (1985). *Cambridge University Press*. Source file: `5F9BF68C-E1C8-11EE-931A-C444DB61CCB4.pdf`. URL: https://philpapers.org/rec/SEAFOI-2
+**Reference:** Searle & Vanderveken (1985). *Cambridge University Press*. Source file: `5F9BF68C-E1C8-11EE-931A-C444DB61CCB4.pdf`. [URL](https://philpapers.org/rec/SEAFOI-2)
 
 ## Summary
 Searle and Vanderveken construct a formalized logic of speech acts, filling the gap between philosophy of language and formal logic. The book recursively defines the space of illocutionary forces from five primitives (assertive, commissive, directive, declarative, expressive) via seven components of illocutionary force (illocutionary point, mode of achievement, propositional-content conditions, preparatory conditions, sincerity conditions, degree of strength, direction of fit).

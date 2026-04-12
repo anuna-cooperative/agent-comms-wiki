@@ -1,6 +1,6 @@
 # Trends in Agent Communication Language
 
-**Reference:** Chaib-draa, B., Dignum, F. (2002). *Computational Intelligence, Vol. 18, No. 2*. Source file: `trends-in-acl.pdf`. URL: https://doi.org/10.1111/1467-8640.00184
+**Reference:** Chaib-draa, B., Dignum, F. (2002). *Computational Intelligence, Vol. 18, No. 2*. Source file: `trends-in-acl.pdf`. [URL](https://doi.org/10.1111/1467-8640.00184)
 
 ## Summary
 Editorial introduction to a special issue on ACLs that surveys the field's major research threads. The authors review the origins of ACLs (KSE, KQML/KIF, FIPA-ACL based on ARCOL), situating them as intentional/social layers above transport protocols (TCP/IP, HTTP, IIOP). They highlight five core issues: theories of agency underpinning the semantics, ACL semantics proper (pre-/post-/completion conditions vs. rational effects), verification of compliance and protocols, treatment of ontologies, and completeness of message-type sets.

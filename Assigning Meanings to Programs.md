@@ -1,6 +1,6 @@
 # Assigning Meanings to Programs
 
-**Reference:** Robert W. Floyd (1967). *Proceedings of Symposia in Applied Mathematics*, Vol. 19, pp. 19-32 (AMS). Source file: `FloydMeaning.pdf`. URL: https://people.eecs.berkeley.edu/~necula/Papers/FloydMeaning.pdf
+**Reference:** Robert W. Floyd (1967). *Proceedings of Symposia in Applied Mathematics*, Vol. 19, pp. 19-32 (AMS). Source file: `FloydMeaning.pdf`. [URL](https://people.eecs.berkeley.edu/~necula/Papers/FloydMeaning.pdf)
 
 ## Summary
 Floyd's foundational paper establishes a rigorous, axiomatic basis for proving properties of programs — correctness, termination, equivalence — by attaching propositions (tags) to the edges of a flowchart. A *verification condition* for each command type guarantees that if the tag on its entrance edge is true when control arrives, then the tag on its exit edge is true when control leaves. Induction over execution then proves global properties like "if initial values satisfy R1, final values satisfy R2".

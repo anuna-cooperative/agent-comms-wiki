@@ -1,6 +1,6 @@
 # Gossip-Based Computation of Aggregate Information
 
-**Reference:** David Kempe, Alin Dobra, Johannes Gehrke (2003). *FOCS 2003 (IEEE Symposium on Foundations of Computer Science)*. Source file: `focs2003-gossip.pdf`. URL: https://david-kempe.com/publications/aggregation.pdf
+**Reference:** David Kempe, Alin Dobra, Johannes Gehrke (2003). *FOCS 2003 (IEEE Symposium on Foundations of Computer Science)*. Source file: `focs2003-gossip.pdf`. [URL](https://david-kempe.com/publications/aggregation.pdf)
 
 ## Summary
 This paper analyzes simple gossip protocols (epidemic-style, randomized pairwise exchanges) for computing aggregate functions — sums, averages, quantiles, random samples — over values held by nodes in highly dynamic distributed systems like P2P networks and sensor networks. The key contribution is the *Push-Sum* protocol, which distributes weight alongside value so that the ratio stored at each node converges exponentially fast to the true average, even in the face of node failures and message loss.

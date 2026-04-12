@@ -1,6 +1,6 @@
 # Verifiable Semantics for Agent Communication Languages
 
-**Reference:** Michael Wooldridge (1998). *ICMAS-98 (International Conference on Multi-Agent Systems)*. Source file: `icmas98.pdf`. URL: https://doi.org/10.1109/ICMAS.1998.699219
+**Reference:** Michael Wooldridge (1998). *ICMAS-98 (International Conference on Multi-Agent Systems)*. Source file: `icmas98.pdf`. [URL](https://doi.org/10.1109/ICMAS.1998.699219)
 
 ## Summary
 Wooldridge tackles a central problem for ACL standardization: how can an external observer verify that an agent conforms to an ACL's semantics when semantics are expressed in modal BDI logic (beliefs, desires, intentions)? He formalizes an *agent communication framework* as a tuple containing agent programs, local states, a communication language, a semantic language, and interpretation functions, and defines precisely what it means for a framework to be *verifiable*: whether one can decide, from program text alone, that the semantic conditions for a sent message are satisfied.

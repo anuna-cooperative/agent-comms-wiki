@@ -1,6 +1,6 @@
 # A Modular Approach to Metatheoretic Reasoning for Extensible Languages
 
-**Reference:** Dawn Michaelson, Gopalan Nadathur, and Eric Van Wyk (2023). *arXiv:2312.14374v1*. Source file: `2312.14374v1.pdf`. URL: https://arxiv.org/abs/2312.14374
+**Reference:** Dawn Michaelson, Gopalan Nadathur, and Eric Van Wyk (2023). *arXiv:2312.14374v1*. Source file: `2312.14374v1.pdf`. [URL](https://arxiv.org/abs/2312.14374)
 
 ## Summary
 Addresses the problem of proving metatheoretic properties (e.g. type preservation, information-flow non-interference) for languages composed from a host and a library of independently developed extensions. The authors propose decomposing proofs around language fragments and introducing a priori constraints — notably *projection constraints* that let extensions describe how their constructs behave at a distance — so that complete soundness proofs for any composed language can be automatically stitched together from per-extension partial proofs.

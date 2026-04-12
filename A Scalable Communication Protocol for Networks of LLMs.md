@@ -1,6 +1,6 @@
 # A Scalable Communication Protocol for Networks of Large Language Models
 
-**Reference:** Samuele Marro, Emanuele La Malfa, Jesse Wright, Guohao Li, Nigel Shadbolt, Michael Wooldridge, Philip Torr (2024). *arXiv:2410.11905v1 (Oxford / Eigent AI)*. Source file: `2410.11905v1.pdf`. URL: https://arxiv.org/abs/2410.11905
+**Reference:** Samuele Marro, Emanuele La Malfa, Jesse Wright, Guohao Li, Nigel Shadbolt, Michael Wooldridge, Philip Torr (2024). *arXiv:2410.11905v1 (Oxford / Eigent AI)*. Source file: `2410.11905v1.pdf`. [URL](https://arxiv.org/abs/2410.11905)
 
 ## Summary
 Introduces **Agora**, a meta-protocol for inter-agent communication in large heterogeneous networks of LLM-powered agents. Agora frames the design space as the *Agent Communication Trilemma* — versatility, efficiency, portability — and argues no single format (natural language, structured APIs like REST, or semantic-web RDF) can satisfy all three simultaneously.

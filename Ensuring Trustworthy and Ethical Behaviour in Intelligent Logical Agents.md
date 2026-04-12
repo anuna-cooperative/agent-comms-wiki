@@ -1,6 +1,6 @@
 # Ensuring Trustworthy and Ethical Behaviour in Intelligent Logical Agents
 
-**Reference:** Stefania Costantini (2020; arXiv 2024). *arXiv:2402.07547v1*. Source file: `2402.07547v1.pdf`. URL: https://arxiv.org/abs/2402.07547
+**Reference:** Stefania Costantini (2020; arXiv 2024). *arXiv:2402.07547v1*. Source file: `2402.07547v1.pdf`. [URL](https://arxiv.org/abs/2402.07547)
 
 ## Summary
 Proposes runtime self-checking techniques for computational-logic-based (BDI-style) agents so they can monitor their own behaviour for trustworthiness and ethical compliance, beyond what static a-priori verification can guarantee. The core contribution is A-ILTL (Agent-Oriented Interval Linear Temporal Logic), a specification language for metaconstraints and evolutionary expressions that an agent can apply introspectively to its own state, goals, and actions.

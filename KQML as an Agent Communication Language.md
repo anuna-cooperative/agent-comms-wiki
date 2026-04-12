@@ -1,6 +1,6 @@
 # KQML as an Agent Communication Language
 
-**Reference:** Tim Finin, Richard Fritzson, Don McKay, and Robin McEntire (1994). *CIKM '94 (Proceedings of the Third International Conference on Information and Knowledge Management)*. Source file: `191246.191322.pdf`. URL: https://research.cs.umbc.edu/kqml/papers/kqml-acl-html/root2.html
+**Reference:** Tim Finin, Richard Fritzson, Don McKay, and Robin McEntire (1994). *CIKM '94 (Proceedings of the Third International Conference on Information and Knowledge Management)*. Source file: `191246.191322.pdf`. [URL](https://research.cs.umbc.edu/kqml/papers/kqml-acl-html/root2.html)
 
 ## Summary
 Foundational paper on the Knowledge Query and Manipulation Language (KQML), developed under the ARPA Knowledge Sharing Effort. KQML is both a message format and a message-handling protocol for run-time knowledge sharing among intelligent agents. It builds on speech-act theory: each message (a *performative*) carries an illocutionary force (ask, tell, subscribe, advertise, recommend, broker, recruit, etc.) atop a content language (often KIF) and an ontology reference.

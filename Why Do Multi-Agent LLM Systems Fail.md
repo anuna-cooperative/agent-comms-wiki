@@ -1,6 +1,6 @@
 # Why Do Multi-Agent LLM Systems Fail?
 
-**Reference:** Mert Cemri, Melissa Z. Pan, Shuyi Yang, Lakshya A. Agrawal, Bhavya Chopra, Rishabh Tiwari, Kurt Keutzer, Aditya Parameswaran, Dan Klein, Kannan Ramchandran, Matei Zaharia, Joseph E. Gonzalez, Ion Stoica (2025). *arXiv:2503.13657v2 (UC Berkeley)*. Source file: `2503.13657v2.pdf`. URL: https://arxiv.org/abs/2503.13657
+**Reference:** Mert Cemri, Melissa Z. Pan, Shuyi Yang, Lakshya A. Agrawal, Bhavya Chopra, Rishabh Tiwari, Kurt Keutzer, Aditya Parameswaran, Dan Klein, Kannan Ramchandran, Matei Zaharia, Joseph E. Gonzalez, Ion Stoica (2025). *arXiv:2503.13657v2 (UC Berkeley)*. Source file: `2503.13657v2.pdf`. [URL](https://arxiv.org/abs/2503.13657)
 
 ## Summary
 First empirically grounded taxonomy of failure modes in Multi-Agent LLM Systems (MAS). The authors analyse 200+ execution traces from seven popular MAS frameworks (MetaGPT, ChatDev, HyperAgent, AppWorld, AG2, Magentic-One, OpenManus), annotated by six human experts via grounded theory and reaching Cohen's κ ≈ 0.88, and distil 14 fine-grained failure modes grouped into three categories: **Specification Issues** (42%), **Inter-Agent Misalignment** (37%), and **Task Verification** (21%).

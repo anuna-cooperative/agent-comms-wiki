@@ -1,6 +1,6 @@
 # An Overview of KQML: A Knowledge Query and Manipulation Language
 
-**Reference:** KQML Advisory Group — Tim Finin, Don McKay, Rich Fritzson (and Hans Chalupsky, Stuart Shapiro, Gio Wiederhold) (1992/1993). *Technical report, DARPA Knowledge Sharing Effort*. Source file: `kqmloverview.pdf`. URL: https://www.csee.umbc.edu/csee/research/kqml/papers/
+**Reference:** KQML Advisory Group — Tim Finin, Don McKay, Rich Fritzson (and Hans Chalupsky, Stuart Shapiro, Gio Wiederhold) (1992/1993). *Technical report, DARPA Knowledge Sharing Effort*. Source file: `kqmloverview.pdf`. [URL](https://www.csee.umbc.edu/csee/research/kqml/papers/)
 
 ## Summary
 This foundational technical report introduces KQML, the language and protocol designed under the DARPA-sponsored Knowledge Sharing Effort to enable interoperability among heterogeneous intelligent agents and knowledge-based systems. It identifies the canonical module types — End User Applications (EUAs), Knowledge-Based Systems (KBs), Knowledge Base Repositories (KBRs), Databases (DBs), and Active Sensors (ASs) — and enumerates the fifteen possible interfaces between them, selecting KB-to-KB knowledge interchange as the central target.

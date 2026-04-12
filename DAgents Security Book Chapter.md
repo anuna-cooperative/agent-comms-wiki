@@ -1,6 +1,6 @@
 # D'Agents: Security in a Multiple-Language, Mobile-Agent System
 
-**Reference:** Robert S. Gray, David Kotz, George Cybenko, Daniela Rus (1998). *Mobile Agents and Security* (G. Vigna, ed.), Springer LNCS. Source file: `gray-security-book.pdf`. URL: https://doi.org/10.1007/3-540-68671-1_9
+**Reference:** Robert S. Gray, David Kotz, George Cybenko, Daniela Rus (1998). *Mobile Agents and Security* (G. Vigna, ed.), Springer LNCS. Source file: `gray-security-book.pdf`. [URL](https://doi.org/10.1007/3-540-68671-1_9)
 
 ## Summary
 This chapter describes the security architecture of D'Agents (formerly Agent Tcl), a mobile-agent system whose agents can be written in Tcl, Java, or Scheme. The authors frame mobile-agent security as four interrelated problems: protecting the host machine from malicious agents, protecting agents from each other, protecting an agent from a malicious machine, and limiting aggregate resource consumption across groups of machines.

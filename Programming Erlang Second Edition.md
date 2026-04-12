@@ -1,6 +1,6 @@
 # Programming Erlang: Software for a Concurrent World (Second Edition)
 
-**Reference:** Armstrong, J. (2013). *The Pragmatic Bookshelf*. Source file: `cbcl-ref/programming-erlang-2nd-edition.pdf`. URL: https://pragprog.com/titles/jaerlang2/programming-erlang-2nd-edition/
+**Reference:** Armstrong, J. (2013). *The Pragmatic Bookshelf*. Source file: `cbcl-ref/programming-erlang-2nd-edition.pdf`. [URL](https://pragprog.com/titles/jaerlang2/programming-erlang-2nd-edition/)
 
 ## Summary
 Joe Armstrong's second-edition textbook introduces Erlang as a language and runtime for building highly concurrent, distributed, and fault-tolerant systems. Part I motivates concurrency and tours the shell, modules, and compilation. Part II teaches sequential Erlang: atoms, tuples, lists, pattern matching, funs, records/maps, error handling with try/catch, binaries and the bit syntax, and the type system with Dialyzer.

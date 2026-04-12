@@ -1,6 +1,6 @@
 # MalTool: Malicious Tool Attacks on LLM Agents
 
-**Reference:** Hu, Jia, Li, Song, Gong (2026). *arXiv:2602.12194* (Duke, UC Berkeley). Source file: `2602.12194v2.pdf`. URL: https://arxiv.org/abs/2602.12194
+**Reference:** Hu, Jia, Li, Song, Gong (2026). *arXiv:2602.12194* (Duke, UC Berkeley). Source file: `2602.12194v2.pdf`. [URL](https://arxiv.org/abs/2602.12194)
 
 ## Summary
 This paper presents the first systematic study of *code-level* malicious tool attacks on LLM agent ecosystems (MCP, Skills, mcp.so, skillsmp). Whereas prior work focused on crafting misleading tool names and descriptions, the authors show that genuinely harmful behaviour must be embedded in a tool's implementation. They propose a CIA (confidentiality/integrity/availability) taxonomy of 12 concrete malicious behaviours (data exfiltration, credential abuse, data poisoning, file deletion, RCE downloading, CPU/GPU hijacking, DoS).

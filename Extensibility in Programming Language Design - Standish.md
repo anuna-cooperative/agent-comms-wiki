@@ -1,6 +1,6 @@
 # Extensibility in Programming Language Design
 
-**Reference:** Thomas A. Standish (1975). *National Computer Conference 1975 (AFIPS)*. Source file: `1499949.1500003.pdf`. URL: https://escholarship.org/uc/item/51x8c453
+**Reference:** Thomas A. Standish (1975). *National Computer Conference 1975 (AFIPS)*. Source file: `1499949.1500003.pdf`. [URL](https://escholarship.org/uc/item/51x8c453)
 
 ## Summary
 A retrospective on the 1960s-70s "extensible languages" movement. Standish catalogues extension techniques (paraphrase, orthophrase, metaphrase), reviews what the early community hoped for — a universal base language that any user could tailor with modest effort — and explains why those hopes were only partly realised. He concludes that extensibility relates to high-level languages the way macros relate to assembly: useful for suppressing low-level detail and masking irritating features, but not the programming revolution once promised.

@@ -1,6 +1,6 @@
 # Extensible Distributed Coordination
 
-**Reference:** Tobias Distler, Christopher Bahn, Alysson Bessani, Frank Fischer, Flavio Junqueira (2015). *EuroSys '15*. Source file: `eurosys15-edc.pdf`. URL: https://www4.cs.fau.de/Publications/2015/distler_15_eurosys.pdf
+**Reference:** Tobias Distler, Christopher Bahn, Alysson Bessani, Frank Fischer, Flavio Junqueira (2015). *EuroSys '15*. Source file: `eurosys15-edc.pdf`. [URL](https://www4.cs.fau.de/Publications/2015/distler_15_eurosys.pdf)
 
 ## Summary
 The paper argues that coordination services such as ZooKeeper and DepSpace, which centralize primitives like locks, leader election, and queues for datacenter services, suffer because their fixed limited interfaces force multi-RPC workarounds that are slow and race-prone. The authors propose *extensibility*: clients can dynamically install small server-side "recipes" that execute atomically on the coordination kernel's state, turning multi-step RPC patterns into single efficient operations.

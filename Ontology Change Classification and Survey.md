@@ -1,6 +1,6 @@
 # Ontology Change: Classification and Survey
 
-**Reference:** Flouris, Manakanatas, Kondylakis, Plexousakis, Antoniou (2008). *The Knowledge Engineering Review, Cambridge University Press*. Source file: `Ontology_Change_Classification_and_Survey.pdf`. URL: https://doi.org/10.1017/S0269888908001367
+**Reference:** Flouris, Manakanatas, Kondylakis, Plexousakis, Antoniou (2008). *The Knowledge Engineering Review, Cambridge University Press*. Source file: `Ontology_Change_Classification_and_Survey.pdf`. [URL](https://doi.org/10.1017/S0269888908001367)
 
 ## Summary
 This survey tackles the terminological confusion surrounding ontology change in the Semantic Web era. The authors argue that many overlapping terms — ontology evolution, versioning, merging, mapping, matching, articulation, translation, debugging, integration, morphism — are used inconsistently across the literature, creating a major bottleneck for research. They propose a unifying terminology and taxonomy, fixing precise definitions and identifying the boundaries between ten subfields of ontology change plus ontology alignment.

@@ -1,6 +1,6 @@
 # Agent-Oriented Programming
 
-**Reference:** Shoham, Y. (1993). *Artificial Intelligence 60, Elsevier*. Source file: `shoam-aop.pdf`. URL: https://www.infor.uva.es/~cllamas/MAS/AOP-Shoham.pdf
+**Reference:** Shoham, Y. (1993). *Artificial Intelligence 60, Elsevier*. Source file: `shoam-aop.pdf`. [URL](https://www.infor.uva.es/~cllamas/MAS/AOP-Shoham.pdf)
 
 ## Summary
 Shoham introduces Agent-Oriented Programming (AOP) as a specialization of object-oriented programming in which the state of each module — now called an agent — is a mental state composed of beliefs, capabilities, decisions/choices, commitments, and obligations. Interpretation of these components is formally grounded in an extension of standard epistemic logics that adds temporality, obligation, decision, and capability operators.

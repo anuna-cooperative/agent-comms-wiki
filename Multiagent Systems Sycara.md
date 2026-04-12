@@ -1,6 +1,6 @@
 # Multiagent Systems
 
-**Reference:** Katia P. Sycara (1998). *AI Magazine*, Summer 1998, Vol. 19, No. 2, pp. 79-92. Source file: `Multiagent_Systems.pdf`. URL: https://ojs.aaai.org/aimagazine/index.php/aimagazine/article/view/1370
+**Reference:** Katia P. Sycara (1998). *AI Magazine*, Summer 1998, Vol. 19, No. 2, pp. 79-92. Source file: `Multiagent_Systems.pdf`. [URL](https://ojs.aaai.org/aimagazine/index.php/aimagazine/article/view/1370)
 
 ## Summary
 Sycara's survey introduces multi-agent systems (MAS) as a paradigm for tackling problems too large, complex, or distributed for a single agent, presenting the key characteristics that distinguish MAS: each agent has incomplete information, there is no global control, data is decentralized, and computation is asynchronous. She motivates MAS via open systems like the Internet where heterogeneous agents from different designers must interoperate, and surveys the main research problems: coordination, communication, negotiation, coherence, conflict resolution, and reasoning about other agents.

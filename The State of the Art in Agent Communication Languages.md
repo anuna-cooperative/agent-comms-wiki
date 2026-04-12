@@ -1,6 +1,6 @@
 # The State of the Art in Agent Communication Languages
 
-**Reference:** Kone, Shimazu, Nakajima (2000). *Knowledge and Information Systems, Springer*. Source file: `The_State_of_the_Art_in_Agent_Communication_Langua.pdf`. URL: https://doi.org/10.1007/PL00013712
+**Reference:** Kone, Shimazu, Nakajima (2000). *Knowledge and Information Systems, Springer*. Source file: `The_State_of_the_Art_in_Agent_Communication_Langua.pdf`. [URL](https://doi.org/10.1007/PL00013712)
 
 ## Summary
 A critical review of ACL design circa 2000. The authors lay out a generalized ACL framework structured around eight principles (heterogeneity, cooperation/coordination, separation, interoperability, transparency, extensibility/scalability, performance, and security). They distill ACL specifications into four components: message format, semantic model, interaction protocols, and shared ontologies/content language.

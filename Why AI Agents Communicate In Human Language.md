@@ -1,6 +1,6 @@
 # Why do AI agents communicate in human language?
 
-**Reference:** Zhou, Feng, Julaiti, Yang (2025). *arXiv:2506.02739*. Source file: `2506.02739v1.pdf`. URL: https://arxiv.org/abs/2506.02739
+**Reference:** Zhou, Feng, Julaiti, Yang (2025). *arXiv:2506.02739*. Source file: `2506.02739v1.pdf`. [URL](https://arxiv.org/abs/2506.02739)
 
 ## Summary
 The authors argue that natural language, inherited from single-agent LLM pretraining, is fundamentally misaligned with the needs of multi-agent coordination. Because LLMs are trained to maximize likelihood over discrete token sequences, their internal representations are high-dimensional and continuous, but their outputs are forced into a sparse, ambiguous, non-differentiable symbolic form that loses information when used as an inter-agent channel.

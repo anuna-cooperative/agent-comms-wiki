@@ -1,6 +1,6 @@
 # A Semantic Description For Agent Design Patterns
 
-**Reference:** Sabatucci, Cossentino, Gaglio. *AT2AI-08 / University of Palermo & ICAR-CNR*. Source file: `at2ai08_sabatucci.pdf`. URL: https://www.ofai.at/agents/conf/at2ai6/papers/Sabatucci.pdf
+**Reference:** Sabatucci, Cossentino, Gaglio. *AT2AI-08 / University of Palermo & ICAR-CNR*. Source file: `at2ai08_sabatucci.pdf`. [URL](https://www.ofai.at/agents/conf/at2ai6/papers/Sabatucci.pdf)
 
 ## Summary
 The authors propose a fine-grained design language for formalizing and composing agent design patterns, integrated with the PASSI methodology for multi-agent system development. Patterns are represented as semantic networks (Pattern Semantic Description diagrams) whose nodes are *Pattern Description Elements* - participants, collaborators, events, and actions - typed against a MAS meta-model.

@@ -1,6 +1,6 @@
 # Ripple Effect Protocol: Coordinating Agent Populations
 
-**Reference:** Chopra, Sharma, Ahmad, Muscariello, Pandey, Raskar (2025). *arXiv:2510.16572* (Project Iceberg, MIT / Cisco). Source file: `2510.16572v1.pdf`. URL: https://arxiv.org/abs/2510.16572
+**Reference:** Chopra, Sharma, Ahmad, Muscariello, Pandey, Raskar (2025). *arXiv:2510.16572* (Project Iceberg, MIT / Cisco). Source file: `2510.16572v1.pdf`. [URL](https://arxiv.org/abs/2510.16572)
 
 ## Summary
 REP is a coordination protocol for populations of LLM agents that augments existing messaging (A2A, ACP, SLIM) with *sensitivity sharing*: agents broadcast not only their decisions but lightweight signals expressing how those decisions would change under counterfactual environmental shifts. Neighbours aggregate these sensitivities into shared coordination variables, letting groups converge faster and more stably than with decision-only exchange.

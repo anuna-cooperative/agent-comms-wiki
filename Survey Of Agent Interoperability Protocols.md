@@ -1,6 +1,6 @@
 # A Survey of Agent Interoperability Protocols: MCP, ACP, A2A, and ANP
 
-**Reference:** Ehtesham, Singh, Gupta, Kumar (2025). *arXiv:2505.02279*. Source file: `2505.02279v1.pdf`. URL: https://arxiv.org/abs/2505.02279
+**Reference:** Ehtesham, Singh, Gupta, Kumar (2025). *arXiv:2505.02279*. Source file: `2505.02279v1.pdf`. [URL](https://arxiv.org/abs/2505.02279)
 
 ## Summary
 This survey examines four emerging agent communication protocols targeting different interoperability tiers: the Model Context Protocol (MCP) for JSON-RPC tool invocation and context delivery; the Agent Communication Protocol (ACP) for REST-native multi-part performative messaging; the Agent-to-Agent Protocol (A2A) for peer-to-peer Agent-Card-based task outsourcing; and the Agent Network Protocol (ANP) for decentralized discovery using DIDs and JSON-LD.

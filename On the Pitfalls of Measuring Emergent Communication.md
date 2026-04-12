@@ -1,6 +1,6 @@
 # On the Pitfalls of Measuring Emergent Communication
 
-**Reference:** Lowe, Foerster, Boureau, Pineau, Dauphin (2019). *AAMAS 2019 (Proc. 18th Intl. Conf. on Autonomous Agents and Multiagent Systems)*. Source file: `p693.pdf`. URL: https://arxiv.org/abs/1903.05168
+**Reference:** Lowe, Foerster, Boureau, Pineau, Dauphin (2019). *AAMAS 2019 (Proc. 18th Intl. Conf. on Autonomous Agents and Multiagent Systems)*. Source file: `p693.pdf`. [URL](https://arxiv.org/abs/1903.05168)
 
 ## Summary
 This paper critically examines metrics used to detect and measure emergent communication in multi-agent reinforcement learning. The authors show that commonly used indicators — such as speaker consistency (SC), context independence (CI), mutual information between messages and actions, and message-entropy — can be misleading: agents trained with a communication channel that does not influence their behavior may still exhibit high values on these metrics, producing the illusion of communication.

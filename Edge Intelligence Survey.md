@@ -1,6 +1,6 @@
 # Edge Intelligence: Paving the Last Mile of Artificial Intelligence With Edge Computing
 
-**Reference:** Zhi Zhou, Xu Chen, En Li, Liekang Zeng, Ke Luo, Junshan Zhang (2019). *Proceedings of the IEEE*, Vol. 107, No. 8, pp. 1738-1762. Source file: `Edge_Intelligence_Paving_the_Last_Mile_of_Artificial_Intelligence_With_Edge_Computing.pdf`. URL: https://arxiv.org/abs/1905.10083
+**Reference:** Zhi Zhou, Xu Chen, En Li, Liekang Zeng, Ke Luo, Junshan Zhang (2019). *Proceedings of the IEEE*, Vol. 107, No. 8, pp. 1738-1762. Source file: `Edge_Intelligence_Paving_the_Last_Mile_of_Artificial_Intelligence_With_Edge_Computing.pdf`. [URL](https://arxiv.org/abs/1905.10083)
 
 ## Summary
 A comprehensive survey of Edge Intelligence (EI), the fusion of AI with edge computing that pushes deep-learning training and inference out of centralized cloud datacenters toward the network edge, where the data is generated. The authors motivate EI through the explosion of IoT data, latency/bandwidth limits of cloud AI, and growing privacy concerns. They propose a six-level rating scheme for EI — from cloud-only (Level 0) through various hybrid cloud-edge splits to fully on-device training and inference (Level 6) — and argue the right level is application dependent.

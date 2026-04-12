@@ -1,6 +1,6 @@
 # Principled Design of the Modern Web Architecture
 
-**Reference:** Fielding & Taylor (2000). *ICSE 2000*. Source file: `337180.337228.pdf`. URL: https://ics.uci.edu/~fielding/pubs/webarch_icse2000.pdf
+**Reference:** Fielding & Taylor (2000). *ICSE 2000*. Source file: `337180.337228.pdf`. [URL](https://ics.uci.edu/~fielding/pubs/webarch_icse2000.pdf)
 
 ## Summary
 Fielding and Taylor introduce the Representational State Transfer (REST) architectural style as the abstract model that guided the redesign of HTTP/1.1 and URIs. REST is presented as a coordinated set of architectural constraints (client-server, statelessness, cacheability, uniform interface, layered system, code-on-demand) chosen to meet the needs of an internet-scale distributed hypermedia system.

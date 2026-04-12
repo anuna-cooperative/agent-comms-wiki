@@ -1,6 +1,6 @@
 # Agent Tcl: A Flexible and Secure Mobile-Agent System
 
-**Reference:** Robert S. Gray (1996). *Proceedings of the 1996 USENIX Tcl/Tk Workshop*, pp. 9-23. Source file: `gray-security.pdf`. URL: https://www.usenix.org/conference/fourth-annual-usenix-tcltk-workshop/agent-tcl-flexible-and-secure-mobile-agent-system
+**Reference:** Robert S. Gray (1996). *Proceedings of the 1996 USENIX Tcl/Tk Workshop*, pp. 9-23. Source file: `gray-security.pdf`. [URL](https://www.usenix.org/conference/fourth-annual-usenix-tcltk-workshop/agent-tcl-flexible-and-secure-mobile-agent-system)
 
 ## Summary
 Gray introduces Agent Tcl, a mobile-agent system built on the Tcl scripting language plus Safe Tcl that supports migration with a single `agent_jump` instruction, transparent inter-agent communication, and pluggable transport mechanisms. The paper argues that Tcl's simplicity and ease of embedding make it more accessible than Telescript's object-oriented language while the Safe Tcl extension provides the sandboxing needed for secure execution — a better balance than the ARA, Tacoma, or SodaBot alternatives.

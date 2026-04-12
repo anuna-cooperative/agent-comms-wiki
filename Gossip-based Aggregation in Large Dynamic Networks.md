@@ -1,6 +1,6 @@
 # Gossip-based Aggregation in Large Dynamic Networks
 
-**Reference:** Márk Jelasity, Alberto Montresor, Ozalp Babaoglu (2005). *ACM Transactions on Computer Systems*, Vol. 23, No. 3, pp. 219-252. Source file: `gossip.pdf`. URL: http://www.cs.unibo.it/bison/publications/aggregation-tocs.pdf
+**Reference:** Márk Jelasity, Alberto Montresor, Ozalp Babaoglu (2005). *ACM Transactions on Computer Systems*, Vol. 23, No. 3, pp. 219-252. Source file: `gossip.pdf`. [URL](http://www.cs.unibo.it/bison/publications/aggregation-tocs.pdf)
 
 ## Summary
 The paper presents a proactive, gossip-based protocol for continuously computing aggregate functions (averages, sums, counts, variances, network size, extremal values) over huge dynamic networks such as P2P and grid systems. Each node periodically picks a random neighbor and performs a push-pull exchange; pairwise averaging drives the variance of estimates to zero at a geometric rate while preserving the global mean ("mass conservation"). All nodes thus converge to the correct aggregate and adaptively track changes over time.

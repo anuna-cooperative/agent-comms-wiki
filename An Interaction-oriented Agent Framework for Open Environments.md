@@ -1,6 +1,6 @@
 # An Interaction-oriented Agent Framework for Open Environments (Mercurio)
 
-**Reference:** Baldoni, Baroglio, Bergenti, Marengo, Mascardi, Patti, Ricci, Santi (2011). *AI*IA 2011 (Italian AI Association)*. Source file: `cbcl-ref/AI_IA2011.pdf`. URL: https://doi.org/10.1007/978-3-642-23954-0_9
+**Reference:** Baldoni, Baroglio, Bergenti, Marengo, Mascardi, Patti, Ricci, Santi (2011). *AI*IA 2011 (Italian AI Association)*. Source file: `cbcl-ref/AI_IA2011.pdf`. [URL](https://doi.org/10.1007/978-3-642-23954-0_9)
 
 ## Summary
 The authors propose Mercurio, an agent-programming framework for open multi-agent systems that unifies direct (speech-act) and indirect (environment-mediated) communication under a single social/observational semantics based on commitments. Mercurio has three levels — specification (constitutive and regulative rules over a domain model), programming abstractions (Agents and Artifacts in the A&A meta-model), and infrastructure (built on JaCaMo integrating Jason, CArtAgO, and MOISE).

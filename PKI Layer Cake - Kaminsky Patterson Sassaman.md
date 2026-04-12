@@ -1,6 +1,6 @@
 # PKI Layer Cake: New Collision Attacks Against the Global X.509 Infrastructure
 
-**Reference:** Dan Kaminsky, Meredith L. Patterson, and Len Sassaman (2009). *Black Hat USA / IOActive technical report*. Source file: `1299769.pdf`. URL: https://ioactive.com/pdfs/PKILayerCake.pdf
+**Reference:** Dan Kaminsky, Meredith L. Patterson, and Len Sassaman (2009). *Black Hat USA / IOActive technical report*. Source file: `1299769.pdf`. [URL](https://ioactive.com/pdfs/PKILayerCake.pdf)
 
 ## Summary
 Presents several new classes of attacks against the X.509 certificate infrastructure: MD2 preimage exploitation of VeriSign's still-trusted root, PKCS#10 Subject Name confusion attacks exploiting inconsistent ASN.1 BER parsing between CAs and browsers (multiple CNs, OID leading-zero padding, integer overflow, early null terminators), SQL injection through PKCS#10 subject names, generic SSL client-authentication bypasses, and EV-certificate hijacking via mixed script content.

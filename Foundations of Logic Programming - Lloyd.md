@@ -1,6 +1,6 @@
 # Foundations of Logic Programming (Chapter 1: Preliminaries)
 
-**Reference:** J. W. Lloyd (1987). *Springer-Verlag, Second Extended Edition*. Source file: `2022-08-18 13-38-01-Lloyd.pdf`. URL: https://archive.org/details/foundationsoflog0000lloy_c1b6
+**Reference:** J. W. Lloyd (1987). *Springer-Verlag, Second Extended Edition*. Source file: `2022-08-18 13-38-01-Lloyd.pdf`. [URL](https://archive.org/details/foundationsoflog0000lloy_c1b6)
 
 ## Summary
 The opening chapter of Lloyd's canonical textbook on the mathematical foundations of logic programming. It introduces first-order theories, syntax (alphabets, terms, well-formed formulas, clauses, Horn clauses), interpretations and models, and Herbrand semantics as the preferred route for reasoning about logical consequence of a program.

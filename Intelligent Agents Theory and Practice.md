@@ -1,6 +1,6 @@
 # Intelligent Agents: Theory and Practice
 
-**Reference:** Wooldridge, M., Jennings, N. R. (1995). *Knowledge Engineering Review*. Source file: `woodridge_intelligent_agents.pdf`. URL: https://www.cs.ox.ac.uk/people/michael.wooldridge/pubs/ker95.pdf
+**Reference:** Wooldridge, M., Jennings, N. R. (1995). *Knowledge Engineering Review*. Source file: `woodridge_intelligent_agents.pdf`. [URL](https://www.cs.ox.ac.uk/people/michael.wooldridge/pubs/ker95.pdf)
 
 ## Summary
 A foundational survey that organizes the agent-based computing field into three tightly coupled concerns: agent theories (formal specifications of what an agent is, often via intentional notions such as belief, desire, intention, obligation), agent architectures (software/hardware designs satisfying those specifications, e.g., BDI, subsumption, layered), and agent languages (programming languages whose primitives embody the theorists' concepts).

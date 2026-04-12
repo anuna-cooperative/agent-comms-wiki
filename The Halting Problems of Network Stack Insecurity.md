@@ -1,6 +1,6 @@
 # The Halting Problems of Network Stack Insecurity
 
-**Reference:** Sassaman, Patterson, Bratus, Shubina (2011). *;login: (USENIX), Vol. 36, No. 6*. Source file: `The_Halting_Problems_of_Network_Stack_In.pdf`. URL: https://www.usenix.org/publications/login/december-2011-volume-36-number-6/halting-problems-network-stack-insecurity
+**Reference:** Sassaman, Patterson, Bratus, Shubina (2011). *;login: (USENIX), Vol. 36, No. 6*. Source file: `The_Halting_Problems_of_Network_Stack_In.pdf`. [URL](https://www.usenix.org/publications/login/december-2011-volume-36-number-6/halting-problems-network-stack-insecurity)
 
 ## Summary
 The paper founds language-theoretic security (LangSec) on a startling thesis: accepted/valid inputs to a program form an *input language*, and a program's input-handling code is effectively a *recognizer* for that language. Insecurity arises when this recognizer problem is computationally too powerful — recognizing context-sensitive or Turing-complete input languages makes validity checking undecidable, so exploitable mismatches between the intended and actual recognizer are inevitable.

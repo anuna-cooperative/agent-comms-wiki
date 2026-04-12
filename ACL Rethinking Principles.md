@@ -1,6 +1,6 @@
 # Agent Communication Languages: Rethinking the Principles
 
-**Reference:** Munindar P. Singh (1998). *IEEE Computer*, December 1998, pp. 40-47. Source file: `computer-acl-98.pdf`. URL: https://doi.org/10.1109/2.735849
+**Reference:** Munindar P. Singh (1998). *IEEE Computer*, December 1998, pp. 40-47. Source file: `computer-acl-98.pdf`. [URL](https://doi.org/10.1109/2.735849)
 
 ## Summary
 Singh surveys the state of Agent Communication Languages (ACLs) such as KQML and FIPA/Arcol, and argues that their dominant mental-agency semantics (defining communicative acts in terms of beliefs and intentions) is conceptually unsatisfying and practically untestable because we cannot read agents' minds. He proposes a conceptual shift to *social agency*: ACL semantics should be grounded in a public perspective on commitments, roles, and societies, so compliance with the standard is observable and testable.

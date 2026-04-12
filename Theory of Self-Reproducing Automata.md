@@ -1,6 +1,6 @@
 # Theory of Self-Reproducing Automata (Fourth Lecture: The Role of High and of Extremely High Complication)
 
-**Reference:** von Neumann, J. (edited and completed by Arthur W. Burks) (1966). *University of Illinois Press*. Source file: `VonNeumann.pdf`. URL: https://archive.org/details/theoryofselfrepr00vonn_0
+**Reference:** von Neumann, J. (edited and completed by Arthur W. Burks) (1966). *University of Illinois Press*. Source file: `VonNeumann.pdf`. [URL](https://archive.org/details/theoryofselfrepr00vonn_0)
 
 ## Summary
 This excerpt is the Fourth Lecture of von Neumann's posthumously edited *Theory of Self-Reproducing Automata*. Von Neumann compares natural automata (nervous systems) with artificial computing machines across size, speed, energy dissipation per elementary act of information, and error characteristics. He observes that although vacuum tubes are vastly larger and less energy-efficient than neurons, both are far above the thermodynamic minimum — suggesting physics does not fully explain the size gap; reliability likely does.

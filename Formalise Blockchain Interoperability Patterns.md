@@ -1,6 +1,6 @@
 # An Approach to Formalise Blockchain Interoperability Patterns
 
-**Reference:** Guzmán Llambías, Laura González, and Raúl Ruggia (2025). *IEEE (preprint, Zenodo)*. Source file: `13_127.pdf`. URL: https://ieeexplore.ieee.org/document/11185098/
+**Reference:** Guzmán Llambías, Laura González, and Raúl Ruggia (2025). *IEEE (preprint, Zenodo)*. Source file: `13_127.pdf`. [URL](https://ieeexplore.ieee.org/document/11185098/)
 
 ## Summary
 Formalises the Temporal Transfer blockchain-interoperability design pattern (instantiated with a gateway/relayer architecture) using Event-B. The authors translate natural-language pattern descriptions into a refined Event-B specification, derive eight safety properties (e.g. token can only be minted on the target chain after being locked on the source), verify them by construction using Rodin, and validate the dynamic behaviour by simulating with ProB.

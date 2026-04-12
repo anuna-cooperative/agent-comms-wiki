@@ -1,6 +1,6 @@
 # Levels of Social Orchestration for Agentic Systems
 
-**Reference:** Chopra, Bhattacharya, Leibo, Raskar (2025). *ICML 2025* (MIT, Google DeepMind). Source file: `agentic_draft.pdf`. URL: https://lpm.media.mit.edu/agentic_draft.pdf
+**Reference:** Chopra, Bhattacharya, Leibo, Raskar (2025). *ICML 2025* (MIT, Google DeepMind). Source file: `agentic_draft.pdf`. [URL](https://lpm.media.mit.edu/agentic_draft.pdf)
 
 ## Summary
 The authors argue that as AI agents scale to billions, beneficial collective behaviour depends less on maximizing individual intelligence and more on discovering interaction protocols. They introduce Large Population Models (LPMs) - differentiable, end-to-end trainable protocols spanning simulated and physical agent networks - as a paradigm shift from LLMs (data -> language) to LPMs (protocol -> population).
