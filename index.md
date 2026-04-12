@@ -22,6 +22,7 @@ Map of content for the paper vault. See [[README]] for conventions, and **[[conc
 
 ## Foundational
 
+- [[Keeping CALM - When Distributed Consistency is Easy]] — Hellerstein & Alvaro 2019 ([[CALM Theorem]])
 - [[Three Models for the Description of Language]] — Chomsky 1956
 - [[Theory of Self-Reproducing Automata]] — von Neumann
 - [[Foundations of Logic Programming - Lloyd]]

@@ -107,6 +107,7 @@ A few papers anchor the abstract ground everything else stands on.
 - **Concurrency substrate.** [[Programming Erlang Second Edition]] — the actor-model textbook, **let-it-crash** + supervision trees. This is the operational grain of most distributed agent systems discussed above.
 - **Architectural style.** [[Principled Design Of The Modern Web Architecture]] (Fielding / REST) — the explicit constraints (uniform interface, statelessness, hypermedia) that make internet-scale coordination possible. The modern LLM-agent protocols recapitulate these constraints deliberately.
 - **Blockchain / smart contracts.** [[Making Smart Contracts Smarter]] (semantic gap between intent and EVM), [[Formalise Blockchain Interoperability Patterns]] (Event-B refinement proofs) — formal-methods vocabulary applied to a new coordination substrate.
+- **Distributed-consistency theory.** [[Keeping CALM - When Distributed Consistency is Easy]] gives the positive dual to [[CAP Theorem]]: a program has a consistent, coordination-free implementation iff it is monotonic ([[CALM Theorem]], [[Confluence]], [[Monotonic Logic]]). This is the theoretical companion to the gossip-aggregation results in §8 — aggregation with mass conservation is exactly monotonic — and the reason [[CRDTs]], [[Immutable Data Structures]], and [[Tombstones]] recur as patterns throughout the vault.
 
 ## 13. The Modern LLM-Agent Era: How the Threads Converge
 
