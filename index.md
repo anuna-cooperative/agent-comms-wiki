@@ -31,6 +31,7 @@ Map of content for the paper vault. See [[README]] for conventions, and **[[conc
 - [[First Order Theories of Individual Concepts and Propositions]] — McCarthy 1979b
 - [[Circumscription - A Form of Nonmonotonic Reasoning]] — McCarthy 1986
 - [[The Knowledge Level]] — Newell 1982
+- [[The Society of Mind]] — Minsky 1986 (MAS wellspring)
 - [[How to Do Things with Words]] — Austin 1962
 - [[Speech Acts - An Essay in the Philosophy of Language]] — Searle 1969
 - [[Minds Brains and Science]] — Searle 1984
