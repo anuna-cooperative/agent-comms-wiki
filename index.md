@@ -36,6 +36,23 @@ Map of content for the paper vault. See [[README]] for conventions, and **[[conc
 - [[Circumscription - A Form of Nonmonotonic Reasoning]] — McCarthy 1980 (AIJ 13)
 - [[Circumscription - Applications to Formalizing Common Sense Knowledge]] — McCarthy 1986 (AIJ 28)
 - [[Generality in Artificial Intelligence]] — McCarthy 1987 (Turing Award lecture)
+- [[Modeling Rational Agents within a BDI-Architecture]] — Rao & Georgeff 1991
+- [[Two Faces of Intention]] — Bratman 1984
+- [[True Believers - The Intentional Strategy and Why It Works]] — Dennett 1981
+- [[A Taxonomy of Illocutionary Acts]] — Searle 1975
+- [[Logic and Conversation]] — Grice 1975
+- [[Attention Is All You Need]] — Vaswani et al. 2017
+- [[The Bitter Lesson]] — Sutton 2019
+- [[Toward Principles for the Design of Ontologies Used for Knowledge Sharing]] — Gruber 1995
+- [[Time Clocks and the Ordering of Events in a Distributed System]] — Lamport 1978
+- [[Impossibility of Distributed Consensus with One Faulty Process]] — Fischer, Lynch & Paterson 1985 (FLP)
+- [[Brewers Conjecture and the Feasibility of Consistent Available Partition-Tolerant Web Services]] — Gilbert & Lynch 2002 (CAP proof)
+- [[Knowledge and Common Knowledge in a Distributed Environment]] — Halpern & Moses 1990
+- [[End-to-End Arguments in System Design]] — Saltzer, Reed & Clark 1984
+- [[A Universal Modular Actor Formalism for Artificial Intelligence]] — Hewitt, Bishop & Steiger 1973
+- [[Communicating Sequential Processes]] — Hoare 1978
+- [[Algorithm = Logic + Control]] — Kowalski 1979
+- [[Can Programming Be Liberated from the von Neumann Style]] — Backus 1978 (Turing Award lecture)
 - [[The Knowledge Level]] — Newell 1982
 - [[The Society of Mind]] — Minsky 1986 (MAS wellspring)
 - [[How to Do Things with Words]] — Austin 1962
