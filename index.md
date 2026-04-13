@@ -25,6 +25,7 @@ Map of content for the paper vault. See [[README]] for conventions, and **[[conc
 - [[Keeping CALM - When Distributed Consistency is Easy]] — Hellerstein & Alvaro 2019 ([[CALM Theorem]])
 - [[Three Models for the Description of Language]] — Chomsky 1956
 - [[Ascribing Mental Qualities to Machines]] — McCarthy 1979
+- [[Elephant 2000 - A Programming Language Based on Speech Acts]] — McCarthy 1989 (PL ancestor of ACLs)
 - [[Intention Is Choice with Commitment]] — Cohen & Levesque 1990 (BDI logic)
 - [[Deals Among Rational Agents]] — Rosenschein & Genesereth 1985
 - [[The Synthesis of Digital Machines with Provable Epistemic Properties]] — Rosenschein & Kaelbling 1986
