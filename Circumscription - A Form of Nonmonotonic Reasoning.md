@@ -1,6 +1,6 @@
-# Circumscription — A Form of Nonmonotonic Reasoning (and Applications to Common Sense)
+# Circumscription — A Form of Non-Monotonic Reasoning (1980)
 
-**Reference:** John McCarthy (1986). "Applications of Circumscription to Formalizing Common Sense Knowledge." *Artificial Intelligence* 28(1): 89-116. (Fetched version is the author-hosted PDF titled *Circumscription — A Form of Nonmonotonic Reasoning*, the technical core of the 1986 AIJ paper.) [URL](http://jmc.stanford.edu/articles/circumscription/circumscription.pdf)
+**Reference:** John McCarthy (1980). "Circumscription — A Form of Non-Monotonic Reasoning." *Artificial Intelligence* 13(1-2): 27-39. The author-hosted PDF (2004 reformatting) adds a 1996 addendum; file is `mccarthy-circumscription1980.pdf`. Disambiguated from the 1986 sequel [[Circumscription - Applications to Formalizing Common Sense Knowledge]] which introduces formula circumscription and the abnormality predicate. [URL](http://jmc.stanford.edu/articles/circumscription/circumscription.pdf)
 
 ## Summary
 McCarthy's landmark treatment of the *qualification problem*: any common-sense rule (e.g. "a rowboat can be used to cross a river") is subject to an open-ended list of possible defeaters (no oars, a leak, cannibals, a sea monster) that cannot plausibly be enumerated in advance. Standard first-order logic is monotonic — adding premises never removes conclusions — so it cannot support the everyday inference "no defeater mentioned, therefore none present."

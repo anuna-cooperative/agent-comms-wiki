@@ -29,7 +29,13 @@ Map of content for the paper vault. See [[README]] for conventions, and **[[conc
 - [[Towards a Mathematical Science of Computation]] — McCarthy 1963
 - [[Correctness of a Compiler for Arithmetic Expressions]] — McCarthy & Painter 1967
 - [[First Order Theories of Individual Concepts and Propositions]] — McCarthy 1979b
-- [[Circumscription - A Form of Nonmonotonic Reasoning]] — McCarthy 1986
+- [[Programs with Common Sense]] — McCarthy 1959 (Advice Taker)
+- [[Recursive Functions of Symbolic Expressions and Their Computation by Machine]] — McCarthy 1960 (Lisp)
+- [[Some Philosophical Problems from the Standpoint of Artificial Intelligence]] — McCarthy & Hayes 1969 (situation calculus, frame problem)
+- [[Epistemological Problems of Artificial Intelligence]] — McCarthy 1977
+- [[Circumscription - A Form of Nonmonotonic Reasoning]] — McCarthy 1980 (AIJ 13)
+- [[Circumscription - Applications to Formalizing Common Sense Knowledge]] — McCarthy 1986 (AIJ 28)
+- [[Generality in Artificial Intelligence]] — McCarthy 1987 (Turing Award lecture)
 - [[The Knowledge Level]] — Newell 1982
 - [[The Society of Mind]] — Minsky 1986 (MAS wellspring)
 - [[How to Do Things with Words]] — Austin 1962
