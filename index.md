@@ -53,6 +53,7 @@ Map of content for the paper vault. See [[README]] for conventions, and **[[conc
 - [[Communicating Sequential Processes]] — Hoare 1978
 - [[Algorithm = Logic + Control]] — Kowalski 1979
 - [[Can Programming Be Liberated from the von Neumann Style]] — Backus 1978 (Turing Award lecture)
+- [[The Heart of Spritely - Distributed Objects and Capability Security]] — Lemmer-Webber, Farmer & Sims 2025 (Goblins / OCapN)
 - [[The Knowledge Level]] — Newell 1982
 - [[The Society of Mind]] — Minsky 1986 (MAS wellspring)
 - [[How to Do Things with Words]] — Austin 1962
