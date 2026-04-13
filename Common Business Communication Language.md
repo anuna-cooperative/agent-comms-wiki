@@ -19,6 +19,10 @@ He proposes messages as nested parenthesized lists (a Lisp-like syntax McCarthy 
 - [[Agent Communication Languages]]
 - [[Three Models For The Description Of Language]]
 - [[Ontologies]]
+- [[Elephant 2000 - A Programming Language Based on Speech Acts]] — companion McCarthy proposal; CBCL messages are the inter-organisational counterpart of Elephant's intra-program speech acts.
+- [[First Order Theories of Individual Concepts and Propositions]] — supplies the sense/denotation machinery CBCL tacitly relies on for descriptions.
+- [[Circumscription - A Form of Nonmonotonic Reasoning]] — the non-monotonic reading of ADJECTIVE and partial-understanding fallback rests on circumscription-style defaults.
+- [[Ascribing Mental Qualities to Machines]]
 
 ## Conceptual Contribution
 - **Claim:** Organisations should exchange business messages in a common, open-ended language without pre-arranged bilateral formats; partial understanding must degrade gracefully to human-readable fallback.

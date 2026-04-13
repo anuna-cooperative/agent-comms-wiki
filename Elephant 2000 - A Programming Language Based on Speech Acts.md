@@ -28,6 +28,11 @@ McCarthy explicitly departs from Searle/Austin by taking a **design stance** (De
 ## Connections
 - [[Ascribing Mental Qualities to Machines]] — McCarthy's prior paper on when it's useful to ascribe beliefs/intentions to programs
 - [[Common Business Communication Language]] — McCarthy 1982, explicitly cited as the motivating application
+- [[Towards a Mathematical Science of Computation]] — McCarthy 1963; originates the program-as-logical-object agenda Elephant radicalises.
+- [[Correctness of a Compiler for Arithmetic Expressions]] — McCarthy & Painter 1967; first proof-of-concept for the verification programme Elephant extends to speech-act semantics.
+- [[First Order Theories of Individual Concepts and Propositions]] — McCarthy 1979; the logical machinery for propositional attitudes that Elephant's commitments and history-referring constructs presuppose.
+- [[Circumscription - A Form of Nonmonotonic Reasoning]] — McCarthy 1986; the defeasibility substrate for commitment revision.
+- [[The Knowledge Level]] — Newell 1982; Elephant is a programming language whose *native* level of description is Newell's knowledge level.
 - [[Foundations Of Illocutionary Logic]] — Searle & Vanderveken, the philosophical spine McCarthy adapts
 - [[Speech Act Theory]]
 - [[Agent Communication Languages]]
