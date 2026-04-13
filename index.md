@@ -54,6 +54,14 @@ Map of content for the paper vault. See [[README]] for conventions, and **[[conc
 - [[Algorithm = Logic + Control]] — Kowalski 1979
 - [[Can Programming Be Liberated from the von Neumann Style]] — Backus 1978 (Turing Award lecture)
 - [[The Heart of Spritely - Distributed Objects and Capability Security]] — Lemmer-Webber, Farmer & Sims 2025 (Goblins / OCapN)
+- [[Programming Semantics for Multiprogrammed Computations]] — Dennis & Van Horn 1966 (original capabilities)
+- [[The Confused Deputy - Hardy]] — Hardy 1988
+- [[EROS - A Fast Capability System]] — Shapiro, Smith & Farber 1999
+- [[Capability-based Financial Instruments]] — Miller, Morningstar & Frantz 2000
+- [[Capability Myths Demolished]] — Miller, Yee & Shapiro 2003
+- [[Robust Composition - Towards a Unified Approach to Access Control and Concurrency Control]] — Miller 2006 (PhD thesis, THE E reference)
+- [[Distributed Electronic Rights in JavaScript]] — Miller, Van Cutsem & Tulloh 2013
+- [[Trustworthy Proxies - Virtualizing Objects with Invariants]] — Van Cutsem & Miller 2013
 - [[The Knowledge Level]] — Newell 1982
 - [[The Society of Mind]] — Minsky 1986 (MAS wellspring)
 - [[How to Do Things with Words]] — Austin 1962
