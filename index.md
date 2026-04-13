@@ -62,6 +62,16 @@ Map of content for the paper vault. See [[README]] for conventions, and **[[conc
 - [[Robust Composition - Towards a Unified Approach to Access Control and Concurrency Control]] — Miller 2006 (PhD thesis, THE E reference)
 - [[Distributed Electronic Rights in JavaScript]] — Miller, Van Cutsem & Tulloh 2013
 - [[Trustworthy Proxies - Virtualizing Objects with Invariants]] — Van Cutsem & Miller 2013
+- [[A Framework for Representing Knowledge]] — Minsky 1974 (Frames)
+- [[The Protection of Information in Computer Systems]] — Saltzer & Schroeder 1975
+- [[Distributed Snapshots Determining Global States of Distributed Systems]] — Chandy & Lamport 1985
+- [[Intelligence Without Representation]] — Brooks 1991
+- [[The Extended Mind]] — Clark & Chalmers 1998
+- [[The Part-Time Parliament]] — Lamport 1998 (Paxos)
+- [[On Agent-Based Software Engineering]] — Jennings 2000
+- [[The Semantic Web]] — Berners-Lee, Hendler & Lassila 2001
+- [[ReAct Synergizing Reasoning and Acting in Language Models]] — Yao et al. 2023
+- [[Reflexion Language Agents with Verbal Reinforcement Learning]] — Shinn et al. 2023
 - [[The Knowledge Level]] — Newell 1982
 - [[The Society of Mind]] — Minsky 1986 (MAS wellspring)
 - [[How to Do Things with Words]] — Austin 1962
