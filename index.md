@@ -32,8 +32,12 @@ Map of content for the paper vault. See [[README]] for conventions, and **[[conc
 - [[Circumscription - A Form of Nonmonotonic Reasoning]] — McCarthy 1986
 - [[The Knowledge Level]] — Newell 1982
 - [[How to Do Things with Words]] — Austin 1962
+- [[Speech Acts - An Essay in the Philosophy of Language]] — Searle 1969
 - [[Minds Brains and Science]] — Searle 1984
 - [[Studies in the Way of Words]] — Grice 1989
+- [[What is it to Understand a Directive Speech Act]] — Dorschel 1989 (citation-only, paywalled)
+- [[A Proof Method for Cyclic Programs]] — Francez & Pnueli 1978 (citation-only, paywalled)
+- [[An Application of a Method for Analysis of Cyclic Programs]] — Francez 1978 (citation-only, paywalled)
 - [[Intention Is Choice with Commitment]] — Cohen & Levesque 1990 (BDI logic)
 - [[Deals Among Rational Agents]] — Rosenschein & Genesereth 1985
 - [[The Synthesis of Digital Machines with Provable Epistemic Properties]] — Rosenschein & Kaelbling 1986
