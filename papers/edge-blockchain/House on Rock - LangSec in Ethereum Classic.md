@@ -2,6 +2,8 @@
 
 **Reference:** Meredith L. Patterson (2017). *How to Build a House That Doesn't Fall Apart* (talk). Ethereum Classic Summit, Hong Kong, November 2017. [YouTube](https://www.youtube.com/watch?v=rqqdFufARXA)
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rqqdFufARXA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+
 ## Summary
 A LangSec critique of Ethereum aimed at the Ethereum Classic community, framed around the parable of the wise and foolish builders and Philip K. Dick's "reality is that which, when you stop believing in it, doesn't go away." Patterson argues Ethereum was built on sand — an ad-hoc, non-executable yellow-paper semantics; a hand-rolled Solidity parser; a test suite with no coverage for `delegatecall` or invalid opcodes; a design culture that scorned formal methods until hundred-million-dollar losses forced the issue.
 
