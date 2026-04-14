@@ -237,3 +237,4 @@ See [[README]] for detailed conventions.
 - [[Edge Intelligence Survey]]
 - [[Making Smart Contracts Smarter]]
 - [[Formalise Blockchain Interoperability Patterns]]
+- [[House on Rock - LangSec in Ethereum Classic]] — Patterson 2017 (ETC Summit talk; Rice's theorem vs. the gas model)
