@@ -1,6 +1,25 @@
-# Agent Communications — Index (MOC)
+# Agent Communications Vault
 
-Map of content for the paper vault. See [[README]] for conventions, and **[[concept-map]] for the conceptual tour**.
+A curated, wikilink-connected reading vault on **agent communication languages, multi-agent systems, capability security, distributed systems, and LLM agents** — from McCarthy and Minsky through KQML/FIPA to modern LLM agent protocols.
+
+Each note summarises a paper in its own words (summary, key ideas, conceptual contribution, connections) and is cross-linked to related concepts and papers, forming a navigable graph of the field.
+
+Start with **[[concept-map]]** for a guided tour, or browse the map of content below.
+
+## How to contribute
+
+The vault is a plain-text [zetl](https://github.com/anuna-research/zetl) wikilink graph — every note is a markdown file with `[[wikilinks]]`. Contributions welcome:
+
+1. Clone: `git clone <REPO_URL_PLACEHOLDER>`
+2. Add or edit notes as plain markdown. New paper notes should follow the structure of existing ones (Reference, Summary, Key Ideas, Connections, Conceptual Contribution, Tags).
+3. Run `zetl check` to validate links, and `zetl build` to preview the site locally.
+4. Open a pull request at `<REPO_URL_PLACEHOLDER>`.
+
+See [[README]] for detailed conventions.
+
+---
+
+## Map of Content
 
 ## Concept Hubs
 
