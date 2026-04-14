@@ -1,6 +1,6 @@
 # Rice's Theorem
 
-A foundational result in computability theory (Henry Gordon Rice, 1951–53): **every non-trivial semantic property of the partial function computed by a program is undecidable**. "Non-trivial" means the property holds for some computable functions but not others; "semantic" means it depends on the input/output behaviour, not on the syntactic form of the program.
+A foundational result in computability theory (Henry Gordon Rice, 1951–53): **every non-trivial semantic property of the partial function computed by a program is undecidable**. Source paper: [[Classes of Recursively Enumerable Sets and Their Decision Problems]]. "Non-trivial" means the property holds for some computable functions but not others; "semantic" means it depends on the input/output behaviour, not on the syntactic form of the program.
 
 Put differently: you cannot in general decide, by inspecting a program, whether it belongs to any interesting class defined by *what it does*. Halting is one such property ([[Halting Problem]]), but so is "produces output X on input Y," "terminates for all inputs," "implements function f," "contains no unreachable states," and so on.
 

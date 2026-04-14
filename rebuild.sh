@@ -26,4 +26,24 @@ find dist public -name '*.html' -type f -print0 | xargs -0 sed -i '' \
   -e 's|<title>Vault — zetl</title>|<title>Agent Communications</title>|g' \
   -e 's|<h1 class="text-3xl font-bold mb-6">vault</h1>|<h1 class="text-3xl font-bold mb-6">Agent Communications</h1>|g'
 
-echo "build + branding patch complete"
+# 3. Inject live vault stats into the homepage.
+stats_json=$(zetl stats --json)
+pages=$(echo "$stats_json" | python3 -c "import json,sys; print(json.load(sys.stdin)['pages'])")
+links=$(echo "$stats_json" | python3 -c "import json,sys; print(json.load(sys.stdin)['links'])")
+dead=$(echo "$stats_json" | python3 -c "import json,sys; print(json.load(sys.stdin)['dead_links'])")
+orphans=$(echo "$stats_json" | python3 -c "import json,sys; print(json.load(sys.stdin)['orphans'])")
+
+stats_html='<div class="stats stats-horizontal shadow mb-8 w-full sm:w-auto"><div class="stat"><div class="stat-title">Pages</div><div class="stat-value text-primary">'"$pages"'</div></div><div class="stat"><div class="stat-title">Links</div><div class="stat-value">'"$links"'</div></div><div class="stat"><div class="stat-title">Dead links</div><div class="stat-value text-error">'"$dead"'</div></div><div class="stat"><div class="stat-title">Orphans</div><div class="stat-value text-warning">'"$orphans"'</div></div></div>'
+
+python3 - <<PYEOF
+import re
+for path in ("public/index.html", "dist/index.html"):
+    with open(path) as f:
+        html = f.read()
+    html = re.sub(r'(Agent Communications Vault</h1>)',
+                  r'\1\n$stats_html', html, count=1)
+    with open(path, 'w') as f:
+        f.write(html)
+PYEOF
+
+echo "build + branding patch + stats injection complete ($pages pages, $links links, $dead dead, $orphans orphans)"
