@@ -46,4 +46,23 @@ for path in ("public/index.html", "dist/index.html"):
         f.write(html)
 PYEOF
 
-echo "build + branding patch + stats injection complete ($pages pages, $links links, $dead dead, $orphans orphans)"
+# 4. Inject mermaid renderer into any page containing a mermaid code block.
+mermaid_snippet='<script type="module">import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs";document.querySelectorAll("pre>code.language-mermaid").forEach(function(el){var d=document.createElement("div");d.className="mermaid";d.textContent=el.textContent;el.parentElement.replaceWith(d);});mermaid.initialize({startOnLoad:true,theme:"default"});</script>'
+mermaid_count=0
+while IFS= read -r -d '' f; do
+  if grep -q 'language-mermaid' "$f"; then
+    # Insert just before </body>
+    python3 -c "
+import sys
+p = sys.argv[1]
+snip = sys.argv[2]
+with open(p) as fh: h = fh.read()
+if 'mermaid.esm.min.mjs' not in h:
+    h = h.replace('</body>', snip + '</body>', 1)
+    with open(p, 'w') as fh: fh.write(h)
+" "$f" "$mermaid_snippet"
+    mermaid_count=$((mermaid_count+1))
+  fi
+done < <(find dist public -name '*.html' -type f -print0)
+
+echo "build + branding patch + stats injection complete ($pages pages, $links links, $dead dead, $orphans orphans); mermaid injected into $mermaid_count pages"

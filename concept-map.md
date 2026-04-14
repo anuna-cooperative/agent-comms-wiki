@@ -132,4 +132,16 @@ Each modern thread has a pre-LLM ancestor in this vault — which is the real po
 3. **Centralised vs decentralised coordination** — facilitators ([[KQML Overview]]) vs gossip ([[Gossip-Based Computation of Aggregate Information]]) vs stigmergy ([[Myconet Fungi Inspired Superpeer Overlay]]) vs agent-environment ([[An Interaction-oriented Agent Framework for Open Environments]]).
 4. **Trust through mental-state inspection vs through commitments vs through language-theoretic restriction** — [[Verifiable Semantics for ACLs]] vs [[ACL Rethinking Principles]] vs [[The Halting Problems of Network Stack Insecurity]].
 
+---
+
+## Concept Diagrams
+
+Mermaid lineage diagrams for each foundational cluster, embedded in the relevant concept pages:
+
+- [[Speech Act Theory#Lineage]] — Austin → Searle → Grice → Vanderveken → ACL performatives
+- [[Knowledge Level#Knowledge-representation lineage]] — McCarthy → Frames → Circumscription → Knowledge Level → BDI / Society of Mind / Extended Mind
+- [[Rice's Theorem#Computability lineage]] — Gödel / Church / Turing / Kleene / Post → Rice → LangSec
+- [[Agent Architecture#Architectural lineage]] — Actor · BDI · Subsumption · Intentional Stance → AGENT-0
+- [[Program Semantics#Language, semantics, and concurrency lineage]] — Chomsky · McCarthy · Floyd · Hoare · Backus · Naur
+
 See [[index]] for the full paper listing, [[README]] for vault conventions.
