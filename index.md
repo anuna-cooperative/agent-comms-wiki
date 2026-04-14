@@ -10,10 +10,10 @@ Start with **[[concept-map]]** for a guided tour, or browse the map of content b
 
 The vault is a plain-text [zetl](https://github.com/anuna-research/zetl) wikilink graph — every note is a markdown file with `[[wikilinks]]`. Contributions welcome:
 
-1. Clone: `git clone <REPO_URL_PLACEHOLDER>`
+1. Clone: `git clone https://github.com/anuna-cooperative/agent-comms-wiki.git`
 2. Add or edit notes as plain markdown. New paper notes should follow the structure of existing ones (Reference, Summary, Key Ideas, Connections, Conceptual Contribution, Tags).
 3. Run `zetl check` to validate links, and `zetl build` to preview the site locally.
-4. Open a pull request at `<REPO_URL_PLACEHOLDER>`.
+4. Open a pull request at <https://github.com/anuna-cooperative/agent-comms-wiki>.
 
 See [[README]] for detailed conventions.
 
