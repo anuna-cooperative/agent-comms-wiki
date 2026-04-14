@@ -38,5 +38,15 @@ Beyond the headline theorem, the paper classifies decision problems about r.e. s
 - **Stance:** foundational theorem paper (computability theory)
 - **Relates to:** Generalises Turing's halting theorem from the specific property "halts on input x" to all non-trivial semantic properties; sets the decidability frontier that all subsequent work in [[Formal Verification]], [[Static Analysis]], and [[LangSec]] ([[Security Applications Of Formal Language Theory]], [[The Halting Problems of Network Stack Insecurity]]) must respect; directly underwrites the Rice's-theorem argument in [[House on Rock - LangSec in Ethereum Classic]] that Ethereum's gas mechanism cannot deliver a semantic safety guarantee.
 
+## Bibliography (Rice 1953)
+1. [[An Unsolvable Problem of Elementary Number Theory]] — Church, Alonzo. *An unsolvable problem of elementary number theory*, American Journal of Mathematics 58(2) (1936), 345–363.
+2. [[Über formal unentscheidbare Sätze der Principia Mathematica und verwandter Systeme I]] — Gödel, Kurt. *Über formal unentscheidbare Sätze der Principia Mathematica und verwandter Systeme I*, Monatshefte für Mathematik und Physik 38 (1931), 173–198.
+3. [[General Recursive Functions of Natural Numbers]] — Kleene, Stephen C. *General recursive functions of natural numbers*, Mathematische Annalen 112 (1936), 727–766.
+4. [[On Notation for Ordinal Numbers]] — Kleene, Stephen C. *On notation for ordinal numbers*, Journal of Symbolic Logic 3(4) (1938), 150–155.
+5. [[Recursive Predicates and Quantifiers]] — Kleene, Stephen C. *Recursive predicates and quantifiers*, Transactions of the American Mathematical Society 53 (1943), 41–73.
+6. [[On Definable Sets of Positive Integers]] — Mostowski, Andrzej. *On definable sets of positive integers*, Fundamenta Mathematicae 34 (1946), 81–112.
+7. [[Recursively Enumerable Sets of Positive Integers and Their Decision Problems]] — Post, Emil L. *Recursively enumerable sets of positive integers and their decision problems*, Bulletin of the American Mathematical Society 50 (1944), 284–316.
+8. [[Extensions of Some Theorems of Gödel and Church]] — Rosser, J. Barkley. *Extensions of some theorems of Gödel and Church*, Journal of Symbolic Logic 1(3) (1936), 87–91.
+
 ## Tags
 #computability #undecidability #foundational #halting-problem #verification
