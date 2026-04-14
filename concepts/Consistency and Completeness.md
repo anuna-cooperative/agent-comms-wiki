@@ -5,3 +5,5 @@ Two classical axiomatic-method properties of a deductive system: consistency (no
 ## In this vault
 - [[Assigning Meanings to Programs]]
 - [[Hoare Logic]]
+- [[Über formal unentscheidbare Sätze der Principia Mathematica und verwandter Systeme I]] — Gödel 1931, the incompleteness theorems.
+- [[Extensions of Some Theorems of Gödel and Church]] — Rosser 1936, strengthens Gödel's result to assume only simple consistency.

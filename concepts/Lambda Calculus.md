@@ -4,3 +4,4 @@ A formal system introduced by Church that expresses computation via function abs
 
 ## In this vault
 - [[Security Kernel Lambda Calculus]]
+- [[An Unsolvable Problem of Elementary Number Theory]] — Church 1936, the λ-calculus applied to the Entscheidungsproblem.

@@ -35,6 +35,8 @@ Patterson's prescription for Ethereum Classic: standardise on KEVM (an executabl
 - [[PKI Layer Cake - Kaminsky Patterson Sassaman]] — Patterson's earlier demonstration that grammatical discrepancies between implementations are exploitable (SSL CA forgery); same mechanism, different domain.
 - [[A Language-Based Approach To Prevent DDoS]] — language-theoretic remediation as a general pattern.
 - [[Operational Semantics]], [[Denotational Semantics]], [[EVM]], [[Solidity]], [[TheDAO]], [[Reentrancy]] — background concepts.
+- [[An Unsolvable Problem of Elementary Number Theory]] — Church 1936; LangSec's undecidability heritage behind the Rice's-theorem argument against gas-as-safety.
+- [[Über formal unentscheidbare Sätze der Principia Mathematica und verwandter Systeme I]] — Gödel 1931; the incompleteness ancestor of the semantic-limit arguments.
 
 ## Conceptual Contribution
 - **Claim:** Ethereum's gas mechanism is mis-sold as a way around Turing-completeness-induced safety problems. It bounds resources (a non-semantic, decidable property) but cannot certify behavioural safety (a semantic property that Rice's theorem puts out of reach for arbitrary programs). The resulting system is an adversarial game with built-in incentives against runtime defensiveness, layered on an ad-hoc, non-executable semantics whose test suite doesn't exercise the opcodes most implicated in real losses.

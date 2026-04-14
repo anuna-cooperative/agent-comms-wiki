@@ -20,6 +20,9 @@ The paper enumerates the kinds of facts one would like to derive — procedure e
 - [[Foundations of Logic Programming - Lloyd]] — shares the model-theoretic semantics-for-programs stance.
 - [[First Order Theories of Individual Concepts and Propositions]]
 - [[Knowledge Representation]]
+- [[An Unsolvable Problem of Elementary Number Theory]] — Church 1936, the undecidability bound McCarthy invokes as the horizon of a "practically adequate" theory.
+- [[General Recursive Functions of Natural Numbers]] — Kleene 1936, the recursive-function substrate underpinning McCarthy's formalism.
+- [[Recursively Enumerable Sets of Positive Integers and Their Decision Problems]] — Post 1944, the unsolvability theory framing termination and decidability limits.
 
 ## Conceptual Contribution
 - **Claim:** Computation admits a mathematical science in the physics sense: basic assumptions from which properties of procedures, programs, and computers can be deduced, with program-correctness proofs replacing debugging.

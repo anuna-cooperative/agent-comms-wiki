@@ -38,6 +38,8 @@ Lisp is simultaneously an AI implementation vehicle and a theory of computation 
 - [[Lisp]]
 - [[Knowledge Representation]]
 - [[Common Sense Reasoning]]
+- [[An Unsolvable Problem of Elementary Number Theory]] — Church 1936, the λ-calculus whose notation McCarthy adapts for anonymous functions.
+- [[General Recursive Functions of Natural Numbers]] — Kleene 1936, the partial-recursive-function framing Lisp realises over S-expressions.
 
 ## Conceptual Contribution
 - **Claim:** Partial recursive functions over symbolic expressions can be defined with five primitive operators (`atom`, `eq`, `car`, `cdr`, `cons`) plus conditional expressions and recursion, yielding a language in which programs are themselves symbolic expressions and a single universal function `apply` serves as both a universal Turing machine and a working interpreter — giving a uniform substrate for AI, programming, and the theory of computation.

@@ -6,3 +6,4 @@ The classical logic of quantifiers over individuals, predicates and functions, w
 - [[Foundations of Logic Programming - Lloyd]]
 - [[Horn Clauses]]
 - [[Description Logics]]
+- [[An Unsolvable Problem of Elementary Number Theory]] — Church 1936, undecidability of first-order logic (the Entscheidungsproblem).

@@ -21,6 +21,9 @@ Through examples (X.509 ASN.1 parsing, SQL injection, network-stack fingerprinti
 - [[Protocol Documents]]
 - [[Agent Communication Languages]]
 - [[Multi-Agent Systems]]
+- [[An Unsolvable Problem of Elementary Number Theory]] — Church 1936, the undecidability result the title invokes.
+- [[Recursively Enumerable Sets of Positive Integers and Their Decision Problems]] — Post 1944, decision-problem framing behind the recognizer view.
+- [[Über formal unentscheidbare Sätze der Principia Mathematica und verwandter Systeme I]] — Gödel 1931, the incompleteness ancestor of the LangSec impossibility argument.
 
 ## Conceptual Contribution
 - **Claim:** Much network-stack insecurity is a consequence of treating input validation as an ad-hoc engineering task rather than as a formal recognition problem; if the input language is too powerful, safe validation is undecidable and exploitable "weird machines" are inevitable.
