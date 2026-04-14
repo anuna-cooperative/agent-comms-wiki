@@ -97,6 +97,7 @@ See [[README]] for detailed conventions.
 - [[Speech Acts - An Essay in the Philosophy of Language]] — Searle 1969
 - [[Minds Brains and Science]] — Searle 1984
 - [[Studies in the Way of Words]] — Grice 1989
+- [[Epistemological Fault Lines Between Human and Artificial Intelligence]] — Quattrociocchi, Capraro & Perc 2025 (seven fault lines; Epistemia)
 - [[What is it to Understand a Directive Speech Act]] — Dorschel 1989 (citation-only, paywalled)
 - [[A Proof Method for Cyclic Programs]] — Francez & Pnueli 1978 (citation-only, paywalled)
 - [[An Application of a Method for Analysis of Cyclic Programs]] — Francez 1978 (citation-only, paywalled)
