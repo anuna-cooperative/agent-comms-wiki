@@ -5,7 +5,7 @@
 ## Summary
 The authors propose a common ontology that bridges two dominant semantic traditions for Agent Communication Langua mental-attitude-based semantics (FIPA-ACL) and social-commitment-based semantics (Singh, Colombetti). The unifying device is the *role*: each agent plays role instances in dialogue sessions, and both beliefs/intentions and commitments are attributed to role instances rather than to private mental states, sidestepping the unverifiability problem.
 
-They develop Role-SL, a BDI logic extended with roles and dialogue sessions, then show translation schemes from FIPA speech acts and from action/propositional commitment semantics into this role-based ontology. The framework accommodates mixed dialogues (e.g., persuasion intertwined with negotiation) that neither tradition handles cleanly alone.
+They develop Role-SL, a BDI logic extended with roles and dialogue sessions, and show translation schemes from FIPA speech acts and from action/propositional commitment semantics into this role-based ontology. The framework accommodates mixed dialogues (e.g., persuasion intertwined with negotiation) that neither tradition handles cleanly alone.
 
 ## Key Ideas
 - Roles as first-class carriers of public mental attitudes.
