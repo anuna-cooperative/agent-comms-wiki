@@ -4,7 +4,30 @@
 set -e
 cd "$(dirname "$0")"
 
+# zetl has no exclude flag and walks dotdirs like .claude/, leaking their
+# children (e.g. skills/hence) into the sidebar nav under clean-looking slugs
+# that the post-build scrubber then misses. Stash .claude during the build
+# and restore it after, even on failure.
+STASH=$(mktemp -d)
+trap '[ -d "$STASH/.claude" ] && mv "$STASH/.claude" ./.claude; rmdir "$STASH" 2>/dev/null || true' EXIT
+[ -d .claude ] && mv .claude "$STASH/"
+
 zetl build
+
+# 0. zetl has no exclude flag and indexes dotdirs (.claude, .zetl, …). Strip
+#    them from the output, and scrub any sidebar links that point into them.
+find dist -maxdepth 1 -type d -name '.*' ! -name '.' ! -name '..' -exec rm -rf {} +
+python3 - <<'PYEOF'
+import re, pathlib
+dot_link = re.compile(r'<li>\s*<a [^>]*href="[^"]*\.[A-Za-z0-9_-]+/[^"]*"[^>]*>.*?</li>\s*', re.DOTALL)
+dot_details = re.compile(r'<details[^>]*>\s*<summary>\.[A-Za-z0-9_-]+</summary>.*?</details>\s*', re.DOTALL)
+for p in pathlib.Path('dist').rglob('*.html'):
+    h = p.read_text()
+    new = dot_details.sub('', h)
+    new = dot_link.sub('', new)
+    if new != h:
+        p.write_text(new)
+PYEOF
 
 # 1. Make index.md the homepage (zetl reserves / for the auto-listing).
 mkdir -p public
