@@ -5,4 +5,3 @@ The boundary across which a cognitive or living system distinguishes self from n
 ## In this vault
 - [[Computational Boundary of a Self]]
 - [[Cognitive Light Cone]]
-a
