@@ -1,6 +1,6 @@
 # Conceptual Map
 
-A guided conceptual tour through this vault. Where [[index]] lists the papers, this page lists the **ideas** and shows how they interlock. Every paper note now also carries a `## Conceptual Contribution` section (claim / mechanism / concepts / stance / relates-to).
+A guided conceptual tour through the vault. Where [[index]] lists the papers, this page lists the **ideas** and shows how they interlock. Every paper note now also carries a `## Conceptual Contribution` section (claim / mechanism / concepts / stance / relates-to).
 
 ---
 
