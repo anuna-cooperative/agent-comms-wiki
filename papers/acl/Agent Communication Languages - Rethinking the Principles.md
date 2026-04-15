@@ -7,8 +7,8 @@ Singh argues that mainstream ACLs like KQML and FIPA/Arcol are built on an unten
 
 The paper maps the design space of ACLs along phissspective (private/public), type of meaning (personal/conventional), basis (semantic/pragmatic), context (fixed/flexible), coverage (of communicative acts), and construction autonomy (design/execution). It motivates "societies" of agents with published protocols, where compliance becomes testable and dialects can usefully coexist. The move from mental to social semantics underpins later work on commitment-based protocols.
 
-## Key Ideass
-- Mentalistic ACL semantics is non-verifiable => poor basis for standards.
+## Key Ideas
+- Mentalistic ACL semantics is non-verifiables => poor basis for standards.
 - Social agency: commitments, roles, conventions as public meaning.
 - Design/execution autonomy orthogonal and both important.
 - Dialects are OK; idiolects are not.
