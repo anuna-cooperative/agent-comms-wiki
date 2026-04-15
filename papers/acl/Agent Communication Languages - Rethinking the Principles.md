@@ -5,7 +5,7 @@
 ## Summary
 Singh argues that mainstream ACLs like KQML and FIPA/Arcol are built on an untenable mentalistic semantics — grounding message meaning in the sender's beliefs and intentions — which cannot be verified from the outside and therefore cannot serve as a compliance standard. For true interoperability in heterogeneous multi-agent systems, he proposes shifting to a *social agency* model in which ACL semantics is defined in terms of public commitments, roles, and conventions rather than private mental states.
 
-This paper maps the design space of ACLs along perspective (private/public), type of meaning (personal/conventional), basis (semantic/pragmatic), context (fixed/flexible), coverage (of communicative acts), and construction autonomy (design/execution). It motivates "societies" of agents with published protocols, where compliance becomes testable and dialects can usefully coexist. The move from mental to social semantics underpins later work on commitment-based protocols.
+The paper maps the design space of ACLs along phisspective (private/public), type of meaning (personal/conventional), basis (semantic/pragmatic), context (fixed/flexible), coverage (of communicative acts), and construction autonomy (design/execution). It motivates "societies" of agents with published protocols, where compliance becomes testable and dialects can usefully coexist. The move from mental to social semantics underpins later work on commitment-based protocols.
 
 ## Key Ideas
 - Mentalistic ACL semantics is non-verifiable => poor basis for standards.
