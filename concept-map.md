@@ -61,12 +61,12 @@ A recurring architectural instinct runs from 1960s language design through to mo
 - **Population-scale design.** [[Levels Of Social Orchestration]] reframes the scaling question: leverage comes from protocol design, not bigger models — shift from **LLM** to **[[Large Population Models]]**. [[Ripple Effect Protocol]] is a concrete instance: share *counterfactual sensitivities* across agents, not just decisions.
 - **Organisational substrate.** [[How Do Committees Invent]] (Conway's Law) is the ur-text: any designed system mirrors the communication structure of its designing organisation. This is the sociological shadow over every coordination result in the vault.
 
-## 7. Self-* Systems and Biological Metaphors
+## 7. Self- Systems and Biological Metaphors
 
 A lineage that uses adaptation, awareness, and biology as organising ideas.
 
 - **Self-reproduction.** [[Theory of Self-Reproducing Automata]] (von Neumann) gives the complication-threshold result: beyond a critical complexity automata can self-reproduce and evolve *iff* they tolerate local error.
-- **Self-adaptive ensembles.** [[Self-Adaptation Self-Expression Self-Awareness ASCENS]] (the ASCENS project) factors self-* into three complementary capabilities along individual/collective × behaviour/structure axes. [[A Composite Self-organisation Mechanism in an Agent Network]] is an instance (DSmT trust fusion + multi-agent Q-learning on weighted relations).
+- **Self-adaptive ensembles.** [[Self-Adaptation Self-Expression Self-Awareness ASCENS]] (the ASCENS project) factors self- into three complementary capabilities along individual/collective × behaviour/structure axes. [[A Composite Self-organisation Mechanism in an Agent Network]] is an instance (DSmT trust fusion + multi-agent Q-learning on weighted relations).
 - **Biological substrate.** [[Myconet Fungi Inspired Superpeer Overlay]] (fungal mycelium / stigmergy) produces resilient superpeer topologies. [[Computational Boundary of a Self]] (Levin) generalises selfhood to a **cognitive light cone** — any system with a goal-directed computational surface is a self at some scale.
 
 ## 8. Gossip and Probabilistic Coordination
