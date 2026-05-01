@@ -168,6 +168,7 @@ See [[README]] for detailed conventions.
 - [[A Scalable Communication Protocol for Networks of LLMs]]
 - [[Survey Of AI Agent Protocols]]
 - [[Survey Of Agent Interoperability Protocols]]
+- [[LLM Agent Communication Protocol Requires Urgent Standardization]] — Li, Liu & Yuen 2025 ([[LACP]], [[Narrow Waist Principle]])
 - [[Why AI Agents Communicate In Human Language]]
 - [[Why Do Multi-Agent LLM Systems Fail]]
 - [[Ripple Effect Protocol]]

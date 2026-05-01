@@ -5,6 +5,7 @@
 Discussed in:
 - [[Survey Of AI Agent Protocols]]
 - [[Survey Of Agent Interoperability Protocols]]
+- [[LLM Agent Communication Protocol Requires Urgent Standardization]]
 
 ## Related
 - [[LLM Agents]]

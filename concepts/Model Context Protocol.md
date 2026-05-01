@@ -7,6 +7,7 @@ Discussed in:
 - [[Survey Of Agent Interoperability Protocols]]
 - [[Principled Design Of The Modern Web Architecture]]
 - [[MalTool Malicious Tool Attacks]]
+- [[LLM Agent Communication Protocol Requires Urgent Standardization]]
 
 ## Related
 - [[LLM Agents]]
