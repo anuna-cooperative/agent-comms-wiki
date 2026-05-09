@@ -4,6 +4,10 @@ The mechanical translation from a global choreographic program — which describ
 
 ## In this vault
 - [[Choreographic Programming]]
+- [[Structured Communication-Centred Programming for Web Services]] — origin of the *Theorem of End-Point Projection*
+- [[Multiparty Asynchronous Session Types]] — multiparty projection `G ↾ p`
+- [[Introduction to Choreographies]]
+- [[Session Types]]
 - [[Pact - A Choreographic Language for Agentic Ecosystems]]
 - [[Commitment Machines]]
 - [[Algebraic Effects]]

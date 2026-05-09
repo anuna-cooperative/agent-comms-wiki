@@ -4,6 +4,11 @@ A programming paradigm in which a single global program describes the joint beha
 
 ## In this vault
 - [[Endpoint Projection]]
+- [[Structured Communication-Centred Programming for Web Services]] — Carbone, Honda & Yoshida ESOP 2007 / TOPLAS 2012, the foundational paper
+- [[Multiparty Asynchronous Session Types]] — Honda, Yoshida & Carbone POPL 2008, multiparty generalisation
+- [[Introduction to Choreographies]] — Montesi 2023 (Cambridge), the canonical textbook
+- [[On the Monitorability of Session Types]] — Bartolo Burlò, Francalanza & Scalas ECOOP 2021, runtime monitoring
+- [[Session Types]]
 - [[Pact - A Choreographic Language for Agentic Ecosystems]]
 - [[Commitment-Based Protocol]]
 - [[Commitment Machines]]
