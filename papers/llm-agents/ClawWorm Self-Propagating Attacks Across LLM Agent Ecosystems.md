@@ -32,6 +32,7 @@ The root cause is identified as the *flat context trust model*: the LLM cannot d
 - [[MalTool Malicious Tool Attacks]] — the tool/skill-supply-chain attack surface
 - [[SoK The Attack Surface of Agentic AI]] — systematic context
 - [[Inter-Agent Trust Models - A Comparative Study]] — why flat trust is brittle
+- [[CBCL - Safe Self-Extending Agent Communication]] — structural defence: `lang`-scoped dialect provenance plus R1–R3 verification address the flat-context-trust root cause.
 
 ## Conceptual Contribution
 - **Claim:** Production-scale autonomous LLM-agent ecosystems are vulnerable to single-message, self-replicating worms whose root cause is architectural (flat context trust, unconditional config loading, unreviewed skill supply chains), not model-specific.

@@ -24,6 +24,7 @@ Beyond the ecosystem survey, the paper contributes a **systematic threat taxonom
 - [[AI Agents Under Threat]]
 - [[MalTool Malicious Tool Attacks]]
 - [[Agent Security]]
+- [[CBCL - Safe Self-Extending Agent Communication]] — structural alternative: a DCFL-bounded ACL with formally-checked self-extension, addressing the unbounded-input-language problem that underlies MCP's threat surface.
 
 ## Conceptual Contribution
 - **Claim:** MCP represents a qualitative shift from hardcoded, per-application tool bindings to a composable, discoverable ecosystem of AI-native web services — but its rapid adoption has outrun academic analysis of its architecture, lifecycle, and security posture.

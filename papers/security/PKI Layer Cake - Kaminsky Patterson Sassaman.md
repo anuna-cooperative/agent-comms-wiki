@@ -17,6 +17,8 @@ The paper is largely a case study in how ambiguity at the interface between comp
 ## Connections
 - [[Making Smart Contracts Smarter]]
 - [[Agent Communication Languages]]
+- [[Parser Differential Attack]]
+- [[CBCL - Safe Self-Extending Agent Communication]] — applies the parser-differential lesson at the message-layer of agent communication; DCFL grammars are class-level unambiguous.
 
 ## Conceptual Contribution
 - **Claim:** The global X.509 PKI is vulnerable not only because of weak hashes (MD2/MD5) but because layered, ambiguously-specified parsers (ASN.1 BER, PKCS#10, Subject Name handling) disagree about what a certificate says — an *inter-layer semantic gap* exploitable by attackers.

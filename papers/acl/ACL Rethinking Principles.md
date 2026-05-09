@@ -20,6 +20,7 @@ The paper maps the ACL design space along two critical dimensions — *meaning* 
 - [[Speech Act Theory]]
 - [[Agent Communication Languages]]
 - [[Multi-Agent Systems]]
+- [[CBCL - Safe Self-Extending Agent Communication]] — O'Connor 2026: contemporary realisation of Singh's social-agency programme (dialect installation as public commitment) in a Lean-verified LangSec-grounded ACL.
 
 ## Conceptual Contribution
 - **Claim:** Agent Communication Language semantics must abandon mental agency (beliefs/intentions) and be grounded in a public, social perspective (commitments, roles, societies) in order to be testable and support heterogeneous interoperation.

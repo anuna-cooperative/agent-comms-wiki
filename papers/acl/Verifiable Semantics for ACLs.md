@@ -25,6 +25,7 @@ He shows that KQML and FIPA-97 ACL, which define the "sincerity condition" for a
 - [[Mental State]]
 - [[Mentalistic Semantics]]
 - [[BDI]]
+- [[CBCL - Safe Self-Extending Agent Communication]] — O'Connor 2026: a verifiable ACL grounded in DCFL grammars and Lean-checked safety invariants, answering Wooldridge's challenge in the LLM-agent era.
 
 ## Conceptual Contribution
 - **Claim:** An ACL standard is only useful if one can check whether an implementation respects it; existing ACLs (KQML, FIPA-97) whose semantics are given in multi-modal BDI logics are not practically verifiable, so ACL semantics should instead be grounded in program states.

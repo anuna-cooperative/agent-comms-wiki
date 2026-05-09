@@ -14,3 +14,4 @@
 - [[Ontolingua Portable Ontology Specifications]] — companion Knowledge Sharing Effort project
 - [[A Common Ontology Of ACLs]]
 - [[Verifiable Semantics for ACLs]]
+- [[CBCL - Safe Self-Extending Agent Communication]] — modern DCFL-bounded ACL with the same performative/extensibility ambitions but formal safety guarantees

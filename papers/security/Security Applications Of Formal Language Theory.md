@@ -26,6 +26,7 @@ The core prescription: keep input languages at the lowest Chomsky level that suf
 - [[Parser Differential]]
 - [[Chomsky Hierarchy]]
 - [[Distributed Security]]
+- [[CBCL - Safe Self-Extending Agent Communication]] — first ACL designed from these LangSec principles; constrains all messages (including runtime extensions) to DCFL.
 
 ## Conceptual Contribution
 - **Claim:** Insecurity at protocol and component boundaries is a language-theoretic phenomenon: when input languages exceed what recognizers can safely decide, secure composition is impossible, and the resulting vulnerabilities are not bugs but inevitable consequences of design choices.

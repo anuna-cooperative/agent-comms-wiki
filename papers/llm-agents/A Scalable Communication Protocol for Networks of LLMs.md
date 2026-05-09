@@ -23,6 +23,7 @@ Agora's trick is to use different formats for different traffic volumes: rare/no
 - [[Multi-Agent Cooperation and the Emergence of Natural Language]]
 - [[Agents Framework - Zhou et al]]
 - [[Ontologies]]
+- [[CBCL - Safe Self-Extending Agent Communication]] — same agent-to-agent runtime-extensible protocol thesis but LangSec-bounded: dialect definitions are first-class messages with machine-checked safety invariants, content-addressed for identity.
 
 ## Conceptual Contribution
 - **Claim:** No single communication format can simultaneously satisfy versatility, efficiency, and portability (the *Agent Communication Trilemma*) at scale; a *meta-protocol* that dynamically mixes natural language, structured data, and LLM-written routines can sidestep the trilemma.

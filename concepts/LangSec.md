@@ -8,3 +8,8 @@ Research programme treating input-handling bugs as recognition-theoretic failure
 - [[PKI Layer Cake - Kaminsky Patterson Sassaman]]
 - [[Parser Differential]]
 - [[Distributed Security]]
+- [[Security Applications Of Formal Language Theory]]
+- [[Exploit Programming - From Buffer Overflows To Weird Machines]]
+- [[CBCL - Safe Self-Extending Agent Communication]] — first ACL designed from LangSec principles
+- [[Deterministic Context-Free Language]]
+- [[Parser Differential Attack]]

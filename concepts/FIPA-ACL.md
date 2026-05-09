@@ -15,3 +15,4 @@ The **Foundation for Intelligent Physical Agents** Agent Communication Language 
 - [[Agent Communication Languages]]
 - [[Speech Act Theory]]
 - [[Multi-Agent Systems]]
+- [[CBCL - Safe Self-Extending Agent Communication]] — DCFL-bounded ACL with public-commitment semantics, addressing the unverifiability of FIPA-ACL's mentalistic SL semantics

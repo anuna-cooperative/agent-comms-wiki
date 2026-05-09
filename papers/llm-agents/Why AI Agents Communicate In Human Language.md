@@ -19,6 +19,7 @@ They formalize this as a semantic misalignment problem: cascading encode/decode 
 - [[Multi-Agent Systems]]
 - [[LLM Agents]]
 - [[Ripple Effect Protocol]]
+- [[CBCL - Safe Self-Extending Agent Communication]] — structural alternative to free-form NL: a DCFL-bounded ACL whose grammar makes coordination semantics explicit and parser-equivalent across implementations.
 
 ## Conceptual Contribution
 - **Claim:** Natural language is an accidental, lossy, non-differentiable channel for inter-[[LLM Agents]] coordination; multi-agent AI needs a purpose-built representational substrate.

@@ -27,7 +27,8 @@ A **concept hub** for agent communication languages (ACLs): languages whose spee
 - [[Semantic Description For Agent Design Patterns]]
 
 ## Domain instances
-- [[Common Business Communication Language]]
+- [[Common Business Communication Language]] — McCarthy 1975/1982
+- [[CBCL - Safe Self-Extending Agent Communication]] — O'Connor 2026 (LangSec '26): contemporary Lean-verified DCFL-bounded ACL realising McCarthy's CBCL vision
 
 ## See also
 - [[index]]

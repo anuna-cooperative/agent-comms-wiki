@@ -11,3 +11,4 @@ Approach that grounds ACL message meaning in public social commitments rather th
 - [[Mentalistic Semantics]]
 - [[Flexible Protocol Specification and Execution]]
 - [[A Commitment-Based Approach to Agent Communication]]
+- [[CBCL - Safe Self-Extending Agent Communication]] — modern LangSec-grounded ACL inheriting Singh's social-agency programme; dialect installation as public commitment

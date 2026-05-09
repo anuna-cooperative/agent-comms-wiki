@@ -6,11 +6,23 @@ cd "$(dirname "$0")"
 
 # zetl has no exclude flag and walks dotdirs like .claude/, leaking their
 # children (e.g. skills/hence) into the sidebar nav under clean-looking slugs
-# that the post-build scrubber then misses. Stash .claude during the build
-# and restore it after, even on failure.
+# that the post-build scrubber then misses. Also stash ./deploy — it's a
+# previous build's wrapped output that would otherwise be re-indexed as
+# phantom pages (deploy/papers/…). Restore both after, even on failure.
 STASH=$(mktemp -d)
-trap '[ -d "$STASH/.claude" ] && mv "$STASH/.claude" ./.claude; rmdir "$STASH" 2>/dev/null || true' EXIT
+# .claude is user state — always restore. deploy/ is a regenerated build
+# artifact (recreated by step 5 when PREFIX is set), so discard the stash
+# rather than restore; otherwise it would nest inside the freshly-built
+# deploy/ as deploy/deploy/... and get uploaded alongside the real tree.
+trap '[ -d "$STASH/.claude" ] && mv "$STASH/.claude" ./.claude; rm -rf "$STASH"' EXIT
 [ -d .claude ] && mv .claude "$STASH/"
+[ -d deploy ] && mv deploy "$STASH/"
+
+# Deploy-prefix mode: when set, homepage absolute links get prefixed (so
+# href="/papers/concepts/foo/" resolves under the /papers/ mount) and the
+# dist is wrapped under a matching subdir in ./deploy so static assets at
+# /${PREFIX}/_static/* are real files on the server. Unset = deploy at root.
+PREFIX="${DEPLOY_PREFIX:-}"
 
 zetl build
 
@@ -33,18 +45,43 @@ PYEOF
 mkdir -p public
 cp dist/index/index.html public/index.html
 
-# Rewrite relative links (../foo/) -> absolute (/foo/) and strip /index.html
-# so that both `zetl serve` and Cloudflare Pages resolve them.
-sed -i '' 's|href="\.\./|href="/|g; s|href="\.\.&#x2f;|href="/|g; s|src="\.\./|src="/|g; s|src="\.\.&#x2f;|src="/|g; s|/index\.html"|/"|g' public/index.html
+# Rewrite relative links (../foo/) -> absolute (${PREFIX}/foo/) and strip /index.html
+# so that both `zetl serve` and Cloudflare Pages resolve them. PREFIX is empty
+# for a root-mounted site and e.g. "/papers" for a sub-path deploy.
+# Also rewrites the inline `var ROOT='../'` / `var ROOT = "../"` declarations
+# that zetl emits for the search-bar navigator and the lazy graph-widget
+# vendor loader — those concatenate ROOT + slug in JS, so attribute-only
+# seds miss them and the widget 404s on graphology.min.js under a prefix.
+sed -i '' "s|href=\"\\.\\./|href=\"${PREFIX}/|g; s|href=\"\\.\\.&#x2f;|href=\"${PREFIX}/|g; s|src=\"\\.\\./|src=\"${PREFIX}/|g; s|src=\"\\.\\.&#x2f;|src=\"${PREFIX}/|g; s|var ROOT='\\.\\./'|var ROOT='${PREFIX}/'|g; s|var ROOT = \"\\.\\./\"|var ROOT = \"${PREFIX}/\"|g; s|/index\\.html\"|/\"|g" public/index.html
 
 cp public/index.html dist/index.html
+
+# 1b. _graph.html sits at the top of dist but emits every relative URL as
+#     `../...` (zetl 0.5 treats the graph page as if it were one level deep).
+#     On a root deploy that collapses harmlessly; under a prefix wrap it
+#     escapes the mount and 404s — including the graph-index.json fetch, so
+#     the graph can't even draw. Rewrite `../` to `${PREFIX}/` for both
+#     href/src attrs and the inline window.__zetlGraphConfig strings that
+#     graph-boot.js reads to build click-through URLs.
+if [ -f dist/_graph.html ]; then
+  sed -i '' \
+    -e "s|href=\"\\.\\./|href=\"${PREFIX}/|g" \
+    -e "s|href=\"\\.\\.&#x2f;|href=\"${PREFIX}/|g" \
+    -e "s|src=\"\\.\\./|src=\"${PREFIX}/|g" \
+    -e "s|src=\"\\.\\.&#x2f;|src=\"${PREFIX}/|g" \
+    -e "s|root: \"\\.\\./\"|root: \"${PREFIX}/\"|" \
+    -e "s|graphUrl: \"\\.\\./|graphUrl: \"${PREFIX}/|" \
+    -e "s|var ROOT='\\.\\./'|var ROOT='${PREFIX}/'|g" \
+    -e "s|var ROOT = \"\\.\\./\"|var ROOT = \"${PREFIX}/\"|g" \
+    dist/_graph.html
+fi
 
 # 2. Patch branding across all built pages.
 #    The directory is named `vault`, so zetl uses it as the site title/nav label.
 #    Replace the navbar label and <title> suffix site-wide.
 find dist public -name '*.html' -type f -print0 | xargs -0 sed -i '' \
-  -e 's|<a href="&#x2f;">vault</a>|<a href="/">Agent Communications</a>|g' \
-  -e 's|<a href="/">vault</a>|<a href="/">Agent Communications</a>|g' \
+  -e "s|<a href=\"&#x2f;\">vault</a>|<a href=\"${PREFIX}/\">Agent Communications</a>|g" \
+  -e "s|<a href=\"/\">vault</a>|<a href=\"${PREFIX}/\">Agent Communications</a>|g" \
   -e 's| — zetl</title>| — Agent Communications</title>|g' \
   -e 's|<title>Vault — zetl</title>|<title>Agent Communications</title>|g' \
   -e 's|<h1 class="text-3xl font-bold mb-6">vault</h1>|<h1 class="text-3xl font-bold mb-6">Agent Communications</h1>|g'
@@ -89,3 +126,14 @@ if 'mermaid.esm.min.mjs' not in h:
 done < <(find dist public -name '*.html' -type f -print0)
 
 echo "build + branding patch + stats injection complete ($pages pages, $links links, $dead dead, $orphans orphans); mermaid injected into $mermaid_count pages"
+
+# 5. When DEPLOY_PREFIX is set, wrap dist into a fresh ./deploy tree so
+#    /${PREFIX}/_static/*, /${PREFIX}/pages.json, /${PREFIX}/concepts/* etc.
+#    all resolve to real files on Cloudflare Pages. Deploy ./deploy, not ./dist.
+if [ -n "$PREFIX" ]; then
+  CLEAN="${PREFIX#/}"
+  rm -rf deploy
+  mkdir -p "deploy/${CLEAN}"
+  cp -R dist/. "deploy/${CLEAN}/"
+  echo "wrapped dist → deploy/${CLEAN}/ — run 'wrangler pages deploy deploy' to publish"
+fi

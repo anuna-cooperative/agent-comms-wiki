@@ -27,6 +27,7 @@ They propose **LACP**, a three-layer protocol — *Semantic* (PLAN/ACT/OBSERVE m
 - [[Agent Communication Languages]]
 - [[Principled Design Of The Modern Web Architecture]]
 - [[LLM Agents]]
+- [[CBCL - Safe Self-Extending Agent Communication]] — complementary call: where LACP standardises a narrow-waist protocol stack with transactional integrity, CBCL standardises the *message language* with formally-checked LangSec safety.
 
 ## Conceptual Contribution
 - **Claim:** The fragmented landscape of LLM-agent communication protocols is structurally analogous to pre-TCP/IP networking and demands an immediate, principled standardisation effort; a telecom-style layered protocol with mandatory cryptographic and transactional guarantees is not merely beneficial but necessary for safety-critical multi-agent deployments (e.g. NextG/6G).

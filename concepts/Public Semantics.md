@@ -7,3 +7,4 @@ ACL semantics grounded in externally observable facts (commitments, roles, insti
 - [[Agent Communication And Institutional Reality]]
 - [[Commitment-based Semantics]]
 - [[Mentalistic Semantics]]
+- [[CBCL - Safe Self-Extending Agent Communication]] — dialect installation as a public commitment
