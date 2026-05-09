@@ -23,6 +23,7 @@ He proposes messages as nested parenthesized lists (a Lisp-like syntax McCarthy 
 - [[First Order Theories of Individual Concepts and Propositions]] — supplies the sense/denotation machinery CBCL tacitly relies on for descriptions.
 - [[Circumscription - A Form of Nonmonotonic Reasoning]] — the non-monotonic reading of ADJECTIVE and partial-understanding fallback rests on circumscription-style defaults.
 - [[Ascribing Mental Qualities to Machines]]
+- [[CBCL - Safe Self-Extending Agent Communication]] — O'Connor 2026 (LangSec '26): Lean-verified contemporary realisation of this proposal.
 
 ## Conceptual Contribution
 - **Claim:** Organisations should exchange business messages in a common, open-ended language without pre-arranged bilateral formats; partial understanding must degrade gracefully to human-readable fallback.

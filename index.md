@@ -152,6 +152,7 @@ See [[README]] for detailed conventions.
 - [[Commitment Machines - Yolum and Singh]] — Yolum & Singh 2002 (ATAL-01; CM→FSM compilation, declarative meaning for protocol states)
 - [[Flexible Protocol Specification and Execution]] — Yolum & Singh 2002 (commitment-based protocols, [[Event Calculus]])
 - [[A Commitment-Based Approach to Agent Communication]] — Fornara & Colombetti 2004 (operational commitment semantics, [[Precommitment]])
+- [[CBCL - Safe Self-Extending Agent Communication]] — O'Connor 2026 (LangSec '26; Lean 4-verified self-extending ACL constrained to [[Deterministic Context-Free Language|DCFL]]; realises McCarthy's [[Common Business Communication Language]])
 
 ## Multi-Agent Systems and Agent Theory
 
