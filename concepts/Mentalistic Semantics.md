@@ -8,3 +8,4 @@ ACL semantics in which each message commits the sender's (and sometimes receiver
 - [[ACL Rethinking Principles]]
 - [[Verifiable Semantics for ACLs]]
 - [[Commitment-based Semantics]]
+- [[Pact - A Choreographic Language for Agentic Ecosystems]]

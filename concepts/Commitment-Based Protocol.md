@@ -6,3 +6,7 @@ An interaction protocol specified not by a fixed message sequence but by the soc
 - [[An Interaction-oriented Agent Framework for Open Environments]]
 - [[Commitment-based Semantics]]
 - [[Interaction Protocols]]
+- [[Flexible Protocol Specification and Execution]]
+- [[A Commitment-Based Approach to Agent Communication]]
+- [[Commitment Machines]]
+- [[Event Calculus]]

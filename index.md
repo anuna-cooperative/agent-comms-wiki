@@ -149,6 +149,8 @@ See [[README]] for detailed conventions.
 - [[Agent Communication And Institutional Reality]]
 - [[Common Business Communication Language]]
 - [[Semantic Description For Agent Design Patterns]]
+- [[Flexible Protocol Specification and Execution]] — Yolum & Singh 2002 (commitment-based protocols, [[Event Calculus]])
+- [[A Commitment-Based Approach to Agent Communication]] — Fornara & Colombetti 2004 (operational commitment semantics, [[Precommitment]])
 
 ## Multi-Agent Systems and Agent Theory
 
@@ -161,6 +163,7 @@ See [[README]] for detailed conventions.
 - [[Ensuring Trustworthy and Ethical Behaviour in Intelligent Logical Agents]]
 - [[An Interaction-oriented Agent Framework for Open Environments]]
 - [[Levels Of Social Orchestration]]
+- [[Pact - A Choreographic Language for Agentic Ecosystems]] — Gopinathan et al. 2026 (CP 2026; [[Choreographic Programming]] + game theory; LLM-era revival of mentalistic semantics)
 
 ## LLM Agents & Modern AI Agents
 

@@ -9,3 +9,5 @@ Approach that grounds ACL message meaning in public social commitments rather th
 - [[A Common Ontology Of ACLs]]
 - [[Public Semantics]]
 - [[Mentalistic Semantics]]
+- [[Flexible Protocol Specification and Execution]]
+- [[A Commitment-Based Approach to Agent Communication]]

@@ -25,6 +25,8 @@ The paper opens with the now-classic "Willie the robot" vignette (uncommitted, o
 - [[Rational Action Semantics]]
 - [[Speech Act Theory]]
 - [[Intentional Stance]]
+- [[Flexible Protocol Specification and Execution]]
+- [[A Commitment-Based Approach to Agent Communication]]
 
 ## Conceptual Contribution
 - **Claim:** Intention is not a primitive mental state but a *choice with commitment* — a goal plus a meta-policy for when to drop it.
