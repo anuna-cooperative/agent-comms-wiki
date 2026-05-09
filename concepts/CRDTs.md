@@ -16,3 +16,8 @@ From the **[[CALM Theorem]]** viewpoint, CRDTs are canonical monotonic building 
 - [[Monotonic Logic]]
 - [[Coordination Avoidance]]
 - [[Confluence]]
+- [[A Comprehensive Study of Convergent and Commutative Replicated Data Types]] — Shapiro et al. 2011, the canonical reference
+- [[Logic and Lattices for Distributed Programming]] — CRDTs as a programming-language phenomenon
+- [[Strong Eventual Consistency]]
+- [[Causal Broadcast]]
+- [[Version Vector]]

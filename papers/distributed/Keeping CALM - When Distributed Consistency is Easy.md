@@ -34,6 +34,9 @@ The paper traces the theorem's implications for **[[Bloom Language]]**, **[[Deda
 - [[Extensible Distributed Coordination]]
 - [[Are Multiagent Systems Resilient to Communication Failures]]
 - [[Foundations of Logic Programming - Lloyd]]
+- [[Logic and Lattices for Distributed Programming]] — Conway et al. 2012 (BloomL; lattice-typed lifting of CALM)
+- [[Relational Transducers for Declarative Networking]] — Ameloot, Neven & Van den Bussche 2011 (the formal proof of CALM)
+- [[A Comprehensive Study of Convergent and Commutative Replicated Data Types]] — Shapiro et al. 2011 (the CRDT canonical reference)
 
 ## Conceptual Contribution
 - **Claim:** A distributed program is consistent and coordination-free iff it is expressible in monotonic logic — a tight, provable characterisation that converts "distributed consistency is hard" into a precise question about a program's logical shape.

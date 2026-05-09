@@ -42,6 +42,9 @@ See [[README]] for detailed conventions.
 ## Foundational
 
 - [[Keeping CALM - When Distributed Consistency is Easy]] — Hellerstein & Alvaro 2019 ([[CALM Theorem]])
+- [[Logic and Lattices for Distributed Programming]] — Conway, Marczak, Alvaro, Hellerstein & Maier 2012 (BloomL; lattice-typed monotonicity)
+- [[Relational Transducers for Declarative Networking]] — Ameloot, Neven & Van den Bussche 2011 (the formal CALM-theorem proof)
+- [[A Comprehensive Study of Convergent and Commutative Replicated Data Types]] — Shapiro, Preguiça, Baquero & Zawirski 2011 (CRDTs canonical reference)
 - [[Three Models for the Description of Language]] — Chomsky 1956
 - [[Ascribing Mental Qualities to Machines]] — McCarthy 1979
 - [[Elephant 2000 - A Programming Language Based on Speech Acts]] — McCarthy 1989 (PL ancestor of ACLs)
@@ -166,6 +169,7 @@ See [[README]] for detailed conventions.
 - [[An Interaction-oriented Agent Framework for Open Environments]]
 - [[Levels Of Social Orchestration]]
 - [[Pact - A Choreographic Language for Agentic Ecosystems]] — Gopinathan et al. 2026 (CP 2026; [[Choreographic Programming]] + game theory; LLM-era revival of mentalistic semantics)
+- [[On the Monitorability of Session Types]] — Bartolo Burlò, Francalanza & Scalas 2021 (ECOOP; runtime monitor synthesis for [[Session Types]])
 
 ## LLM Agents & Modern AI Agents
 

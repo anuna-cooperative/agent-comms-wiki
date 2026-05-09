@@ -10,3 +10,4 @@ A *relational transducer network* distributes data across machines of this shape
 - [[Monotonic Logic]]
 - [[Dedalus]]
 - [[Bloom Language]]
+- [[Relational Transducers for Declarative Networking]] — Ameloot, Neven & Van den Bussche 2011, the original paper
