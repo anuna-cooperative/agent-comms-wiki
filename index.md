@@ -45,7 +45,11 @@ See [[README]] for detailed conventions.
 - [[Logic and Lattices for Distributed Programming]] — Conway, Marczak, Alvaro, Hellerstein & Maier 2012 (BloomL; lattice-typed monotonicity)
 - [[Relational Transducers for Declarative Networking]] — Ameloot, Neven & Van den Bussche 2011 (the formal CALM-theorem proof)
 - [[A Comprehensive Study of Convergent and Commutative Replicated Data Types]] — Shapiro, Preguiça, Baquero & Zawirski 2011 (CRDTs canonical reference)
+- [[Concurrency Control in Groupware Systems]] — Ellis & Gibbs 1989 ([[Operational Transformation]]; foundational technique behind Google Docs)
 - [[Three Models for the Description of Language]] — Chomsky 1956
+- [[A Mathematical Theory of Communication]] — Shannon 1948 (founding paper of information theory; [[Channel Capacity]], [[Shannon Entropy]])
+- [[Classes of Recursively Enumerable Sets and Their Decision Problems]] — Rice 1953 ([[Rice's Theorem]]; semantic properties of programs are undecidable)
+- [[A Robust Layered Control System]] — Brooks 1986 ([[Subsumption Architecture]]; founding [[Behaviour-Based Robotics|behaviour-based]] paper)
 - [[Ascribing Mental Qualities to Machines]] — McCarthy 1979
 - [[Elephant 2000 - A Programming Language Based on Speech Acts]] — McCarthy 1989 (PL ancestor of ACLs)
 - [[Towards a Mathematical Science of Computation]] — McCarthy 1963
@@ -59,7 +63,12 @@ See [[README]] for detailed conventions.
 - [[Circumscription - Applications to Formalizing Common Sense Knowledge]] — McCarthy 1986 (AIJ 28)
 - [[Generality in Artificial Intelligence]] — McCarthy 1987 (Turing Award lecture)
 - [[Modeling Rational Agents within a BDI-Architecture]] — Rao & Georgeff 1991
+- [[AgentSpeak]] — Rao 1996 (operational BDI language; [[Jason (BDI runtime)|Jason]] is the dominant implementation)
+- [[Concurrent Constraint Programming]] — Saraswat 1989/1993 ([[Ask-Tell]] over a [[Constraint Store|monotonic constraint store]]; unifies CLP, concurrent LP, process synchronisation)
 - [[Two Faces of Intention]] — Bratman 1984
+- [[Shared Cooperative Activity]] — Bratman 1992 ([[Meshing Subplans]]; three conditions for cooperation)
+- [[SharedPlans]] — Grosz & Kraus 1996 (canonical computational framework for collaborative joint action; [[Mutual Belief]])
+- [[We-intentions]] — Tuomela & Miller 1988 (irreducibility thesis: [[We-Intention|we-intentions]] are not reducible to individual I-intentions)
 - [[True Believers - The Intentional Strategy and Why It Works]] — Dennett 1981
 - [[A Taxonomy of Illocutionary Acts]] — Searle 1975
 - [[Logic and Conversation]] — Grice 1975
@@ -73,6 +82,17 @@ See [[README]] for detailed conventions.
 - [[End-to-End Arguments in System Design]] — Saltzer, Reed & Clark 1984
 - [[A Universal Modular Actor Formalism for Artificial Intelligence]] — Hewitt, Bishop & Steiger 1973
 - [[Communicating Sequential Processes]] — Hoare 1978
+- [[A Calculus of Communicating Systems]] — Milner 1980 ([[CCS]]; algebraic concurrency, [[Bisimulation]])
+- [[A Calculus of Mobile Processes]] — Milner, Parrow & Walker 1992 (the [[Pi-Calculus]]; name-passing concurrency)
+- [[Mobile Ambients]] — Cardelli & Gordon 1998 (locations as primary mobile entity; [[Ambient Calculus]])
+- [[Linear Logic]] — Girard 1987 (resource-aware logic; [[Curry-Howard Correspondence]] for [[Session Types]])
+- [[On the Acceptability of Arguments]] — Dung 1995 (abstract [[Argumentation Framework]]; nonmonotonic-reasoning unifier)
+- [[Commitment in Dialogue]] — Walton & Krabbe 1995 ([[Dialogue Typology]]: persuasion / negotiation / deliberation / inquiry / information-seeking / eristic)
+- [[Fallacies - Hamblin]] — Hamblin 1970 (founding text of formal dialectic; [[Commitment Store]])
+- [[Convention - Lewis]] — Lewis 1969 (game-theoretic foundation of [[Convention (Lewis)|convention]]; [[Common Knowledge (Convention)]])
+- [[The Strategy of Conflict]] — Schelling 1960 ([[Focal Point]] / [[Schelling Point]] coordination; credible commitment)
+- [[The Evolution of Cooperation]] — Axelrod 1984 ([[Iterated Prisoners Dilemma]]; [[Tit-for-Tat]]; [[Reciprocity]])
+- [[Counterspeculation Auctions and Competitive Sealed Tenders]] — Vickrey 1961 ([[Vickrey Auction]] / [[Second-Price Auction]]; [[Mechanism Design]] foundation)
 - [[Algorithm = Logic + Control]] — Kowalski 1979
 - [[Can Programming Be Liberated from the von Neumann Style]] — Backus 1978 (Turing Award lecture)
 - [[The Heart of Spritely - Distributed Objects and Capability Security]] — Lemmer-Webber, Farmer & Sims 2025 (Goblins / OCapN)
@@ -84,12 +104,21 @@ See [[README]] for detailed conventions.
 - [[Robust Composition - Towards a Unified Approach to Access Control and Concurrency Control]] — Miller 2006 (PhD thesis, THE E reference)
 - [[Distributed Electronic Rights in JavaScript]] — Miller, Van Cutsem & Tulloh 2013
 - [[Trustworthy Proxies - Virtualizing Objects with Invariants]] — Van Cutsem & Miller 2013
+- [[SPKI-SDSI]] — Rivest, Lampson, Ellison et al. 1996/1999 (RFC 2693; capability-style PKI; [[Linked Local Names]])
+- [[Decentralized Identifiers]] — W3C 2022 ([[Decentralized Identifier|DIDs]] + [[Verifiable Credential|VCs]]; modern decentralised identity)
+- [[Capn Proto]] — Varda 2013–present (modern [[CapTP]]; [[Three-Party Handoff]]; capability-secure RPC)
 - [[A Framework for Representing Knowledge]] — Minsky 1974 (Frames)
 - [[The Protection of Information in Computer Systems]] — Saltzer & Schroeder 1975
 - [[Distributed Snapshots Determining Global States of Distributed Systems]] — Chandy & Lamport 1985
 - [[Intelligence Without Representation]] — Brooks 1991
 - [[The Extended Mind]] — Clark & Chalmers 1998
 - [[The Part-Time Parliament]] — Lamport 1998 (Paxos)
+- [[In Search of an Understandable Consensus Algorithm]] — Ongaro & Ousterhout 2014 ([[Raft]]; understandability-driven consensus)
+- [[Practical Byzantine Fault Tolerance]] — Castro & Liskov 1999 ([[PBFT]]; the practical [[Byzantine Agreement]] protocol)
+- [[HotStuff]] — Yin et al. 2019 (linear-and-responsive BFT; [[Chained Consensus]] underlying Diem/Aptos)
+- [[Generative Communication in Linda]] — Gelernter 1985 ([[Linda (coordination)|Linda]] / [[Tuple Spaces|tuple spaces]]; canonical [[Coordination Language]])
+- [[KLAIM]] — De Nicola, Ferrari & Pugliese 1998 (Linda + [[Locality (KLAIM)|localities]] + mobile `eval`; formal model for mobile agents)
+- [[Reo]] — Arbab 2004 ([[Channel-based Coordination|channel-based]] coordination; programmable [[Connector (Reo)|connectors]]; algebraic counterpoint to Linda)
 - [[On Agent-Based Software Engineering]] — Jennings 2000
 - [[The Semantic Web]] — Berners-Lee, Hendler & Lassila 2001
 - [[ReAct Synergizing Reasoning and Acting in Language Models]] — Yao et al. 2023
@@ -217,6 +246,9 @@ See [[README]] for detailed conventions.
 
 ## Security & Robust Distributed Systems
 
+- [[A Logic of Authentication]] — Burrows, Abadi & Needham 1990 ([[BAN Logic]]; first widely-adopted protocol-verification method)
+- [[Spi Calculus]] — Abadi & Gordon 1997 ([[Pi-Calculus]] + cryptographic primitives; security as process equivalence)
+- [[Using Encryption for Authentication]] — Needham & Schroeder 1978 ([[Needham-Schroeder Protocol]]; canonical case-study under the [[Lowe Attack]])
 - [[Agent Tcl Flexible Secure Mobile Agents]]
 - [[DAgents Security Book Chapter]]
 - [[Secure Communications Processing for Distributed Languages]]
@@ -237,6 +269,8 @@ See [[README]] for detailed conventions.
 - [[Gossip-based Aggregation in Large Dynamic Networks]]
 - [[Gossip-Based Computation of Aggregate Information]]
 - [[Myconet Fungi Inspired Superpeer Overlay]]
+- [[Chord]] — Stoica et al. 2001 (canonical [[Distributed Hash Table]]; `O(log N)` lookup via finger table)
+- [[Kademlia]] — Maymounkov & Mazières 2002 ([[XOR Metric]] DHT underlying IPFS / Ethereum / BitTorrent)
 
 ## Self-* Systems, Adaptation, Trust
 

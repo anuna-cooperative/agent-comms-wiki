@@ -4,6 +4,9 @@ The E language's foundational protocol for sending object references and invocat
 
 ## In this vault
 - [[The Heart of Spritely - Distributed Objects and Capability Security]]
+- [[Capn Proto]]
+- [[Capn Proto RPC]]
+- [[Three-Party Handoff]]
 - [[E Language]]
 - [[OCapN]]
 - [[Promise Pipelining]]

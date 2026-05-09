@@ -39,6 +39,14 @@ A separate tradition asks where meaning comes from rather than what it contains.
 - **[[Common Business Communication Language]]** is an analogue in the pre-ML era — an open-ended language negotiable between organisations with graceful partial-understanding fallback.
 - **The LLM inflection point.** [[Why AI Agents Communicate In Human Language]] argues natural language is *exactly the wrong* inter-agent medium: lossy, non-differentiable, ambiguous. The thread rejoins the ACL debate a quarter-century later.
 
+## 3a. Argumentation and Dialogue
+
+A separate strand asks how *reasoning* unfolds when claims are contested rather than asserted unilaterally — directly upstream of the commitment-based ACL programme and of LLM-agent debate.
+
+- **Abstract argumentation.** [[On the Acceptability of Arguments]] (Dung 1995) shows that nonmonotonic reasoning, logic programming with negation-as-failure, default logic, and n-person games all reduce to fixed-point computations over an [[Argumentation Framework]] of arguments and attacks. Sceptical ([[Grounded Extension]]) and credulous ([[Preferred Extension]]) acceptance, plus [[Stable Extension|stability]], capture the principal answer policies. Structured systems (ASPIC+, ABA, DeLP) instantiate the abstract framework with rule languages — as does the SPL/Hence defeasible-logic engine used elsewhere in this vault.
+- **Dialogue typology.** [[Commitment in Dialogue]] (Walton & Krabbe 1995) gives the canonical typology — **persuasion**, **negotiation**, **deliberation**, **inquiry**, **information-seeking**, **eristic** — that ACL designers keep rediscovering. Each dialogue type is characterised by its initial situation, participant goals, and shared goal; mixing is normal but mismatch (e.g. expecting persuasion in a negotiation) is the source of much MAS dysfunction.
+- **Formal dialectic.** [[Fallacies - Hamblin]] (Hamblin 1970) supplies the missing root: dialogue rules with explicit *commitment stores*, where moves like "Why?", "Statement", "Concession" update the participants' public commitment sets. Modern dialogue protocols (ACRE, Walton-McBurney systems) are direct descendants.
+
 ## 4. Extensibility: Grow the Language Toward the Problem
 
 A recurring architectural instinct runs from 1960s language design through to modern agent protocols.
@@ -102,6 +110,7 @@ Necessary scaffolding for any ACL — and a field in its own right.
 
 A few papers anchor the abstract ground everything else stands on.
 
+- **[[Process Calculi]].** [[Communicating Sequential Processes]] (Hoare 1978), [[A Calculus of Communicating Systems]] (Milner 1980), and [[A Calculus of Mobile Processes]] (Milner, Parrow & Walker 1992) — the formal substrate underneath every later result on session types, choreographies, and distributed concurrency. The π-calculus's [[Name-Passing]] + [[Scope Extrusion]] is the missing semantic primitive under [[Multiparty Asynchronous Session Types]] and [[Pact - A Choreographic Language for Agentic Ecosystems]]; [[Mobile Ambients]] is the location-first sibling motivating administrative-domain reasoning; [[Spi Calculus]] adds cryptographic primitives, bridging to LangSec / [[BAN Logic]] verification.
 - **Program semantics.** [[Assigning Meanings to Programs]] (Floyd) — assertions on flowchart edges; birth of axiomatic semantics. [[Foundations of Logic Programming - Lloyd]] — the declarative/procedural unity under SLD-resolution.
 - **Information.** [[Algorithmic Information Theory - Grunwald Vitanyi]] — Kolmogorov complexity and MDL: the meaning of an object is the length of its shortest program.
 - **Concurrency substrate.** [[Programming Erlang Second Edition]] — the actor-model textbook, **let-it-crash** + supervision trees. This is the operational grain of most distributed agent systems discussed above.

@@ -4,5 +4,8 @@ A contextual equivalence on processes/programs: P and Q are observationally equi
 
 ## In this vault
 - [[Secure Communications Processing for Distributed Languages]]
+- [[A Calculus of Communicating Systems]]
+- [[CCS]]
+- [[Bisimulation]]
 - [[Full Abstraction]]
 - [[Operational Semantics]]
