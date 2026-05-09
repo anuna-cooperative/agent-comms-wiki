@@ -26,6 +26,7 @@ The running example is the NetBill e-commerce protocol. Three reasoning postulat
 - [[Conversation Protocols]]
 - [[Event Calculus]]
 - [[Commitment Machines]]
+- [[Commitment Machines - Yolum and Singh]]
 - [[An Interaction-oriented Agent Framework for Open Environments]]
 - [[Intention Is Choice with Commitment]]
 

@@ -149,6 +149,7 @@ See [[README]] for detailed conventions.
 - [[Agent Communication And Institutional Reality]]
 - [[Common Business Communication Language]]
 - [[Semantic Description For Agent Design Patterns]]
+- [[Commitment Machines - Yolum and Singh]] — Yolum & Singh 2002 (ATAL-01; CM→FSM compilation, declarative meaning for protocol states)
 - [[Flexible Protocol Specification and Execution]] — Yolum & Singh 2002 (commitment-based protocols, [[Event Calculus]])
 - [[A Commitment-Based Approach to Agent Communication]] — Fornara & Colombetti 2004 (operational commitment semantics, [[Precommitment]])
 

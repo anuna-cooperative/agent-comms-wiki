@@ -19,6 +19,7 @@ The authors' key innovation over the Yolum-Singh treatment is the *precommitment
 
 ## Connections
 - [[Flexible Protocol Specification and Execution]]
+- [[Commitment Machines - Yolum and Singh]]
 - [[Agent Communication And Institutional Reality]]
 - [[ACL Rethinking Principles]]
 - [[Verifiable Semantics for ACLs]]

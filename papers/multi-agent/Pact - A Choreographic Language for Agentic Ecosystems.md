@@ -24,6 +24,7 @@ The headline analysis is a decision-policy solver built on the [[Memo Programmin
 - [[Public Semantics]]
 - [[Commitment-based Semantics]]
 - [[Flexible Protocol Specification and Execution]]
+- [[Commitment Machines - Yolum and Singh]]
 - [[A Commitment-Based Approach to Agent Communication]]
 - [[ACL Rethinking Principles]]
 - [[Verifiable Semantics for ACLs]]
