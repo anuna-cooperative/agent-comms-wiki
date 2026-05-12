@@ -38,6 +38,13 @@ See [[README]] for detailed conventions.
 - [[LLM Agents]]
 - [[Distributed Security]]
 - [[Emergent Communication]]
+- [[Agent Security]]
+- [[Prompt Injection]]
+- [[Multi-Agent Security]]
+- [[Agent Infrastructure]]
+- [[Mechanism Design]]
+- [[Algorithmic Collusion]]
+- [[Information Markets]]
 
 ## Foundational
 
@@ -217,10 +224,25 @@ See [[README]] for detailed conventions.
 - [[MalTool Malicious Tool Attacks]]
 - [[ClawWorm Self-Propagating Attacks Across LLM Agent Ecosystems]]
 - [[SoK The Attack Surface of Agentic AI]]
+- [[Open Challenges in Multi-Agent Security]] — Schroeder de Witt et al. 2025 (definition of [[Multi-Agent Security]] as a field; secret collusion, swarm attacks, network-effect threats)
+- [[AgentDojo]] — Debenedetti et al. 2024 (NeurIPS; benchmark for prompt-injection attacks/defences on tool-using agents)
+- [[Defeating Prompt Injections by Design]] — Debenedetti et al. 2025 ([[CaMeL]]; control-flow/data-flow separation + capability-gated tools)
+- [[Privacy Reasoning in Ambiguous Contexts]] — Yi et al. 2025 (NeurIPS; [[Camber]] disambiguation framework; [[Contextual Integrity]])
+- [[Trusted Machine Learning Models Unlock Private Inference]] — Shumailov et al. 2025 ([[Trusted Capable Model Environment|TCME]]; capable models as trusted third parties)
+- [[Infrastructure for AI Agents]] — Chan et al. 2025 (TMLR; [[Agent Infrastructure]]: attribution, interaction shaping, detection & remediation)
 - [[Agents of Chaos]]
 - [[Inter-Agent Trust Models - A Comparative Study]]
 - [[Intent Formalization - A Grand Challenge for Reliable Coding]]
 - [[From Eliza to XiaoIce - Social Chatbots]]
+
+## Agent Economy & Mechanism Design
+
+- [[Virtual Agent Economies]] — Tomasev et al. 2025 ([[Sandbox Economy]]; [[Mission Economy]]; auction-based steerable agent markets)
+- [[Mechanism Design for Large Language Models]] — Dütting et al. 2023 (WWW Best Paper; token-level auction over LLM-generated content; monotone aggregation ↔ second-price)
+- [[Language Models Can Reduce Asymmetry in Information Markets]] — Rahaman et al. 2024 (evaluate + forget; resolving the [[Arrow Information Paradox|Arrow paradox]])
+- [[NDAI Agreements]] — Stephenson et al. 2025 (TEEs + AI as an "ironclad NDA"; solving the [[Hold-Up Problem]])
+- [[Do LLM Agents Have Regret]] — Park et al. 2024 ([[No-Regret Learning]]; [[Regret-Loss]] training; LLM equilibria in repeated games)
+- [[Learning Collusion in Episodic Inventory-Constrained Markets]] — Friedrich et al. 2024 (AAMAS; deep-RL agents collude in airline-style perishable-good markets)
 
 ## Emergent Communication & Language Games
 
