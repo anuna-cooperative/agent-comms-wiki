@@ -29,6 +29,21 @@ The paper accompanies the design with a Lean 4 formalization (≈5,400 lines, 16
 ## Connections
 - [[Common Business Communication Language]] — McCarthy's 1975/1982 origin; CBCL is the formally-verified realisation of that vision.
 - [[Security Applications Of Formal Language Theory]] — Sassaman et al.'s LangSec foundations.
+- [[Proof-Carrying Code - Necula]] — Necula 1997, the architectural ancestor of CBCL's R4 split (host runs a small certified verifier; producer ships the proof).
+- [[Enforceable Security Policies - Schneider]] — Schneider 2000, the formal warrant for R5 monotone-verdict trace monitoring.
+- [[An Axiomatic Basis for Computer Programming - Hoare]] — Hoare 1969, root of the contract-based verification line CBCL inherits.
+- [[Authentication in Distributed Systems - Lampson Abadi Burrows Wobber]] — Lampson et al. 1992, the [[Speaks-For Calculus]] for delegated commitments.
+- [[Articulating Reasons - Brandom]] — Brandom 2000, the philosophical underwriting of [[Public Semantics]] (entry point).
+- [[Making It Explicit - Brandom]] — Brandom 1994, the full inferentialist treatise.
+- [[Empiricism and the Philosophy of Mind - Sellars]] — Sellars 1956, the [[Myth of the Given]] that makes [[Semantics-Without-Minds]] possible.
+- [[Philosophical Investigations - Wittgenstein]] — Wittgenstein 1953, [[Meaning As Use]] / language-games / rule-following.
+- [[Two Dogmas of Empiricism - Quine]] — Quine 1951, [[Semantic Holism]].
+- [[Assertion - Stalnaker]] — Stalnaker 1978, [[Common Ground]] update semantics — operational analogue of CBCL's verdict ledger.
+- [[Languages and Language - Lewis]] — Lewis 1975, [[Convention of Truthfulness]] picture of how an abstract language gets in force in a population.
+- [[Communicative Actions for Artificial Agents - Cohen Levesque]] — Cohen & Levesque 1995, the [[Mentalistic Semantics]] high-water mark CBCL deliberately is not.
+- [[FIPA-ACL Specifications]] — the engineering of FIPA-ACL (envelope, conversation-id, ontology slot) CBCL inherits; the semantics it replaces.
+- [[An Ontology for Commitments in Multiagent Systems - Singh]] — Singh 1999, the formal commitment ontology CBCL's dialect contracts instantiate.
+- [[Jones-Sergot Normative Systems]] — Jones & Sergot 1993, the [[Counts-As Relation]] that gives wire events institutional meaning under a dialect contract.
 - [[Exploit Programming - From Buffer Overflows To Weird Machines]] — weird-machine analysis CBCL is designed to preclude at the parser layer.
 - [[PKI Layer Cake - Kaminsky Patterson Sassaman]] — concrete parser-differential attacks; CBCL's class-level unambiguity rules these out at the grammar level.
 - [[The Halting Problems of Network Stack Insecurity]]

@@ -17,15 +17,22 @@ The paper maps the design space of ACLs along phisssspective (private/public), t
 ## Connections
 - [[Agent Communication Languages]]
 - [[FIPA-ACL]]
+- [[FIPA-ACL Specifications]]
 - [[KQML]]
 - [[Speech Act Theory]]
-- [[Multi-Agent Systems]]
 - [[Commitment-based Semantics]]
 - [[Mentalistic Semantics]]
 - [[Public Semantics]]
 - [[Verifiable Semantics]]
 - [[Interaction Protocols]]
 - [[Conversation Policy]]
+- [[Multi-Agent Systems]]
+- [[Communicative Actions for Artificial Agents - Cohen Levesque]] — the mentalistic high-water mark this paper critiques
+- [[An Ontology for Commitments in Multiagent Systems - Singh]] — Singh's own formal sequel: four-place commitment ontology
+- [[Articulating Reasons - Brandom]] — philosophical underwriting of [[Public Semantics]]
+- [[Making It Explicit - Brandom]]
+- [[Jones-Sergot Normative Systems]] — [[Counts-As Relation]] / institutional grounding
+- [[CBCL - Safe Self-Extending Agent Communication]] — O'Connor 2026 contemporary realisation
 
 ## Conceptual Contribution
 - **Claim:** Mentalistic ACL semantics (KQML, FIPA/ARCOL) cannot ground interoperability because compliance with sincerity and belief conditions is externally unverifiable; ACLs should be rebuilt on a social semantics of public commitments, roles and conventions.

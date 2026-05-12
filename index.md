@@ -45,6 +45,12 @@ See [[README]] for detailed conventions.
 - [[Mechanism Design]]
 - [[Algorithmic Collusion]]
 - [[Information Markets]]
+- [[Inferentialism]]
+- [[Public Semantics]]
+- [[Commitment-based Semantics]]
+- [[Mentalistic Semantics]]
+- [[Causal Inference]]
+- [[Identifiability]]
 
 ## Foundational
 
@@ -136,11 +142,23 @@ See [[README]] for detailed conventions.
 - [[Speech Acts - An Essay in the Philosophy of Language]] — Searle 1969
 - [[Minds Brains and Science]] — Searle 1984
 - [[Studies in the Way of Words]] — Grice 1989
+- [[Philosophical Investigations - Wittgenstein]] — Wittgenstein 1953 (meaning as use; language-games; rule-following; private-language argument — grandparent of [[Inferentialism]] and [[Public Semantics]])
+- [[Two Dogmas of Empiricism - Quine]] — Quine 1951 (analytic-synthetic collapse; [[Semantic Holism]]; web of belief)
+- [[Empiricism and the Philosophy of Mind - Sellars]] — Sellars 1956 ([[Myth of the Given]]; [[Space of Reasons]]; mentalistic talk as theoretical posit)
+- [[Articulating Reasons - Brandom]] — Brandom 2000 (entry point to [[Inferentialism]]; [[Deontic Scorekeeping]]; [[Semantics-Without-Minds]])
+- [[Making It Explicit - Brandom]] — Brandom 1994 (the full inferentialist treatise; reference manual)
+- [[Assertion - Stalnaker]] — Stalnaker 1978 ([[Common Ground]] / [[Context Set]] update semantics; operational counterpart to Grice)
+- [[Convention - Lewis]] — Lewis 1969 (game-theoretic [[Convention (Lewis)|convention]]; [[Common Knowledge (Convention)]])
+- [[Languages and Language - Lewis]] — Lewis 1975 ([[Convention of Truthfulness]] and trust; abstract `L` vs social language)
+- [[Jones-Sergot Normative Systems]] — Jones & Sergot 1993 ([[Counts-As Relation]]; constitutive/regulative rules; foundation of normative MAS)
 - [[Epistemological Fault Lines Between Human and Artificial Intelligence]] — Quattrociocchi, Capraro & Perc 2025 (seven fault lines; Epistemia)
 - [[What is it to Understand a Directive Speech Act]] — Dorschel 1989 (citation-only, paywalled)
 - [[A Proof Method for Cyclic Programs]] — Francez & Pnueli 1978 (citation-only, paywalled)
 - [[An Application of a Method for Analysis of Cyclic Programs]] — Francez 1978 (citation-only, paywalled)
 - [[Intention Is Choice with Commitment]] — Cohen & Levesque 1990 (BDI logic)
+- [[Communicative Actions for Artificial Agents - Cohen Levesque]] — Cohen & Levesque 1995 (ICMAS-95; high-water mark of [[Mentalistic Semantics]]; direct ancestor of FIPA-ACL)
+- [[FIPA-ACL Specifications]] — FIPA 2002 (FIPA00037 Communicative Act Library; FIPA00061 Message Structure; canonical industry-grade ACL)
+- [[An Ontology for Commitments in Multiagent Systems - Singh]] — Singh 1999 (formal four-place commitment ontology; unifies normative concepts across MAS, law, deontic logic)
 - [[Deals Among Rational Agents]] — Rosenschein & Genesereth 1985
 - [[The Synthesis of Digital Machines with Provable Epistemic Properties]] — Rosenschein & Kaelbling 1986
 - [[IPFS Content-Addressed Versioned P2P File System]] — Benet 2014
@@ -148,9 +166,17 @@ See [[README]] for detailed conventions.
 - [[Foundations of Logic Programming - Lloyd]]
 - [[Foundations Of Illocutionary Logic]] — Searle & Vanderveken
 - [[Assigning Meanings to Programs]] — Floyd
+- [[An Axiomatic Basis for Computer Programming - Hoare]] — Hoare 1969 ([[Hoare Logic]]; pre/post-conditions; loop invariant; root of contract-based verification)
 - [[Algorithmic Information Theory - Grunwald Vitanyi]]
 - [[How Do Committees Invent]] — Conway
 - [[Seven Turrets Of Babel]]
+
+## Causal Inference (CIVeX-adjacent)
+
+- [[Causal Diagrams for Empirical Research - Pearl]] — Pearl 1995 (DAGs + [[do-Calculus]] + [[Backdoor Criterion]]; modern graphical causal inference)
+- [[Causality - Pearl]] — Pearl 2000/2009 (Cambridge UP textbook; [[Structural Causal Model]]; [[Ladder of Causation]]; counterfactuals)
+- [[Identification of Joint Interventional Distributions - Shpitser Pearl]] — Shpitser & Pearl 2006 (AAAI; complete [[ID Algorithm]]; do-calculus completeness)
+- [[Potential Outcomes Framework - Rubin]] — Rubin 1974 ([[Rubin Causal Model]]; the other half of the causal toolkit; ignorability, ATE)
 
 ## Cited Foundations (mined from top papers)
 
@@ -276,6 +302,9 @@ See [[README]] for detailed conventions.
 - [[Secure Communications Processing for Distributed Languages]]
 - [[A Language-Based Approach To Prevent DDoS]]
 - [[The Halting Problems of Network Stack Insecurity]]
+- [[Proof-Carrying Code - Necula]] — Necula 1997 (POPL; ship the proof with the code; architectural ancestor of [[CBCL - Safe Self-Extending Agent Communication|CBCL]]'s R4 split and CIVeX certificates)
+- [[Enforceable Security Policies - Schneider]] — Schneider 2000 (TISSEC; [[Execution Monitor]] enforcement; safety-property characterisation; backdrop for R5 monotone-verdict trace monitor)
+- [[Authentication in Distributed Systems - Lampson Abadi Burrows Wobber]] — Lampson, Abadi, Burrows & Wobber 1992 (TOCS; [[Speaks-For Calculus]]; compound principals; foundation for [[SPKI-SDSI]] and modern delegated credentials)
 - [[PKI Layer Cake - Kaminsky Patterson Sassaman]]
 - [[Security Kernel Lambda Calculus]]
 - [[Agents Secure Interaction in Data Driven Languages]]

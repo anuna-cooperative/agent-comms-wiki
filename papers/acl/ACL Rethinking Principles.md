@@ -16,10 +16,18 @@ The paper maps the ACL design space along two critical dimensions — *meaning* 
 
 ## Connections
 - [[FIPA-ACL]]
+- [[FIPA-ACL Specifications]]
 - [[KQML]]
 - [[Speech Act Theory]]
 - [[Agent Communication Languages]]
 - [[Multi-Agent Systems]]
+- [[Communicative Actions for Artificial Agents - Cohen Levesque]] — the [[Mentalistic Semantics]] high-water mark Singh is critiquing
+- [[An Ontology for Commitments in Multiagent Systems - Singh]] — Singh's own formal sequel: the four-place commitment ontology
+- [[Commitment Machines - Yolum and Singh]]
+- [[A Commitment-Based Approach to Agent Communication]]
+- [[Articulating Reasons - Brandom]] — the philosophical underwriting of public, commitment-based semantics
+- [[Making It Explicit - Brandom]]
+- [[Jones-Sergot Normative Systems]] — [[Counts-As Relation]] for institutional grounding of commitments
 - [[CBCL - Safe Self-Extending Agent Communication]] — O'Connor 2026: contemporary realisation of Singh's social-agency programme (dialect installation as public commitment) in a Lean-verified LangSec-grounded ACL.
 
 ## Conceptual Contribution

@@ -27,6 +27,10 @@ The paper opens with the now-classic "Willie the robot" vignette (uncommitted, o
 - [[Intentional Stance]]
 - [[Flexible Protocol Specification and Execution]]
 - [[A Commitment-Based Approach to Agent Communication]]
+- [[Communicative Actions for Artificial Agents - Cohen Levesque]] — the 1995 ICMAS sequel that turns the 1990 framework into an explicit speech-act / ACL semantics; direct ancestor of FIPA-ACL.
+- [[FIPA-ACL Specifications]]
+- [[Mentalistic Semantics]]
+- [[ACL Rethinking Principles]] — Singh's critique of the BDI-based ACL semantics built on this foundation.
 
 ## Conceptual Contribution
 - **Claim:** Intention is not a primitive mental state but a *choice with commitment* — a goal plus a meta-policy for when to drop it.
