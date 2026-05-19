@@ -163,6 +163,7 @@ See [[README]] for detailed conventions.
 - [[The Synthesis of Digital Machines with Provable Epistemic Properties]] — Rosenschein & Kaelbling 1986
 - [[IPFS Content-Addressed Versioned P2P File System]] — Benet 2014
 - [[Theory of Self-Reproducing Automata]] — von Neumann
+- [[Probabilistic Logics and the Synthesis of Reliable Organisms from Unreliable Components]] — von Neumann 1952 / 1956 (Caltech lectures, *Automata Studies*; founds [[Fault Tolerance|fault-tolerant computing]] via [[Triple Modular Redundancy|TMR]] and [[Multiplexing (von Neumann)|multiplexing]]; ε < 1/6 threshold; direct ancestor of [[PBFT|BFT]])
 - [[Foundations of Logic Programming - Lloyd]]
 - [[Foundations Of Illocutionary Logic]] — Searle & Vanderveken
 - [[Assigning Meanings to Programs]] — Floyd
