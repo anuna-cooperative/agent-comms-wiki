@@ -276,6 +276,7 @@ See [[README]] for detailed conventions.
 - [[NDAI Agreements]] — Stephenson et al. 2025 (TEEs + AI as an "ironclad NDA"; solving the [[Hold-Up Problem]])
 - [[Do LLM Agents Have Regret]] — Park et al. 2024 ([[No-Regret Learning]]; [[Regret-Loss]] training; LLM equilibria in repeated games)
 - [[Learning Collusion in Episodic Inventory-Constrained Markets]] — Friedrich et al. 2024 (AAMAS; deep-RL agents collude in airline-style perishable-good markets)
+- [[Talk Judge Cooperate - Gossip-Driven Indirect Reciprocity in Self-Interested LLM Agents]] — Zhu et al. 2026 (ICML; [[ALIGN]]; [[Indirect Reciprocity]] via open-ended [[Gossip Protocols|gossip]]; reasoning beats chattiness for incentive-aligned cooperation)
 
 ## Emergent Communication & Language Games
 
