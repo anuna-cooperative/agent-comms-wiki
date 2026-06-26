@@ -240,6 +240,7 @@ See [[README]] for detailed conventions.
 - [[Structured Communication-Centred Programming for Web Services]] — Carbone, Honda & Yoshida ESOP 2007 / TOPLAS 2012 (the foundational [[Choreographic Programming]] paper)
 - [[Multiparty Asynchronous Session Types]] — Honda, Yoshida & Carbone POPL 2008 (multiparty generalisation; global types → local types projection)
 - [[Introduction to Choreographies]] — Montesi 2023 (Cambridge UP; canonical textbook, citation-only)
+- [[Knowledge of Choice]] — Montesi (bliki; realisability property requiring all affected participants be informed of a choice; [[Choreography Amendment|amendment]] via [[Selection (Choreography)|selections]])
 - [[Pact - A Choreographic Language for Agentic Ecosystems]] — Gopinathan et al. 2026 (CP 2026; [[Choreographic Programming]] + game theory; LLM-era revival of mentalistic semantics)
 - [[On the Monitorability of Session Types]] — Bartolo Burlò, Francalanza & Scalas 2021 (ECOOP; runtime monitor synthesis for [[Session Types]])
 
