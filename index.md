@@ -121,6 +121,7 @@ See [[README]] for detailed conventions.
 - [[Trustworthy Proxies - Virtualizing Objects with Invariants]] — Van Cutsem & Miller 2013
 - [[SPKI-SDSI]] — Rivest, Lampson, Ellison et al. 1996/1999 (RFC 2693; capability-style PKI; [[Linked Local Names]])
 - [[Decentralized Identifiers]] — W3C 2022 ([[Decentralized Identifier|DIDs]] + [[Verifiable Credential|VCs]]; modern decentralised identity)
+- [[x401 - HTTP Proof Requirement Protocol]] — Buchner & Agarwal (Proof / Circle) 2025 (HTTP-native route-scoped credential proof; [[Verifiable Presentation|VPs]] over [[OpenID4VP]]/[[OAuth 2.0]])
 - [[Capn Proto]] — Varda 2013–present (modern [[CapTP]]; [[Three-Party Handoff]]; capability-secure RPC)
 - [[A Framework for Representing Knowledge]] — Minsky 1974 (Frames)
 - [[The Protection of Information in Computer Systems]] — Saltzer & Schroeder 1975
