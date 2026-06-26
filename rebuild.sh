@@ -24,6 +24,13 @@ trap '[ -d "$STASH/.claude" ] && mv "$STASH/.claude" ./.claude; rm -rf "$STASH"'
 # /${PREFIX}/_static/* are real files on the server. Unset = deploy at root.
 PREFIX="${DEPLOY_PREFIX:-}"
 
+# The output dir lives inside the source root and zetl has no exclude flag, so
+# a stale dist/ from a previous run gets re-indexed and copied into the new
+# build as dist/dist/dist/… — compounding ~850 MB every run until the disk
+# fills (seen 2026-06-26: dist grew to 20 GB and broke the deploy). Always
+# start from a clean output tree. dist/ is a gitignored build artifact.
+rm -rf dist
+
 zetl build
 
 # 0. zetl has no exclude flag and indexes dotdirs (.claude, .zetl, …). Strip
