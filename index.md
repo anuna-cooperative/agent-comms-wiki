@@ -240,6 +240,8 @@ See [[README]] for detailed conventions.
 - [[Structured Communication-Centred Programming for Web Services]] — Carbone, Honda & Yoshida ESOP 2007 / TOPLAS 2012 (the foundational [[Choreographic Programming]] paper)
 - [[Multiparty Asynchronous Session Types]] — Honda, Yoshida & Carbone POPL 2008 (multiparty generalisation; global types → local types projection)
 - [[Choral - Object-Oriented Choreographic Programming]] — Giallorenzo, Montesi & Peressotti TOPLAS 2024 (first mainstream [[Choreographic Programming]] language; roles as type parameters; [[Endpoint Projection]] compiles to per-role Java)
+- [[HasChor - Functional Choreographic Programming]] — Shen, Kashiwa & Kuper ICFP 2023 (functional pearl; [[Choreographic Programming]] as a Haskell library; [[Endpoint Projection]] as monadic interpretation; higher-order, location-polymorphic choreographies)
+- [[ChoRus - Library-Level Choreographic Programming in Rust]] — Kashiwa, Shen, Zare & Kuper 2023 / CP 2024 (first CP library for Rust; endpoint-projection-as-dependency-injection; choreographic enclaves scope [[Knowledge of Choice]])
 - [[Introduction to Choreographies]] — Montesi 2023 (Cambridge UP; canonical textbook, citation-only)
 - [[Knowledge of Choice]] — Montesi (bliki; realisability property requiring all affected participants be informed of a choice; [[Choreography Amendment|amendment]] via [[Selection (Choreography)|selections]])
 - [[Pact - A Choreographic Language for Agentic Ecosystems]] — Gopinathan et al. 2026 (CP 2026; [[Choreographic Programming]] + game theory; LLM-era revival of mentalistic semantics)
