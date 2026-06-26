@@ -2,3 +2,6 @@
 .zetl/
 dist/
 public/
+
+# Wrangler local cache (machine-specific; contains account id)
+.wrangler/
