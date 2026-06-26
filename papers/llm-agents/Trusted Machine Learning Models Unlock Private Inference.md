@@ -27,7 +27,7 @@ The authors argue TCMEs unlock private inference for problems where MPC is infea
 - [[Infrastructure for AI Agents]]
 - [[Language Models Can Reduce Asymmetry in Information Markets]]
 - [[Multi-Party Computation]]
-- [[Zero-Knowledge Proof]]
+- [[Zero-Knowledge Proofs]]
 - [[Distributed Security]]
 - [[Agent Security]]
 - [[LLM Agents]]

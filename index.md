@@ -51,6 +51,8 @@ See [[README]] for detailed conventions.
 - [[Mentalistic Semantics]]
 - [[Causal Inference]]
 - [[Identifiability]]
+- [[Set Theory]]
+- [[Diagonalization]]
 
 ## Foundational
 
@@ -164,6 +166,10 @@ See [[README]] for detailed conventions.
 - [[IPFS Content-Addressed Versioned P2P File System]] — Benet 2014
 - [[Theory of Self-Reproducing Automata]] — von Neumann
 - [[Probabilistic Logics and the Synthesis of Reliable Organisms from Unreliable Components]] — von Neumann 1952 / 1956 (Caltech lectures, *Automata Studies*; founds [[Fault Tolerance|fault-tolerant computing]] via [[Triple Modular Redundancy|TMR]] and [[Multiplexing (von Neumann)|multiplexing]]; ε < 1/6 threshold; direct ancestor of [[PBFT|BFT]])
+- [[Über eine elementare Frage der Mannigfaltigkeitslehre]] — Cantor 1891 (the [[Diagonalization|diagonal argument]]; [[Cantor's Theorem]]; uncountability and the transfinite hierarchy — headwater of Gödel/Turing/Church self-reference)
+- [[Untersuchungen über die Grundlagen der Mengenlehre I]] — Zermelo 1908 (first axiomatization of [[Set Theory]]; Separation blocks [[Russell's Paradox]]; the foundation that becomes [[ZFC]])
+- [[Zur Einführung der transfiniten Zahlen]] — von Neumann 1923 ([[Ordinals|von Neumann ordinals]]; each ordinal IS the set of its predecessors; classical counterpart to [[On Notation for Ordinal Numbers|Church–Kleene]])
+- [[The Independence of the Continuum Hypothesis]] — Cohen 1963/64 ([[Forcing]]; [[Continuum Hypothesis|CH]] is independent of [[ZFC]] — the set-theoretic sibling of Gödel incompleteness)
 - [[Foundations of Logic Programming - Lloyd]]
 - [[Foundations Of Illocutionary Logic]] — Searle & Vanderveken
 - [[Assigning Meanings to Programs]] — Floyd
@@ -283,6 +289,7 @@ See [[README]] for detailed conventions.
 - [[Ontolingua Portable Ontology Specifications]]
 - [[Handbook On Ontologies]]
 - [[Ontology Change Classification and Survey]]
+- [[Emergent Semantics Principles and Issues]] — Aberer, Cudré-Mauroux, Ouksel et al. 2004 (DASFAA; semantic interoperability as a bottom-up, self-organising process)
 
 ## Programming Languages & Extensibility
 

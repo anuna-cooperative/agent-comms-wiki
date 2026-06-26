@@ -35,7 +35,7 @@ The substantive economic claim is that TEE + AI behave as an *"ironclad NDA"*: a
 ## Conceptual Contribution
 - **Claim:** A trusted execution environment hosting an AI agent can serve as a credible commitment device that solves the classical Arrow–Nelson disclosure problem of information markets — achieving full disclosure and efficient transfer where paper NDAs and pure cryptography both fail.
 - **Mechanism:** A bargaining model in which TEEs+AI mediate the disclosure-and-payment decision; closed-form characterisation of equilibria for full and partial disclosure; sensitivity analysis to agent error with policy-instrument bounds (budget caps, acceptance thresholds).
-- **Concepts introduced/used:** [[NDAI Agreement]], [[Trusted Execution Environment]], [[Hold-Up Problem]], [[Arrow Information Paradox]], [[Mechanism Design]], [[Commitment Device]], [[Disclosure Game]]
+- **Concepts introduced/used:** [[NDAI Agreements]], [[Trusted Execution Environment]], [[Hold-Up Problem]], [[Arrow Information Paradox]], [[Mechanism Design]], [[Commitment Device]], [[Disclosure Game]]
 - **Stance:** formal economic theory with technical implications
 - **Relates to:** Companion to [[Trusted Machine Learning Models Unlock Private Inference]] — both argue that capability + trusted execution can replace previously infeasible cryptographic primitives. The economic counterpart to the engineering catalogue in [[Infrastructure for AI Agents]]; a building block for the markets imagined in [[Virtual Agent Economies]] and the information-asymmetry resolution explored in [[Language Models Can Reduce Asymmetry in Information Markets]]. Sits in the lineage of [[Counterspeculation Auctions and Competitive Sealed Tenders|Vickrey]] / mechanism-design tradition.
 
