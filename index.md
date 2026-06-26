@@ -277,6 +277,7 @@ See [[README]] for detailed conventions.
 - [[Do LLM Agents Have Regret]] — Park et al. 2024 ([[No-Regret Learning]]; [[Regret-Loss]] training; LLM equilibria in repeated games)
 - [[Learning Collusion in Episodic Inventory-Constrained Markets]] — Friedrich et al. 2024 (AAMAS; deep-RL agents collude in airline-style perishable-good markets)
 - [[Talk Judge Cooperate - Gossip-Driven Indirect Reciprocity in Self-Interested LLM Agents]] — Zhu et al. 2026 (ICML; [[ALIGN]]; [[Indirect Reciprocity]] via open-ended [[Gossip Protocols|gossip]]; reasoning beats chattiness for incentive-aligned cooperation)
+- [[CoopEval - Benchmarking Cooperation-Sustaining Mechanisms and LLM Agents in Social Dilemmas]] — Tewolde et al. 2026 (cs.GT; benchmarks repetition / reputation / mediation / contracting on LLM [[Social Dilemma|social dilemmas]]; contracting and mediation win, repetition is brittle)
 
 ## Emergent Communication & Language Games
 
