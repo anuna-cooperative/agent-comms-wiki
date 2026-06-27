@@ -95,6 +95,7 @@ See [[README]] for detailed conventions.
 - [[Impossibility of Distributed Consensus with One Faulty Process]] — Fischer, Lynch & Paterson 1985 (FLP)
 - [[Brewers Conjecture and the Feasibility of Consistent Available Partition-Tolerant Web Services]] — Gilbert & Lynch 2002 (CAP proof)
 - [[Knowledge and Common Knowledge in a Distributed Environment]] — Halpern & Moses 1990
+- [[Reasoning About Knowledge]] — Fagin, Halpern, Moses & Vardi 1995 (canonical textbook of [[Epistemic Logic|epistemic logic]]; [[Interpreted Systems|runs-and-systems]] semantics; [[Common Knowledge (Convention)|common knowledge]], [[Knowledge-Based Programs]])
 - [[End-to-End Arguments in System Design]] — Saltzer, Reed & Clark 1984
 - [[A Universal Modular Actor Formalism for Artificial Intelligence]] — Hewitt, Bishop & Steiger 1973
 - [[Communicating Sequential Processes]] — Hoare 1978
