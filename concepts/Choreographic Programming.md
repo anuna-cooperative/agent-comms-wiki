@@ -6,6 +6,7 @@ A programming paradigm in which a single global program describes the joint beha
 - [[Endpoint Projection]]
 - [[Structured Communication-Centred Programming for Web Services]] — Carbone, Honda & Yoshida ESOP 2007 / TOPLAS 2012, the foundational paper
 - [[Multiparty Asynchronous Session Types]] — Honda, Yoshida & Carbone POPL 2008, multiparty generalisation
+- [[Deadlock-freedom-by-design - Multiparty Asynchronous Global Programming]] — Carbone & Montesi POPL 2013, deadlock-freedom by construction across interleaved sessions
 - [[Introduction to Choreographies]] — Montesi 2023 (Cambridge), the canonical textbook
 - [[On the Monitorability of Session Types]] — Bartolo Burlò, Francalanza & Scalas ECOOP 2021, runtime monitoring
 - [[Session Types]]
