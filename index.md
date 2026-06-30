@@ -134,6 +134,7 @@ See [[README]] for detailed conventions.
 - [[In Search of an Understandable Consensus Algorithm]] — Ongaro & Ousterhout 2014 ([[Raft]]; understandability-driven consensus)
 - [[Practical Byzantine Fault Tolerance]] — Castro & Liskov 1999 ([[PBFT]]; the practical [[Byzantine Agreement]] protocol)
 - [[HotStuff]] — Yin et al. 2019 (linear-and-responsive BFT; [[Chained Consensus]] underlying Diem/Aptos)
+- [[Can You Keep a Secret - A New Protocol for Sender-Side Enforcement of Causal Message Delivery]] — Tong, Liittschwager & Kuper 2026 (PaPoC; [[Cykas]]; eager sender-side [[Causal Message Delivery]] without per-message metadata; Stateright-verified)
 - [[Generative Communication in Linda]] — Gelernter 1985 ([[Linda (coordination)|Linda]] / [[Tuple Spaces|tuple spaces]]; canonical [[Coordination Language]])
 - [[KLAIM]] — De Nicola, Ferrari & Pugliese 1998 (Linda + [[Locality (KLAIM)|localities]] + mobile `eval`; formal model for mobile agents)
 - [[Reo]] — Arbab 2004 ([[Channel-based Coordination|channel-based]] coordination; programmable [[Connector (Reo)|connectors]]; algebraic counterpoint to Linda)
