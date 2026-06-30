@@ -250,6 +250,7 @@ See [[README]] for detailed conventions.
 - [[Knowledge of Choice]] — Montesi (bliki; realisability property requiring all affected participants be informed of a choice; [[Choreography Amendment|amendment]] via [[Selection (Choreography)|selections]])
 - [[Pact - A Choreographic Language for Agentic Ecosystems]] — Gopinathan et al. 2026 (CP 2026; [[Choreographic Programming]] + game theory; LLM-era revival of mentalistic semantics)
 - [[On the Monitorability of Session Types]] — Bartolo Burlò, Francalanza & Scalas 2021 (ECOOP; runtime monitor synthesis for [[Session Types]])
+- [[Denotational Reasoning for Asynchronous Multiparty Session Types]] — McDermott & Yoshida ESOP 2026 (first [[Denotational Semantics|denotational semantics]] for asynchronous MPST; message-passing as a computational effect; [[Graded Monad|graded]] computation trees; proves communication optimisations)
 
 ## LLM Agents & Modern AI Agents
 
