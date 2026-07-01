@@ -65,6 +65,7 @@ See [[README]] for detailed conventions.
 - [[Distributional Structure]] — Harris 1954 (the [[Distributional Hypothesis]]: *difference of meaning correlates with difference of distribution*; headwater of [[Distributional Semantics]] and [[Word Embeddings]])
 - [[A Mathematical Theory of Communication]] — Shannon 1948 (founding paper of information theory; [[Channel Capacity]], [[Shannon Entropy]])
 - [[On Computable Numbers with an Application to the Entscheidungsproblem]] — Turing 1936 (the [[Universal Turing Machine]]; [[Computability]] made precise; [[Halting Problem|circle-freeness]] undecidable; the Entscheidungsproblem is unsolvable — founding paper of computability with [[An Unsolvable Problem of Elementary Number Theory|Church 1936]])
+- [[Computing Machinery and Intelligence]] — Turing 1950 (the [[Turing Test|imitation game]]; intelligence judged by text-only conversation; the [[Machine Learning|child-machine]] proposal — founding paper of AI-as-behaviour)
 - [[Classes of Recursively Enumerable Sets and Their Decision Problems]] — Rice 1953 ([[Rice's Theorem]]; semantic properties of programs are undecidable)
 - [[A Robust Layered Control System]] — Brooks 1986 ([[Subsumption Architecture]]; founding [[Behaviour-Based Robotics|behaviour-based]] paper)
 - [[Ascribing Mental Qualities to Machines]] — McCarthy 1979
