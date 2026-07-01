@@ -1,6 +1,6 @@
 # Attention is Turing-Complete
 
-**Reference:** Pérez, J., Barceló, P., & Marinkovic, J. (2021). *Attention is Turing-Complete.* Journal of Machine Learning Research 22(75):1–35. [URL](https://www.jmlr.org/papers/v22/20-302.html). PDF: <https://www.jmlr.org/papers/volume22/20-302/20-302.pdf>. (Extended journal version of the ACL 2019 result on the Turing completeness of modern neural architectures.)
+**Reference:** Pérez, J., Barceló, P., & Marinkovic, J. (2021). *Attention is Turing-Complete.* Journal of Machine Learning Research 22(75):1–35. [URL](https://www.jmlr.org/papers/v22/20-302.html). PDF: <https://www.jmlr.org/papers/volume22/20-302/20-302.pdf>. Extended journal version of the conference paper *On the Turing Completeness of Modern Neural Network Architectures*, ICLR 2019, arXiv:1901.03429 (<https://arxiv.org/abs/1901.03429>), which established the result for **both** the [[Transformer]] and the [[Neural GPU]].
 
 ## Summary
 This paper studies the computational power of the [[Transformer]], the architecture built entirely on [[Self-Attention]] introduced in [[Attention Is All You Need]]. Despite the Transformer's practical dominance, its theoretical computational properties had not been characterised. The authors prove that the Transformer is **Turing complete**: a fixed-size network can simulate an arbitrary [[Universal Turing Machine|Turing machine]], and hence compute any [[Computability|computable]] function.
@@ -18,6 +18,7 @@ Beyond the completeness theorem itself, the paper isolates a **minimal set of el
 - **Residual connections** are used to carry the running machine configuration between layers/steps.
 - **Minimality analysis:** the paper identifies which architectural elements are essential to the completeness result and which can be dropped.
 - **Scope caveat:** the result assumes unbounded numerical precision and unboundedly many decoding steps — it is a statement about expressive-power limits, not about practical fixed-precision Transformers.
+- **Neural GPU too:** the original ICLR 2019 conference version (arXiv:1901.03429) proves the same Turing-completeness result for the [[Neural GPU]] — a fully convolutional architecture — showing neither model needs an external memory to reach universal computation.
 
 ## Connections
 - [[Transformer]]
@@ -32,6 +33,7 @@ Beyond the completeness theorem itself, the paper isolates a **minimal set of el
 - [[Hard Attention]]
 - [[Turing Completeness]]
 - [[Arbitrary Precision]]
+- [[Neural GPU]]
 
 ## Conceptual Contribution
 - **Claim:** The self-attention Transformer is not merely a powerful function approximator but a *maximally* expressive one in the classical sense — with hard attention and arbitrary precision it is Turing complete, so its computational ceiling is that of a universal machine.
