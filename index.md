@@ -91,6 +91,7 @@ See [[README]] for detailed conventions.
 - [[A Taxonomy of Illocutionary Acts]] — Searle 1975
 - [[Logic and Conversation]] — Grice 1975
 - [[Attention Is All You Need]] — Vaswani et al. 2017
+- [[Attention is Turing-Complete]] — Pérez, Barceló & Marinkovic 2021 (the [[Transformer]] with [[Hard Attention|hard attention]] and [[Arbitrary Precision|arbitrary precision]] is [[Turing Completeness|Turing complete]])
 - [[The Bitter Lesson]] — Sutton 2019
 - [[Toward Principles for the Design of Ontologies Used for Knowledge Sharing]] — Gruber 1995
 - [[Time Clocks and the Ordering of Events in a Distributed System]] — Lamport 1978
