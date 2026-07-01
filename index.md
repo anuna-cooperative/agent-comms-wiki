@@ -64,6 +64,7 @@ See [[README]] for detailed conventions.
 - [[Three Models for the Description of Language]] — Chomsky 1956
 - [[Distributional Structure]] — Harris 1954 (the [[Distributional Hypothesis]]: *difference of meaning correlates with difference of distribution*; headwater of [[Distributional Semantics]] and [[Word Embeddings]])
 - [[A Mathematical Theory of Communication]] — Shannon 1948 (founding paper of information theory; [[Channel Capacity]], [[Shannon Entropy]])
+- [[On Computable Numbers with an Application to the Entscheidungsproblem]] — Turing 1936 (the [[Universal Turing Machine]]; [[Computability]] made precise; [[Halting Problem|circle-freeness]] undecidable; the Entscheidungsproblem is unsolvable — founding paper of computability with [[An Unsolvable Problem of Elementary Number Theory|Church 1936]])
 - [[Classes of Recursively Enumerable Sets and Their Decision Problems]] — Rice 1953 ([[Rice's Theorem]]; semantic properties of programs are undecidable)
 - [[A Robust Layered Control System]] — Brooks 1986 ([[Subsumption Architecture]]; founding [[Behaviour-Based Robotics|behaviour-based]] paper)
 - [[Ascribing Mental Qualities to Machines]] — McCarthy 1979
