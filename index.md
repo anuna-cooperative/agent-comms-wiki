@@ -246,6 +246,7 @@ See [[README]] for detailed conventions.
 - [[Levels Of Social Orchestration]]
 - [[Structured Communication-Centred Programming for Web Services]] — Carbone, Honda & Yoshida ESOP 2007 / TOPLAS 2012 (the foundational [[Choreographic Programming]] paper)
 - [[Multiparty Asynchronous Session Types]] — Honda, Yoshida & Carbone POPL 2008 (multiparty generalisation; global types → local types projection)
+- [[Less is More - Multiparty Session Types Revisited]] — Scalas & Yoshida POPL 2019 (generalised MPST with no [[Global Types|global types]] or [[Duality]]; correctness as behavioural properties of typing contexts; repairs limited [[Subject Reduction|subject reduction]]; mpstk model checker)
 - [[Deadlock-freedom-by-design - Multiparty Asynchronous Global Programming]] — Carbone & Montesi POPL 2013 (global programming over interleaved multiparty sessions; [[Deadlock Freedom|deadlock-freedom]] by construction via [[Endpoint Projection]])
 - [[A Core Model for Choreographic Programming]] — Cruz-Filipe & Montesi 2020 (TCS; Core Choreographies, a minimal calculus whose projectable fragment is Turing complete; canonical foundational model for [[Choreographic Programming]] via [[Endpoint Projection]])
 - [[Choral - Object-Oriented Choreographic Programming]] — Giallorenzo, Montesi & Peressotti TOPLAS 2024 (first mainstream [[Choreographic Programming]] language; roles as type parameters; [[Endpoint Projection]] compiles to per-role Java)
