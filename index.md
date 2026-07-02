@@ -242,6 +242,7 @@ See [[README]] for detailed conventions.
 - [[Multi-Agent Collaboration in AI - Wasif Tunkel]]
 - [[Are Multiagent Systems Resilient to Communication Failures]]
 - [[Ensuring Trustworthy and Ethical Behaviour in Intelligent Logical Agents]]
+- [[Distributed Defeasible Speculative Reasoning in Ambient Environment]] — Lam, Governatori, Satoh & Hosobe 2012 (CLIMA XIII; decentralized [[Speculative Computation]] over [[Defeasible Logic]] in a [[Multi-Context System]]; argumentation semantics; no master coordinator)
 - [[An Interaction-oriented Agent Framework for Open Environments]]
 - [[Levels Of Social Orchestration]]
 - [[Structured Communication-Centred Programming for Web Services]] — Carbone, Honda & Yoshida ESOP 2007 / TOPLAS 2012 (the foundational [[Choreographic Programming]] paper)
