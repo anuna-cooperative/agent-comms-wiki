@@ -356,6 +356,15 @@ See [[README]] for detailed conventions.
 - [[Computational Boundary of a Self]]
 - [[Review on Computational Trust and Reputation Models]]
 
+### Autonomic Computing & Self-Adaptive Software (the engineering/assurance lineage)
+
+The [[MAPE-K]] loop and the software-engineering side of self-adaptation: how you *build and assure* adaptive systems, complementing the biology-inspired "why" above.
+
+- [[The Vision of Autonomic Computing]] — Kephart & Chess 2003 (IEEE Computer; origin of [[MAPE-K]] and the self-* framing)
+- [[Rainbow - Architecture-Based Self-Adaptation with Reusable Infrastructure]] — Garlan et al. 2004 (IEEE Computer; architecture as the runtime model, reusable adaptation infrastructure)
+- [[Self-Managed Systems - an Architectural Challenge]] — Kramer & Magee 2007 (FOSE@ICSE; the [[Three-Layer Reference Model]])
+- [[Self-Adaptive Software - Landscape and Research Challenges]] — Salehie & Tahvildari 2009 (ACM TAAS; the standard survey/taxonomy)
+
 ## Edge, Web, Blockchain
 
 - [[Edge Intelligence Survey]]
