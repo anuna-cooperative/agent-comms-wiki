@@ -258,6 +258,10 @@ See [[README]] for detailed conventions.
 - [[Pact - A Choreographic Language for Agentic Ecosystems]] — Gopinathan et al. 2026 (CP 2026; [[Choreographic Programming]] + game theory; LLM-era revival of mentalistic semantics)
 - [[On the Monitorability of Session Types]] — Bartolo Burlò, Francalanza & Scalas 2021 (ECOOP; runtime monitor synthesis for [[Session Types]])
 - [[Denotational Reasoning for Asynchronous Multiparty Session Types]] — McDermott & Yoshida ESOP 2026 (first [[Denotational Semantics|denotational semantics]] for asynchronous MPST; message-passing as a computational effect; [[Graded Monad|graded]] computation trees; proves communication optimisations)
+- [[Realizability and Verification of MSC Graphs]] — Alur, Etessami & Yannakakis ICALP 2001 / TCS 2005 (weak vs. safe [[Realizability|realizability]] of MSC-graphs/HMSCs; implied scenarios & non-local choice; weak undecidable, safe EXPSPACE)
+- [[Message Sequence Charts - A Survey]] — Genest & Muscholl ACSD 2005 (survey of MSC/HMSC theory; correspondence with [[Communicating Finite State Machines]]; bounded/existentially-bounded classes; decidability frontier)
+- [[Deciding Choreography Realizability]] — Basu, Bultan & Ouederni POPL 2012 ([[Realizability|realizability]] of choreographies is *decidable* via [[Synchronizability]]; reduce unbounded-async to finite equivalence checks)
+- [[Multiparty Compatibility in Communicating Automata]] — Deniélou & Yoshida ICALP 2013 (multiparty compatibility = `N`-party [[Duality|duality]]; characterises & synthesises [[Global Types|global session types]] from [[Communicating Finite State Machines|CFSMs]])
 
 ## LLM Agents & Modern AI Agents
 
