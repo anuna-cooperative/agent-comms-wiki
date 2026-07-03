@@ -12,8 +12,12 @@ Introduced in [[The Vision of Autonomic Computing]] (Kephart & Chess 2003) as th
 
 ## In this vault
 - [[The Vision of Autonomic Computing]]
+- [[An Architecture-Based Approach to Self-Adaptive Software]]
 - [[Rainbow - Architecture-Based Self-Adaptation with Reusable Infrastructure]]
 - [[Self-Adaptive Software - Landscape and Research Challenges]]
+- [[Engineering Self-Adaptive Systems through Feedback Loops]]
+- [[Self-Adaptive Software Needs Quantitative Verification at Runtime]]
+- [[ActivFORMS - Active Formal Models for Self-Adaptation]]
 - [[Self-Adaptation]]
 - [[Metacognitive Loop]]
 
@@ -21,5 +25,7 @@ Introduced in [[The Vision of Autonomic Computing]] (Kephart & Chess 2003) as th
 - [[Autonomic Computing]]
 - [[Self-Adaptive Systems]]
 - [[Feedback Loop]]
+- [[Control Theory]]
+- [[Runtime Assurance]]
 - [[Three-Layer Reference Model]]
 - [[Models@run.time]]

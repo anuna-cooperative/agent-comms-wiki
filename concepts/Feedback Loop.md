@@ -4,8 +4,14 @@ A control structure in which a system observes the effect of its own actions (or
 
 Making the feedback loop a **first-class, visible architectural element** — rather than logic buried in application code — is a recurring theme of the self-adaptive-systems literature and connects the field to classical control theory (stability, settling time, overshoot) as a source of design and assurance techniques.
 
+## In this vault
+- [[Engineering Self-Adaptive Systems through Feedback Loops]]
+- [[Feedback Control of Computing Systems]]
+- [[Automated Design of Self-Adaptive Software with Control-Theoretical Formal Guarantees]]
+
 ## Related
 - [[MAPE-K]]
+- [[Control Theory]]
 - [[Autonomic Computing]]
 - [[Self-Adaptation]]
 - [[Three-Layer Reference Model]]

@@ -361,9 +361,23 @@ See [[README]] for detailed conventions.
 The [[MAPE-K]] loop and the software-engineering side of self-adaptation: how you *build and assure* adaptive systems, complementing the biology-inspired "why" above.
 
 - [[The Vision of Autonomic Computing]] — Kephart & Chess 2003 (IEEE Computer; origin of [[MAPE-K]] and the self-* framing)
+- [[An Architecture-Based Approach to Self-Adaptive Software]] — Oreizy et al. 1999 (IEEE Intelligent Systems; the early architecture-based statement)
 - [[Rainbow - Architecture-Based Self-Adaptation with Reusable Infrastructure]] — Garlan et al. 2004 (IEEE Computer; architecture as the runtime model, reusable adaptation infrastructure)
 - [[Self-Managed Systems - an Architectural Challenge]] — Kramer & Magee 2007 (FOSE@ICSE; the [[Three-Layer Reference Model]])
 - [[Self-Adaptive Software - Landscape and Research Challenges]] — Salehie & Tahvildari 2009 (ACM TAAS; the standard survey/taxonomy)
+
+*Roadmaps and the engineering agenda:*
+- [[Software Engineering for Self-Adaptive Systems - A Research Roadmap]] — Cheng et al. 2009 (LNCS 5525; the first SEAMS roadmap)
+- [[Software Engineering for Self-Adaptive Systems - A Second Research Roadmap]] — de Lemos et al. 2013 (LNCS 7475; decentralised control + perpetual assurance)
+- [[Engineering Self-Adaptive Systems through Feedback Loops]] — Brun et al. 2009 (LNCS 5525; the [[Feedback Loop]] as a first-class element)
+
+*Control-theoretic adaptation:*
+- [[Feedback Control of Computing Systems]] — Hellerstein et al. 2004 (Wiley–IEEE; [[Control Theory]] for computing systems)
+- [[Automated Design of Self-Adaptive Software with Control-Theoretical Formal Guarantees]] — Filieri, Hoffmann & Maggio 2014 (ICSE; automated controller synthesis with guarantees)
+
+*Runtime assurance:*
+- [[Self-Adaptive Software Needs Quantitative Verification at Runtime]] — Calinescu, Ghezzi, Kwiatkowska & Mirandola 2012 (CACM; [[Runtime Quantitative Verification]])
+- [[ActivFORMS - Active Formal Models for Self-Adaptation]] — Iftikhar & Weyns 2014 (SEAMS; executable verified feedback-loop models)
 
 ## Edge, Web, Blockchain
 
