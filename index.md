@@ -115,6 +115,7 @@ See [[README]] for detailed conventions.
 - [[The Strategy of Conflict]] — Schelling 1960 ([[Focal Point]] / [[Schelling Point]] coordination; credible commitment)
 - [[The Evolution of Cooperation]] — Axelrod 1984 ([[Iterated Prisoners Dilemma]]; [[Tit-for-Tat]]; [[Reciprocity]])
 - [[Counterspeculation Auctions and Competitive Sealed Tenders]] — Vickrey 1961 ([[Vickrey Auction]] / [[Second-Price Auction]]; [[Mechanism Design]] foundation)
+- [[A Value for n-Person Games]] — Shapley 1953 (the [[Shapley Value]]; axiomatic [[Fair Division]] / [[Credit Assignment]] in [[Cooperative Game Theory]])
 - [[Algorithm = Logic + Control]] — Kowalski 1979
 - [[Can Programming Be Liberated from the von Neumann Style]] — Backus 1978 (Turing Award lecture)
 - [[The Heart of Spritely - Distributed Objects and Capability Security]] — Lemmer-Webber, Farmer & Sims 2025 (Goblins / OCapN)
