@@ -90,6 +90,7 @@ See [[README]] for detailed conventions.
 - [[SharedPlans]] — Grosz & Kraus 1996 (canonical computational framework for collaborative joint action; [[Mutual Belief]])
 - [[We-intentions]] — Tuomela & Miller 1988 (irreducibility thesis: [[We-Intention|we-intentions]] are not reducible to individual I-intentions)
 - [[True Believers - The Intentional Strategy and Why It Works]] — Dennett 1981
+- [[Interpreting Systems as Solving POMDPs]] — Biehl & Virgo 2022 (IWAI; an agent is a system *plus* a consistent [[Interpretation Map|interpretation]] of it as solving a [[POMDP]]; consistency, not correctness — a formal successor to the [[Intentional Stance]])
 - [[A Taxonomy of Illocutionary Acts]] — Searle 1975
 - [[Logic and Conversation]] — Grice 1975
 - [[Attention Is All You Need]] — Vaswani et al. 2017
