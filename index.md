@@ -91,6 +91,12 @@ See [[README]] for detailed conventions.
 - [[We-intentions]] — Tuomela & Miller 1988 (irreducibility thesis: [[We-Intention|we-intentions]] are not reducible to individual I-intentions)
 - [[True Believers - The Intentional Strategy and Why It Works]] — Dennett 1981
 - [[Interpreting Systems as Solving POMDPs]] — Biehl & Virgo 2022 (IWAI; an agent is a system *plus* a consistent [[Interpretation Map|interpretation]] of it as solving a [[POMDP]]; consistency, not correctness — a formal successor to the [[Intentional Stance]])
+- [[Interpreting Dynamical Systems as Bayesian Reasoners]] — Virgo, Biehl & McGregor 2021 (IWAI; the direct predecessor: consistent [[Bayesian Filtering|Bayesian filtering]] interpretations give *reasoners*, without goals or actions)
+- [[Planning and Acting in Partially Observable Stochastic Domains]] — Kaelbling, Littman & Cassandra 1998 (AIJ 101; the canonical [[POMDP]] reference — [[Belief State|belief state]] as sufficient statistic, [[Piecewise-Linear Convex Value Function|PWLC]] value functions, the [[Witness Algorithm]])
+- [[Discovering Agents]] — Kenton, Kumar, Farquhar, Richens, MacDermott & Everitt 2022 (a rival *causal* criterion: agents are systems that would adapt their policy if their actions influenced the world differently; [[Mechanised SCM|mechanised SCMs]])
+- [[Life as We Know It]] — Friston 2013 (J. R. Soc. Interface; the [[Free Energy Principle]] anchor — any ergodic system with a [[Markov Blanket]] appears to engage in [[Active Inference|active inference]])
+- [[Active Inference and Epistemic Value]] — Friston, Rigoli, Ognibene, Mathys et al. 2015 ([[Expected Free Energy]] splits into [[Epistemic Value|epistemic]] and [[Extrinsic Value|extrinsic]] value; exploration falls out of inference rather than being bolted on)
+- [[The Cognitive Domain of a Glider in the Game of Life]] — Beer 2014 (Artificial Life; a fully worked reading of a physical system as a cognitive one — [[Autopoiesis]], [[Structural Coupling]], the [[Cognitive Domain]])
 - [[A Taxonomy of Illocutionary Acts]] — Searle 1975
 - [[Logic and Conversation]] — Grice 1975
 - [[Attention Is All You Need]] — Vaswani et al. 2017

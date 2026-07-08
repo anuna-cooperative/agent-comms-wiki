@@ -25,6 +25,12 @@ The authors are careful about scope. The commitments are adopted because they pe
 - **Stated limits:** exact Bayesian updating only (approximate inference excluded); POMDPs are not the only formalisation of goals; the commitments are chosen for precision rather than realism.
 
 ## Connections
+- [[Interpreting Dynamical Systems as Bayesian Reasoners]]
+- [[Planning and Acting in Partially Observable Stochastic Domains]]
+- [[Discovering Agents]]
+- [[Life as We Know It]]
+- [[Active Inference and Epistemic Value]]
+- [[The Cognitive Domain of a Glider in the Game of Life]]
 - [[True Believers - The Intentional Strategy and Why It Works]]
 - [[Intentional Stance]]
 - [[Physical Stance]]
