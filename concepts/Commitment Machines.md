@@ -12,3 +12,4 @@ Yolum & Singh's (ATAL-01) protocol formalism: states and actions carry declarati
 - [[Endpoint Projection]]
 - [[Choreographic Programming]]
 - [[Pact - A Choreographic Language for Agentic Ecosystems]]
+- [[BSPL]]: Singh's later operational substrate, where `means` clauses attach commitments to information-protocol messages

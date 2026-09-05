@@ -10,3 +10,5 @@ An interaction protocol specified not by a fixed message sequence but by the soc
 - [[A Commitment-Based Approach to Agent Communication]]
 - [[Commitment Machines]]
 - [[Event Calculus]]
+- [[BSPL]]
+- [[Information Protocols]]

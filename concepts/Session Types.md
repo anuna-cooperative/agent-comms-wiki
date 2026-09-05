@@ -10,6 +10,7 @@ A type discipline for communicating processes — originating with Honda (1993) 
 - [[Choreographic Programming]]
 - [[Endpoint Projection]]
 - [[Commitment Machines - Yolum and Singh]]
+- [[BSPL]]: the multiagent-systems counterpart that dispenses with projection and ordered channels; [[Enactability]] in place of projectability
 - [[Flexible Protocol Specification and Execution]]
 - [[Conversation Protocols]]
 - [[Pact - A Choreographic Language for Agentic Ecosystems]]

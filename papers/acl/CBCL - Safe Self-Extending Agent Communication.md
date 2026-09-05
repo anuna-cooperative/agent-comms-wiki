@@ -57,6 +57,7 @@ The paper accompanies the design with a Lean 4 formalization (≈5,400 lines, 16
 - [[Verifiable Semantics for ACLs]]
 - [[A Common Ontology Of ACLs]]
 - [[Commitment-based Semantics]]
+- [[BSPL]]: Singh's [[Information Protocols]] (AAMAS 2011) are the nearest multiagent-systems precedent for the R5 causal protocols and the R6 role layer: declarative, asynchronous, decentralised enactment from local history with no ordering assumptions. CBCL adds content-addressed predecessors, an adversarial threat model with signature-bound roles, the DCFL bound, runtime dialect installation, and a mechanised local-to-global correspondence; [[Enactability]] is the BSPL-side notion nearest to causal locality.
 - [[The State of the Art in Agent Communication Languages]]
 - [[Trends in Agent Communication Language]]
 - [[Toward Principles for the Design of Ontologies Used for Knowledge Sharing]] — Gruber's ontological-commitment principle CBCL inherits.

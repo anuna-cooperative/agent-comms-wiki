@@ -49,6 +49,9 @@ See [[README]] for detailed conventions.
 - [[Public Semantics]]
 - [[Commitment-based Semantics]]
 - [[Mentalistic Semantics]]
+- [[Interaction Protocols]]
+- [[Information Protocols]]
+- [[BSPL]]
 - [[Causal Inference]]
 - [[Identifiability]]
 - [[Set Theory]]
@@ -241,6 +244,8 @@ See [[README]] for detailed conventions.
 - [[Commitment Machines - Yolum and Singh]] — Yolum & Singh 2002 (ATAL-01; CM→FSM compilation, declarative meaning for protocol states)
 - [[Flexible Protocol Specification and Execution]] — Yolum & Singh 2002 (commitment-based protocols, [[Event Calculus]])
 - [[A Commitment-Based Approach to Agent Communication]] — Fornara & Colombetti 2004 (operational commitment semantics, [[Precommitment]])
+- [[BSPL - The Blindingly Simple Protocol Language]] (Singh, AAMAS 2011; [[Information Protocols]]: protocols as message schemas with ⌜in⌝/⌜out⌝/⌜nil⌝ parameter adornments and keys, no control-flow operators; ordering and exclusion derived from information flow; shared-nothing asynchronous enactment)
+- [[Semantics and Verification of Information-Based Protocols]] (Singh, AAMAS 2012; formal semantics for [[BSPL]] by viable history vectors; [[Enactability]], safety and liveness verified by temporal satisfiability)
 - [[CBCL - Safe Self-Extending Agent Communication]] — O'Connor 2026 (LangSec '26; Lean 4-verified self-extending ACL constrained to [[Deterministic Context-Free Language|DCFL]]; realises McCarthy's [[Common Business Communication Language]])
 
 ## Multi-Agent Systems and Agent Theory
@@ -254,6 +259,7 @@ See [[README]] for detailed conventions.
 - [[Ensuring Trustworthy and Ethical Behaviour in Intelligent Logical Agents]]
 - [[Distributed Defeasible Speculative Reasoning in Ambient Environment]] — Lam, Governatori, Satoh & Hosobe 2012 (CLIMA XIII; decentralized [[Speculative Computation]] over [[Defeasible Logic]] in a [[Multi-Context System]]; argumentation semantics; no master coordinator)
 - [[An Interaction-oriented Agent Framework for Open Environments]]
+- [[Kiko - Programming Agents to Enact Interaction Protocols]] (Christie, Singh & Chopra, AAMAS 2023, arXiv 2026; decision-maker programming model over [[BSPL]] [[Information Protocols]]; enabled forms, atomic emission sets; operational semantics with compliance and completeness theorems; runs over unordered lossy UDP)
 - [[Levels Of Social Orchestration]]
 - [[Structured Communication-Centred Programming for Web Services]] — Carbone, Honda & Yoshida ESOP 2007 / TOPLAS 2012 (the foundational [[Choreographic Programming]] paper)
 - [[Multiparty Asynchronous Session Types]] — Honda, Yoshida & Carbone POPL 2008 (multiparty generalisation; global types → local types projection)
