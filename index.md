@@ -260,6 +260,7 @@ See [[README]] for detailed conventions.
 - [[Distributed Defeasible Speculative Reasoning in Ambient Environment]] — Lam, Governatori, Satoh & Hosobe 2012 (CLIMA XIII; decentralized [[Speculative Computation]] over [[Defeasible Logic]] in a [[Multi-Context System]]; argumentation semantics; no master coordinator)
 - [[An Interaction-oriented Agent Framework for Open Environments]]
 - [[Kiko - Programming Agents to Enact Interaction Protocols]] (Christie, Singh & Chopra, AAMAS 2023, arXiv 2026; decision-maker programming model over [[BSPL]] [[Information Protocols]]; enabled forms, atomic emission sets; operational semantics with compliance and completeness theorems; runs over unordered lossy UDP)
+- [[Argus - Programming with Communication Protocols in a Belief-Desire-Intention Architecture]] (Christie, Singh & Chopra, AIJ 2025; melds [[BSPL]] [[Information Protocols]] with a [[BDI]] architecture by keeping the reasoning engine and replacing only communication; generic protocol adapter, emission plans and code generation over [[AgentSpeak|Jason]]; the BDI successor to [[Kiko - Programming Agents to Enact Interaction Protocols]])
 - [[Levels Of Social Orchestration]]
 - [[Structured Communication-Centred Programming for Web Services]] — Carbone, Honda & Yoshida ESOP 2007 / TOPLAS 2012 (the foundational [[Choreographic Programming]] paper)
 - [[Multiparty Asynchronous Session Types]] — Honda, Yoshida & Carbone POPL 2008 (multiparty generalisation; global types → local types projection)
