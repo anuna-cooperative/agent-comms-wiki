@@ -246,6 +246,7 @@ See [[README]] for detailed conventions.
 - [[A Commitment-Based Approach to Agent Communication]] — Fornara & Colombetti 2004 (operational commitment semantics, [[Precommitment]])
 - [[BSPL - The Blindingly Simple Protocol Language]] (Singh, AAMAS 2011; [[Information Protocols]]: protocols as message schemas with ⌜in⌝/⌜out⌝/⌜nil⌝ parameter adornments and keys, no control-flow operators; ordering and exclusion derived from information flow; shared-nothing asynchronous enactment)
 - [[Semantics and Verification of Information-Based Protocols]] (Singh, AAMAS 2012; formal semantics for [[BSPL]] by viable history vectors; [[Enactability]], safety and liveness verified by temporal satisfiability)
+- [[Langshaw - Declarative Interaction Protocols Based on Sayso and Conflict]] (Singh, Christie & Chopra, arXiv 2026; declarative protocol language over communicative actions; [[Sayso]] — social authority over each attribute (Austin's "saying makes it so") — plus nono/nogo conflicts; synchronous [[Semantic Tableaux]] semantics with safety and liveness, compiled correctly to asynchronous [[BSPL]] with sayso realised by [[Delegation]])
 - [[CBCL - Safe Self-Extending Agent Communication]] — O'Connor 2026 (LangSec '26; Lean 4-verified self-extending ACL constrained to [[Deterministic Context-Free Language|DCFL]]; realises McCarthy's [[Common Business Communication Language]])
 
 ## Multi-Agent Systems and Agent Theory
