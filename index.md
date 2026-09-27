@@ -259,6 +259,7 @@ See [[README]] for detailed conventions.
 - [[Ensuring Trustworthy and Ethical Behaviour in Intelligent Logical Agents]]
 - [[Distributed Defeasible Speculative Reasoning in Ambient Environment]] — Lam, Governatori, Satoh & Hosobe 2012 (CLIMA XIII; decentralized [[Speculative Computation]] over [[Defeasible Logic]] in a [[Multi-Context System]]; argumentation semantics; no master coordinator)
 - [[An Interaction-oriented Agent Framework for Open Environments]]
+- [[Give Agents their Artifacts - The A&A Approach for Engineering Working Environments in MAS]] — Ricci, Viroli & Omicini AAMAS'07 (the [[Agents and Artifacts]] meta-model; working environments as artifacts in workspaces; [[CARTAGO]] runtime; generalises [[Coordination Artifacts]])
 - [[Kiko - Programming Agents to Enact Interaction Protocols]] (Christie, Singh & Chopra, AAMAS 2023, arXiv 2026; decision-maker programming model over [[BSPL]] [[Information Protocols]]; enabled forms, atomic emission sets; operational semantics with compliance and completeness theorems; runs over unordered lossy UDP)
 - [[Argus - Programming with Communication Protocols in a Belief-Desire-Intention Architecture]] (Christie, Singh & Chopra, AIJ 2025; melds [[BSPL]] [[Information Protocols]] with a [[BDI]] architecture by keeping the reasoning engine and replacing only communication; generic protocol adapter, emission plans and code generation over [[AgentSpeak|Jason]]; the BDI successor to [[Kiko - Programming Agents to Enact Interaction Protocols]])
 - [[Levels Of Social Orchestration]]
