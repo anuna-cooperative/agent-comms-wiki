@@ -20,6 +20,8 @@ Large-language-model-powered agents: natural-language coordination, tool use, mu
 - [[MalTool Malicious Tool Attacks]]
 
 ## Lineage
+- [[Universal computation is intrinsic to language model decoding]] — expressiveness and programmability under extended decoding
+- [[Memory Augmented Large Language Models are Computationally Universal]] — computational power of a frozen model with external read-write memory
 - [[From Eliza to XiaoIce - Social Chatbots]]
 - [[Agent Communication Languages]]
 - [[Multi-Agent Systems]]

@@ -284,6 +284,9 @@ See [[README]] for detailed conventions.
 
 ## LLM Agents & Modern AI Agents
 
+- [[Universal computation is intrinsic to language model decoding]] — Lewandowski, Machado & Schuurmans 2026 (extended decoding, universal Lag systems, and programmability)
+- [[Memory Augmented Large Language Models are Computationally Universal]] — Schuurmans 2023 (a frozen LLM plus external read-write memory simulates a universal Turing machine)
+
 - [[Agents Framework - Zhou et al]]
 - [[A Scalable Communication Protocol for Networks of LLMs]]
 - [[Survey Of AI Agent Protocols]]

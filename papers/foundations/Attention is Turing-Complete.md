@@ -21,6 +21,8 @@ Beyond the completeness theorem itself, the paper isolates a **minimal set of el
 - **Neural GPU too:** the original ICLR 2019 conference version (arXiv:1901.03429) proves the same Turing-completeness result for the [[Neural GPU]] — a fully convolutional architecture — showing neither model needs an external memory to reach universal computation.
 
 ## Connections
+- [[Universal computation is intrinsic to language model decoding]] — universality via extended decoding and Lag-system simulation
+- [[Memory Augmented Large Language Models are Computationally Universal]] — a complementary construction using an existing frozen model and external read-write memory
 - [[Transformer]]
 - [[Self-Attention]]
 - [[Attention Is All You Need]]
