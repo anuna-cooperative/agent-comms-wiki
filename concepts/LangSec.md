@@ -14,3 +14,6 @@ Research programme treating input-handling bugs as recognition-theoretic failure
 - [[CBCL - Safe Self-Extending Agent Communication]] — first ACL designed from LangSec principles
 - [[Deterministic Context-Free Language]]
 - [[Parser Differential Attack]]
+- [[Pigeonhole Principle]] — mathematical explanation of finite-state recognition limits; no specific LangSec talk attribution established.
+- [[Myhill-Nerode Theorem]] — distinguishable prefixes and minimum DFA states.
+- [[Pumping Lemma]] — recognition limits; used in the foundational report's PKCS#1 analysis.

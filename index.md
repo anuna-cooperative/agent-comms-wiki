@@ -23,6 +23,10 @@ See [[README]] for detailed conventions.
 
 ## Concept Hubs
 
+- [[Pigeonhole Principle]] — state collisions and recognition limits.
+- [[Injective Function]] — different inputs always produce different outputs.
+- [[Myhill-Nerode Theorem]] — distinguishable prefixes and minimum recognizer states.
+- [[Pumping Lemma]] — repetition properties of regular and context-free languages.
 - [[Agent Communication Languages]]
 - [[KQML]]
 - [[FIPA-ACL]]

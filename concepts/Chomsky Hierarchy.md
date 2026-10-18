@@ -7,3 +7,6 @@ Four-level classification of formal languages (regular / context-free / context-
 - [[The Halting Problems of Network Stack Insecurity]]
 - [[Seven Turrets Of Babel]]
 - [[LangSec]]
+- [[Pigeonhole Principle]]
+- [[Myhill-Nerode Theorem]]
+- [[Pumping Lemma]]

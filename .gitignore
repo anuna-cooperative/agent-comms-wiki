@@ -1,5 +1,8 @@
 .DS_Store
-.zetl/
+.zetl/*
+!.zetl/static/
+.zetl/static/*
+!.zetl/static/diagrams/
 dist/
 public/
 

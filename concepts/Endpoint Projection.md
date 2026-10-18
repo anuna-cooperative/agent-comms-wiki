@@ -6,6 +6,7 @@ The mechanical translation from a global choreographic program — which describ
 - [[Choreographic Programming]]
 - [[Structured Communication-Centred Programming for Web Services]] — origin of the *Theorem of End-Point Projection*
 - [[Multiparty Asynchronous Session Types]] — multiparty projection `G ↾ p`
+- [[Multiparty Session Types Meet Communicating Automata]] — generalised fork/join and choice/merge protocols with communicating-automata semantics.
 - [[Introduction to Choreographies]]
 - [[Session Types]]
 - [[Pact - A Choreographic Language for Agentic Ecosystems]]
