@@ -16,6 +16,8 @@ Their two main results are a **characterisation** and a **synthesis**. On the ch
 - **Bidirectional bridge:** projection (global type → local CFSMs) and synthesis (compatible CFSMs → global type) make the correspondence an equivalence, not just an analogy.
 
 ## Connections
+- [[On Communicating Finite-State Machines]] — the foundational Brand–Zafiropulo paper
+- [[Multiparty Session Types Meet Communicating Automata]] — the authors' ESOP 2012 predecessor, defining multiparty session automata
 - [[Communicating Finite State Machines]]
 - [[Multiparty Session Types]]
 - [[Session Types]]

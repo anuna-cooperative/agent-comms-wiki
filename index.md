@@ -107,6 +107,8 @@ See [[README]] for detailed conventions.
 - [[The Bitter Lesson]] — Sutton 2019
 - [[Toward Principles for the Design of Ontologies Used for Knowledge Sharing]] — Gruber 1995
 - [[Time Clocks and the Ordering of Events in a Distributed System]] — Lamport 1978
+- [[On Communicating Finite-State Machines]] — Brand & Zafiropulo 1983 (FIFO communicating automata; executable receptions, stable tuples, and verification limits)
+- [[The Existence of Refinement Mappings]] — Abadi & Lamport 1988 (history and prophecy variables; conditional completeness of refinement mappings)
 - [[Impossibility of Distributed Consensus with One Faulty Process]] — Fischer, Lynch & Paterson 1985 (FLP)
 - [[Brewers Conjecture and the Feasibility of Consistent Available Partition-Tolerant Web Services]] — Gilbert & Lynch 2002 (CAP proof)
 - [[Knowledge and Common Knowledge in a Distributed Environment]] — Halpern & Moses 1990
@@ -266,6 +268,7 @@ See [[README]] for detailed conventions.
 - [[Levels Of Social Orchestration]]
 - [[Structured Communication-Centred Programming for Web Services]] — Carbone, Honda & Yoshida ESOP 2007 / TOPLAS 2012 (the foundational [[Choreographic Programming]] paper)
 - [[Multiparty Asynchronous Session Types]] — Honda, Yoshida & Carbone POPL 2008 (multiparty generalisation; global types → local types projection)
+- [[Multiparty Session Types Meet Communicating Automata]] — Deniélou & Yoshida ESOP 2012 (generalised global types; multiparty session automata; CFSM semantics)
 - [[Less is More - Multiparty Session Types Revisited]] — Scalas & Yoshida POPL 2019 (generalised MPST with no [[Global Types|global types]] or [[Duality]]; correctness as behavioural properties of typing contexts; repairs limited [[Subject Reduction|subject reduction]]; mpstk model checker)
 - [[Deadlock-freedom-by-design - Multiparty Asynchronous Global Programming]] — Carbone & Montesi POPL 2013 (global programming over interleaved multiparty sessions; [[Deadlock Freedom|deadlock-freedom]] by construction via [[Endpoint Projection]])
 - [[A Core Model for Choreographic Programming]] — Cruz-Filipe & Montesi 2020 (TCS; Core Choreographies, a minimal calculus whose projectable fragment is Turing complete; canonical foundational model for [[Choreographic Programming]] via [[Endpoint Projection]])
