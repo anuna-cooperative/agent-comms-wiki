@@ -111,6 +111,7 @@ See [[README]] for detailed conventions.
 - [[The Bitter Lesson]] — Sutton 2019
 - [[Toward Principles for the Design of Ontologies Used for Knowledge Sharing]] — Gruber 1995
 - [[Time Clocks and the Ordering of Events in a Distributed System]] — Lamport 1978
+- [[Reaching Agreement in the Presence of Faults]] — Pease, Shostak & Lamport 1980 (interactive consistency; tight `3f+1` Byzantine-fault bound; authenticators)
 - [[On Communicating Finite-State Machines]] — Brand & Zafiropulo 1983 (FIFO communicating automata; executable receptions, stable tuples, and verification limits)
 - [[The Existence of Refinement Mappings]] — Abadi & Lamport 1988 (history and prophecy variables; conditional completeness of refinement mappings)
 - [[Impossibility of Distributed Consensus with One Faulty Process]] — Fischer, Lynch & Paterson 1985 (FLP)
