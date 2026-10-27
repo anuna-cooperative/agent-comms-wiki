@@ -307,7 +307,7 @@ See [[README]] for detailed conventions.
 - [[MalTool Malicious Tool Attacks]]
 - [[ClawWorm Self-Propagating Attacks Across LLM Agent Ecosystems]]
 - [[SoK The Attack Surface of Agentic AI]]
-- [[Open Challenges in Multi-Agent Security]] — Schroeder de Witt et al. 2025 (definition of [[Multi-Agent Security]] as a field; secret collusion, swarm attacks, network-effect threats)
+- [[Open Challenges in Multi-Agent Security]] — Schroeder de Witt et al. 2025, revised 2026 (v2: [[Multi-Agent Security]], attacker coalitions, interaction-level threat taxonomy, provenance, and governance)
 - [[AgentDojo]] — Debenedetti et al. 2024 (NeurIPS; benchmark for prompt-injection attacks/defences on tool-using agents)
 - [[Defeating Prompt Injections by Design]] — Debenedetti et al. 2025 ([[CaMeL]]; control-flow/data-flow separation + capability-gated tools)
 - [[Privacy Reasoning in Ambiguous Contexts]] — Yi et al. 2025 (NeurIPS; [[Camber]] disambiguation framework; [[Contextual Integrity]])
