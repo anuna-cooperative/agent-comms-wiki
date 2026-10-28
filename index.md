@@ -69,6 +69,8 @@ See [[README]] for detailed conventions.
 - [[A Comprehensive Study of Convergent and Commutative Replicated Data Types]] — Shapiro, Preguiça, Baquero & Zawirski 2011 (CRDTs canonical reference)
 - [[Concurrency Control in Groupware Systems]] — Ellis & Gibbs 1989 ([[Operational Transformation]]; foundational technique behind Google Docs)
 - [[Three Models for the Description of Language]] — Chomsky 1956
+- [[Language Generation in the Limit - Kleinberg and Mullainathan]] — Kleinberg & Mullainathan 2024 (valid novel generation without identifying the target; original [[Language Generation in the Limit|generation-in-the-limit]] theorem)
+- [[On Language Generation in the Limit with Bounded Memory]] — Kleinberg, Mehrotra, Saberi & Velegkas 2026 ([[Language Generation in the Limit|generation]], [[Generation Density|coverage]], and [[Identification in the Limit|identification]] under bounded memory)
 - [[Distributional Structure]] — Harris 1954 (the [[Distributional Hypothesis]]: *difference of meaning correlates with difference of distribution*; headwater of [[Distributional Semantics]] and [[Word Embeddings]])
 - [[A Mathematical Theory of Communication]] — Shannon 1948 (founding paper of information theory; [[Channel Capacity]], [[Shannon Entropy]])
 - [[The Development of Communication Models]] — Kuznar & Yager 2020 (SMA/DoD Quick Look; the linear → interactive → transactional arc of communication models — Lasswell, Shannon–Weaver, Schramm; the [[Information Environment]])
@@ -116,7 +118,7 @@ See [[README]] for detailed conventions.
 - [[The Existence of Refinement Mappings]] — Abadi & Lamport 1988 (history and prophecy variables; conditional completeness of refinement mappings)
 - [[Impossibility of Distributed Consensus with One Faulty Process]] — Fischer, Lynch & Paterson 1985 (FLP)
 - [[Brewers Conjecture and the Feasibility of Consistent Available Partition-Tolerant Web Services]] — Gilbert & Lynch 2002 (CAP proof)
-- [[Knowledge and Common Knowledge in a Distributed Environment]] — Halpern & Moses 1990
+- [[Knowledge and Common Knowledge in a Distributed Environment]] — Halpern & Moses 1984/1990 (why protocols: global coordination from local knowledge; [[Common Knowledge]], [[Coordinated Attack Problem]], and temporal knowledge variants; linked concept glossary)
 - [[Reasoning About Knowledge]] — Fagin, Halpern, Moses & Vardi 1995 (canonical textbook of [[Epistemic Logic|epistemic logic]]; [[Interpreted Systems|runs-and-systems]] semantics; [[Common Knowledge (Convention)|common knowledge]], [[Knowledge-Based Programs]])
 - [[End-to-End Arguments in System Design]] — Saltzer, Reed & Clark 1984
 - [[A Universal Modular Actor Formalism for Artificial Intelligence]] — Hewitt, Bishop & Steiger 1973

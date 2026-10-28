@@ -1,8 +1,11 @@
 # Muddy Children Puzzle
 
-The canonical worked example of [[Epistemic Logic]] and [[Common Knowledge]]. *n* children have muddy foreheads; each sees the others' faces but not their own. A father announces publicly "at least one of you is muddy" and then repeatedly asks "does anyone know whether they are muddy?". Although the announcement seemingly tells the children nothing they cannot already see, it creates **common knowledge** of the fact, and after *k* rounds of simultaneous "no" the *k* muddy children can all deduce their state. The puzzle shows how a public announcement changes group knowledge and how reasoning about others' knowledge yields conclusions about one's own.
+A puzzle illustrating [[Higher-Order Knowledge]] and [[Common Knowledge]]. Among n children, k ≥ 1 have muddy foreheads. Each sees the others’ foreheads but not their own. A father publicly announces that at least one is muddy, then repeatedly asks whether each can prove they are muddy. Under ideal shared reasoning and simultaneous response assumptions, the first k−1 rounds receive “no”; the k muddy children answer “yes” on round k.
+
+For k > 1, everyone already knows someone is muddy before the announcement. The [[Public Announcement]] changes what they know about one another’s knowledge, enabling the deduction. For k = 1, it also supplies new individual information. Real delivery and comprehension delays require care before interpreting an announcement as strict common knowledge.
 
 ## In this vault
+- [[Knowledge and Common Knowledge in a Distributed Environment]]
 - [[Reasoning About Knowledge]]
 - [[Epistemic Logic]]
 - [[Common Knowledge]]
