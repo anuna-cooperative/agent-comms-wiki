@@ -20,3 +20,7 @@ Systems of multiple autonomous agents that interact, coordinate, and sometimes c
 - [[LLM Agents]]
 - [[Self-Adaptive Systems]]
 - [[Trust and Reputation]]
+
+## Complex-systems connection
+
+[[Dynamics of Complex Systems]] provides a complex-systems perspective through [[Complexity Profile]], [[Subdivided Networks]], [[Hierarchical Control Bottleneck]] and [[Lateral Coordination]]. Applications to software agents are distinguished from the book's neural models and organisational arguments.

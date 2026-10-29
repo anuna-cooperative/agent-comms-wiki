@@ -178,3 +178,9 @@ Mermaid lineage diagrams for each foundational cluster, embedded in the relevant
 - [[Program Semantics#Language, semantics, and concurrency lineage]] — Chomsky · McCarthy · Floyd · Hoare · Backus · Naur
 
 See [[index]] for the full paper listing, [[README]] for vault conventions.
+
+## 16. Complex Systems: What Makes a Collection Coordinate?
+
+[[Dynamics of Complex Systems]] supplies a complementary foundation for agent communication. [[Recipient-Relative Information]] asks what a message adds given the receiver's existing knowledge; this connects to [[Common Ground]] without equating shared information with mutual presupposition. [[Subdivided Networks]] asks how reusable local patterns can combine under compatibility constraints.
+
+[[Complexity Profile]] distinguishes a large collection, coherent repetition and richly differentiated collective behavior. [[Hierarchical Control Bottleneck]] then asks whether collective behavior can be simplified enough for a central controller; its bound assumes lateral communication is nonessential. [[Lateral Coordination]] supplies interactions among participants when central directives cannot provide the necessary correlations. These are grounded connections and architectural analogies, not results proving that all software-agent hierarchies fail or that peer communication alone creates intelligence.

@@ -386,6 +386,15 @@ See [[README]] for detailed conventions.
 - [[Chord]] — Stoica et al. 2001 (canonical [[Distributed Hash Table]]; `O(log N)` lookup via finger table)
 - [[Kademlia]] — Maymounkov & Mazières 2002 ([[XOR Metric]] DHT underlying IPFS / Ethereum / BitTorrent)
 
+## Complex Systems and Collective Organisation
+
+- [[Dynamics of Complex Systems]] — Bar-Yam 1997; page-indexed references on recipient knowledge, subdivided networks, collective complexity and lateral coordination.
+- [[Recipient-Relative Information]]
+- [[Subdivided Networks]]
+- [[Complexity Profile]]
+- [[Hierarchical Control Bottleneck]]
+- [[Lateral Coordination]]
+
 ## Self-* Systems, Adaptation, Trust
 
 - [[Self-Adaptation Self-Expression Self-Awareness ASCENS]]

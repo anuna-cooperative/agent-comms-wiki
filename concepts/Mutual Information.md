@@ -7,3 +7,7 @@
 - [[Shannon Entropy]]
 - [[Channel Capacity]]
 - [[Causal Influence of Communication]]
+
+## Complex-systems connection
+
+[[Dynamics of Complex Systems]] (§1.8.5, pp.233–235) also considers [[Recipient-Relative Information]]: prior knowledge and a model of the source affect what a message adds. This contextual argument should not be identified with the statistical quantity alone.
