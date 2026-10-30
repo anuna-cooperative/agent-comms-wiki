@@ -333,6 +333,7 @@ See [[README]] for detailed conventions.
 
 ## Emergent Communication & Language Games
 
+- [[Language Is a Complex Adaptive System - Position Paper]] — Beckner et al. 2009 (Five Graces Group; [[Usage-Based Grammar]], [[Grammaticalization]], and language change through interacting speakers)
 - [[Language Games for Autonomous Robots]] — Steels
 - [[Multi-Agent Cooperation and the Emergence of Natural Language]]
 - [[Emergence of Grounded Compositional Language in Multi-Agent Populations]]

@@ -33,6 +33,8 @@ This same stack — content / message / conversation / transport — reappears i
 
 ## 3. How Does Shared Language *Arise*?
 
+**Language itself adapts through use.** [[Language Is a Complex Adaptive System - Position Paper]] (Beckner et al. 2009, including John Holland) treats speakers as interacting agents whose experience reshapes individual grammars and communal conventions. [[Usage-Based Grammar]] and [[Grammaticalization]] connect repeated interaction to changes in linguistic structure. This is a human-language account; applying it to evolving agent dialects requires separate evidence about learning, adoption, and coordination.
+
 A separate tradition asks where meaning comes from rather than what it contains.
 
 - **Linguistic foundations.** [[Three Models for the Description of Language]] establishes what structure a shared code must have (Chomsky hierarchy, transformational grammar). [[Algorithmic Information Theory - Grunwald Vitanyi]] provides the information-theoretic counterpart: meaning is compressed description.

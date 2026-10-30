@@ -10,3 +10,5 @@ The emergence of global structure in a system from local, decentralised interact
 ## Complex-systems connection
 
 [[Dynamics of Complex Systems]] (§7.5, pp.691–695) relates self-organisation to design: developmental rules can encode relationships without prescribing every final detail. Its [[Lateral Coordination]] discussion (§9.4.4) addresses how interacting participants coordinate beyond central control.
+
+- [[Language Is a Complex Adaptive System - Position Paper]] — individual idiolects and communal conventions emerge at interdependent levels through local interaction.
