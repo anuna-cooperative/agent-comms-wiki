@@ -233,6 +233,7 @@ See [[README]] for detailed conventions.
 
 ## Agent Communication Languages (ACLs)
 
+- [[Desiderata for Agent Communication Languages]] — Mayfield, Labrou & Finin 1995 (seven groups of ACL design criteria; KQML assessment)
 - [[KQML Overview]]
 - [[KQML as an Agent Communication Language]]
 - [[KQML Language And Protocol]]

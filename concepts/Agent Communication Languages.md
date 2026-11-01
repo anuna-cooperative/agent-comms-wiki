@@ -7,6 +7,7 @@ A **concept hub** for agent communication languages (ACLs): languages whose spee
 - [[FIPA-ACL]] — standardised successor
 
 ## Surveys & Principles
+- [[Desiderata for Agent Communication Languages]] — seven groups of design requirements, evaluated against KQML
 - [[The State of the Art in Agent Communication Languages]]
 - [[Trends in Agent Communication Language]]
 - [[ACL Rethinking Principles]] — Singh, mental vs. social semantics
