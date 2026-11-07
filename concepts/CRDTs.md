@@ -11,6 +11,7 @@ From the **[[CALM Theorem]]** viewpoint, CRDTs are canonical monotonic building 
 - RGA (sequence CRDTs)
 
 ## In this vault
+- [[CRDT Emulation, Simulation, and Representation Independence]] — precise behavioral account of state-based/op-based emulation
 - [[Keeping CALM - When Distributed Consistency is Easy]]
 - [[CALM Theorem]]
 - [[Monotonic Logic]]

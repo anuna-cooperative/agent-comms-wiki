@@ -8,17 +8,22 @@ Tong, Y., Liittschwager, N. & Kuper, L. (2026). "Can you keep a secret? A new pr
 
 [[Causal Message Delivery|Causal delivery]] guarantees that if one message causally precedes another (in the [[Time Clocks and the Ordering of Events in a Distributed System|happened-before]] sense), no recipient sees the second before the first. There are two classic enforcement strategies. *Receiver-side* enforcement attaches causal metadata (e.g. [[Vector Clock|vector clocks]]) to every message and has recipients buffer messages until their dependencies arrive — correct, but it pays a per-message metadata cost that grows with the system. *Sender-side* enforcement instead has senders hold messages back until it is safe to release them, avoiding the metadata overhead, but the traditional sender-side approach is **overly conservative**: a sender delays emitting a message until it can be sure no earlier-but-undelivered message could overtake it, stalling work that could have proceeded.
 
-This paper introduces **Cykas**, a sender-side protocol that "sidesteps the conservativeness of the traditional sender-side approach by allowing eager sending of messages and constraining the behavior of their recipients." Rather than blocking the sender, Cykas lets messages go out eagerly and shifts the obligation to recipients, who are constrained so that the causal-delivery guarantee is still preserved without per-message causal metadata. The authors implement Cykas in Rust and verify its correctness with the [[Stateright|Stateright]] model checker, and report that eager sending yields performance benefits for long-running jobs — letting downstream jobs start earlier and reducing overall execution time relative to the conservative sender-side baseline.
+This paper introduces **Cykas**, a sender-side protocol that "sidesteps the conservativeness of the traditional sender-side approach by allowing eager sending of messages and constraining the behavior of their recipients." Rather than blocking the sender, Cykas lets messages go out eagerly and shifts the obligation to recipients, who are constrained so that the causal-delivery guarantee is still preserved without per-message causal metadata. The authors implement Cykas in Rust and check bounded executions with the [[Stateright|Stateright]] model checker, and report that eager sending yields performance benefits for long-running jobs — letting downstream jobs start earlier and reducing overall execution time relative to the conservative sender-side baseline.
+
+On an Eager Send, the recipient enters **secret mode**: it can compute and receive, but can transmit only ACK and YCT control messages. Application sends remain queued until every corresponding YCT (“you can tell”) arrives. The sender releases YCT after the relevant acknowledgements. This overlaps computation with waiting; it does not provide cryptographic secrecy. The model assumes fixed membership and reliable delivery, and performance evidence comes from simulated networks.
 
 ## Key Ideas
 
 - **Sender-side vs receiver-side causal delivery:** receiver-side buffers on causal metadata; sender-side withholds messages to avoid metadata but is traditionally conservative. Cykas keeps the sender-side metadata savings while removing the conservatism.
 - **Eager sending + constrained recipients:** the core move is to send eagerly and place the safety constraints on *recipient* behaviour, rather than stalling the sender until release is provably safe.
 - **No per-message causal metadata:** preserves the central advantage of the sender-side family — avoiding [[Vector Clock|vector-clock]]-style overhead that scales poorly.
-- **Formally model-checked:** the protocol is implemented in Rust and its causal-delivery guarantee verified using the [[Stateright|Stateright]] model checker.
+- **Verification scope:** separate safety/liveness proofs assume reliable delivery; Rust/Stateright checks cover three actors sending three application messages each, rather than arbitrary executions.
 - **Performance for long-running jobs:** eager emission lets dependent work begin sooner, lowering end-to-end execution time compared to the conservative sender-side approach.
 
 ## Connections
+
+- [[Causal Broadcast]] — related delivery discipline; Cykas supports arbitrary point-to-point messaging.
+- [[CRDT Emulation, Simulation, and Representation Independence]] — complementary account of causal-delivery assumptions in CRDT semantics.
 
 - [[Time Clocks and the Ordering of Events in a Distributed System]] — the happened-before relation that *causal* delivery is defined against.
 - [[Causal Message Delivery]] — the property this protocol enforces.
@@ -33,7 +38,7 @@ This paper introduces **Cykas**, a sender-side protocol that "sidesteps the cons
 ## Conceptual Contribution
 
 - **Claim:** Sender-side enforcement of causal message delivery need not be conservative. By allowing senders to emit eagerly and instead constraining recipient behaviour, a protocol can keep the metadata-free advantage of the sender-side family while removing the delays that previously made it slower than necessary.
-- **Mechanism:** Cykas — eager sending paired with recipient-side constraints sufficient to preserve causal delivery without per-message causal metadata; implemented in Rust and verified with the [[Stateright|Stateright]] model checker; evaluated against the conservative sender-side baseline.
+- **Mechanism:** Cykas — eager sending paired with recipient-side constraints sufficient to preserve causal delivery without per-message causal metadata; implemented in Rust and checked within explicit bounds with the [[Stateright|Stateright]] model checker; evaluated against the conservative sender-side baseline.
 - **Concepts introduced/used:** [[Cykas]], [[Causal Message Delivery]], Sender-Side Enforcement, [[Vector Clock]], [[Stateright|Model Checking]], [[Time Clocks and the Ordering of Events in a Distributed System|Happened-Before]].
 - **Stance:** systems / protocol design with formal verification.
 - **Relates to:** sits in the causal-delivery lineage rooted in [[Time Clocks and the Ordering of Events in a Distributed System|Lamport's happened-before]] and the receiver-side metadata tradition of [[Vector Clock|vector clocks]]; shares the Rust-and-verification methodology of the Kuper group's choreographic work ([[ChoRus - Library-Level Choreographic Programming in Rust]], [[HasChor - Functional Choreographic Programming]]).

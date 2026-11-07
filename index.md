@@ -67,6 +67,7 @@ See [[README]] for detailed conventions.
 - [[Logic and Lattices for Distributed Programming]] — Conway, Marczak, Alvaro, Hellerstein & Maier 2012 (BloomL; lattice-typed monotonicity)
 - [[Relational Transducers for Declarative Networking]] — Ameloot, Neven & Van den Bussche 2011 (the formal CALM-theorem proof)
 - [[A Comprehensive Study of Convergent and Commutative Replicated Data Types]] — Shapiro, Preguiça, Baquero & Zawirski 2011 (CRDTs canonical reference)
+- [[CRDT Emulation, Simulation, and Representation Independence]] — Liittschwager, Castello, Tsampas & Kuper 2025 (formal emulation via weak simulation; observable behavior and client representation independence)
 - [[Concurrency Control in Groupware Systems]] — Ellis & Gibbs 1989 ([[Operational Transformation]]; foundational technique behind Google Docs)
 - [[Three Models for the Description of Language]] — Chomsky 1956
 - [[Language Generation in the Limit - Kleinberg and Mullainathan]] — Kleinberg & Mullainathan 2024 (valid novel generation without identifying the target; original [[Language Generation in the Limit|generation-in-the-limit]] theorem)
@@ -159,7 +160,7 @@ See [[README]] for detailed conventions.
 - [[In Search of an Understandable Consensus Algorithm]] — Ongaro & Ousterhout 2014 ([[Raft]]; understandability-driven consensus)
 - [[Practical Byzantine Fault Tolerance]] — Castro & Liskov 1999 ([[PBFT]]; the practical [[Byzantine Agreement]] protocol)
 - [[HotStuff]] — Yin et al. 2019 (linear-and-responsive BFT; [[Chained Consensus]] underlying Diem/Aptos)
-- [[Can You Keep a Secret - A New Protocol for Sender-Side Enforcement of Causal Message Delivery]] — Tong, Liittschwager & Kuper 2026 (PaPoC; [[Cykas]]; eager sender-side [[Causal Message Delivery]] without per-message metadata; Stateright-verified)
+- [[Can You Keep a Secret - A New Protocol for Sender-Side Enforcement of Causal Message Delivery]] — Tong, Liittschwager & Kuper 2026 (PaPoC; [[Cykas]]; eager sender-side [[Causal Message Delivery]] without per-message causal metadata; bounded Stateright checks)
 - [[Generative Communication in Linda]] — Gelernter 1985 ([[Linda (coordination)|Linda]] / [[Tuple Spaces|tuple spaces]]; canonical [[Coordination Language]])
 - [[KLAIM]] — De Nicola, Ferrari & Pugliese 1998 (Linda + [[Locality (KLAIM)|localities]] + mobile `eval`; formal model for mobile agents)
 - [[Reo]] — Arbab 2004 ([[Channel-based Coordination|channel-based]] coordination; programmable [[Connector (Reo)|connectors]]; algebraic counterpoint to Linda)
@@ -253,6 +254,7 @@ See [[README]] for detailed conventions.
 - [[Semantic Description For Agent Design Patterns]]
 - [[Commitment Machines - Yolum and Singh]] — Yolum & Singh 2002 (ATAL-01; CM→FSM compilation, declarative meaning for protocol states)
 - [[Flexible Protocol Specification and Execution]] — Yolum & Singh 2002 (commitment-based protocols, [[Event Calculus]])
+- [[Correctness Properties for Multiagent Systems]] — Singh & Chopra 2009 (DALT; interoperability, alignment, compliance, transparency, and protocol refinement; revised proceedings 2010)
 - [[A Commitment-Based Approach to Agent Communication]] — Fornara & Colombetti 2004 (operational commitment semantics, [[Precommitment]])
 - [[BSPL - The Blindingly Simple Protocol Language]] (Singh, AAMAS 2011; [[Information Protocols]]: protocols as message schemas with ⌜in⌝/⌜out⌝/⌜nil⌝ parameter adornments and keys, no control-flow operators; ordering and exclusion derived from information flow; shared-nothing asynchronous enactment)
 - [[Semantics and Verification of Information-Based Protocols]] (Singh, AAMAS 2012; formal semantics for [[BSPL]] by viable history vectors; [[Enactability]], safety and liveness verified by temporal satisfiability)
@@ -284,6 +286,7 @@ See [[README]] for detailed conventions.
 - [[HasChor - Functional Choreographic Programming]] — Shen, Kashiwa & Kuper ICFP 2023 (functional pearl; [[Choreographic Programming]] as a Haskell library; [[Endpoint Projection]] as monadic interpretation; higher-order, location-polymorphic choreographies)
 - [[ChoRus - Library-Level Choreographic Programming in Rust]] — Kashiwa, Shen, Zare & Kuper 2023 / CP 2024 (first CP library for Rust; endpoint-projection-as-dependency-injection; choreographic enclaves scope [[Knowledge of Choice]])
 - [[Introduction to Choreographies]] — Montesi 2023 (Cambridge UP; canonical textbook, citation-only)
+- [[Efficient, Portable, Census-Polymorphic Choreographic Programming]] — Bates et al. PLDI 2025 (conclaves, multiply-located values, participant-count abstraction, and projection as dependency injection)
 - [[Knowledge of Choice]] — Montesi (bliki; realisability property requiring all affected participants be informed of a choice; [[Choreography Amendment|amendment]] via [[Selection (Choreography)|selections]])
 - [[Pact - A Choreographic Language for Agentic Ecosystems]] — Gopinathan et al. 2026 (CP 2026; [[Choreographic Programming]] + game theory; LLM-era revival of mentalistic semantics)
 - [[On the Monitorability of Session Types]] — Bartolo Burlò, Francalanza & Scalas 2021 (ECOOP; runtime monitor synthesis for [[Session Types]])
@@ -349,6 +352,7 @@ See [[README]] for detailed conventions.
 
 ## Programming Languages & Extensibility
 
+- [[Exploring the Theory and Practice of Concurrency in the Entity-Component-System Pattern]] — Redmond, Castello, Calderón Trilla & Kuper 2025 (OOPSLA; Core ECS and deterministic concurrent schedules)
 - [[The Extensible Language - Graham]]
 - [[Extensibility in Programming Language Design - Standish]]
 - [[A Modular Approach to Metatheoretic Reasoning for Extensible Languages]]

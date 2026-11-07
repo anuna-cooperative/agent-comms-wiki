@@ -7,6 +7,7 @@ Specifications of legal conversation patterns above the message level. Three fam
 [[Knowledge and Common Knowledge in a Distributed Environment]] gives an epistemic foundation: a global task must be achieved by participants acting on local information. Protocols organise the exchanges that establish the knowledge needed for their next actions, subject to delivery and timing limits.
 
 ## In this vault
+- [[Correctness Properties for Multiagent Systems]] — correctness criteria for agents, roles, and protocols; refinement does not itself establish role compatibility.
 - [[Coordinating Agents Using ACL Conversations]]
 - [[ACRE Agent Conversation Reasoning Engine]]
 - [[Conversation Policy]]
