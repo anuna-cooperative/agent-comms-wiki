@@ -11,6 +11,7 @@ Practical techniques:
 Contrasts with storage-consistency work (linearizability, serializability) which enforces coordination *inside* the storage layer regardless of program shape.
 
 ## In this vault
+- [[Lasp - A Language for Distributed, Coordination-Free Programming]] — CRDT composition through monotonic internal state
 - [[CALM Theorem]]
 - [[Keeping CALM - When Distributed Consistency is Easy]]
 - [[Monotonic Logic]]
