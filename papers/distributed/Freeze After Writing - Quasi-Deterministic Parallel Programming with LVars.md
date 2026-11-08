@@ -18,6 +18,7 @@ Freezing permits exact reads but rejects subsequent writes that would change the
 
 ## Connections
 
+- [[LVars - Lattice-based Data Structures for Deterministic Parallelism]] — the underlying deterministic model extended here.
 - [[Determinism]]
 - [[Concurrency]]
 - [[Monotonic Logic]]
