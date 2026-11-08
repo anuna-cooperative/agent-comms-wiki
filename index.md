@@ -114,6 +114,7 @@ See [[README]] for detailed conventions.
 - [[The Bitter Lesson]] — Sutton 2019
 - [[Toward Principles for the Design of Ontologies Used for Knowledge Sharing]] — Gruber 1995
 - [[Time Clocks and the Ordering of Events in a Distributed System]] — Lamport 1978
+- [[Inductive Diagrams for Causal Reasoning]] — Castello, Redmond & Kuper OOPSLA 2024 (causal separation diagrams; Agda-verified logical clocks)
 - [[Reaching Agreement in the Presence of Faults]] — Pease, Shostak & Lamport 1980 (interactive consistency; tight `3f+1` Byzantine-fault bound; authenticators)
 - [[On Communicating Finite-State Machines]] — Brand & Zafiropulo 1983 (FIFO communicating automata; executable receptions, stable tuples, and verification limits)
 - [[The Existence of Refinement Mappings]] — Abadi & Lamport 1988 (history and prophecy variables; conditional completeness of refinement mappings)
@@ -286,6 +287,8 @@ See [[README]] for detailed conventions.
 - [[HasChor - Functional Choreographic Programming]] — Shen, Kashiwa & Kuper ICFP 2023 (functional pearl; [[Choreographic Programming]] as a Haskell library; [[Endpoint Projection]] as monadic interpretation; higher-order, location-polymorphic choreographies)
 - [[ChoRus - Library-Level Choreographic Programming in Rust]] — Kashiwa, Shen, Zare & Kuper 2023 / CP 2024 (first CP library for Rust; endpoint-projection-as-dependency-injection; choreographic enclaves scope [[Knowledge of Choice]])
 - [[Introduction to Choreographies]] — Montesi 2023 (Cambridge UP; canonical textbook, citation-only)
+- [[Choreographies as Macros]] — Bohosian & Hirsch PLACES 2025 (Choret; Racket macros implement compile-time selection-and-merge projection)
+- [[Pirouette - Higher-Order Typed Functional Choreographies]] — Hirsch & Garg 2021 (typed higher-order functional choreographies; generic local languages and Coq-verified projection)
 - [[Efficient, Portable, Census-Polymorphic Choreographic Programming]] — Bates et al. PLDI 2025 (conclaves, multiply-located values, participant-count abstraction, and projection as dependency injection)
 - [[Knowledge of Choice]] — Montesi (bliki; realisability property requiring all affected participants be informed of a choice; [[Choreography Amendment|amendment]] via [[Selection (Choreography)|selections]])
 - [[Pact - A Choreographic Language for Agentic Ecosystems]] — Gopinathan et al. 2026 (CP 2026; [[Choreographic Programming]] + game theory; LLM-era revival of mentalistic semantics)
@@ -352,6 +355,8 @@ See [[README]] for detailed conventions.
 
 ## Programming Languages & Extensibility
 
+- [[A First-Order Logic with Frames]] — Murali, Peña, Löding & Madhusudan, revised 2022 (formula supports, local heap reasoning, and recursive first-order verification conditions)
+- [[A Monad for Deterministic Parallelism]] — Marlow, Newton & Peyton Jones 2011 (Par monad; single-assignment IVars and library-level work stealing)
 - [[Exploring the Theory and Practice of Concurrency in the Entity-Component-System Pattern]] — Redmond, Castello, Calderón Trilla & Kuper 2025 (OOPSLA; Core ECS and deterministic concurrent schedules)
 - [[The Extensible Language - Graham]]
 - [[Extensibility in Programming Language Design - Standish]]
