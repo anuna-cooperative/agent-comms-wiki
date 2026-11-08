@@ -63,6 +63,7 @@ See [[README]] for detailed conventions.
 
 ## Foundational
 
+- [[The Semantics of a Simple Language for Parallel Programming]] — Kahn 1974 (deterministic FIFO process networks; continuous stream functions and least fixed points)
 - [[Keeping CALM - When Distributed Consistency is Easy]] — Hellerstein & Alvaro 2019 ([[CALM Theorem]])
 - [[Logic and Lattices for Distributed Programming]] — Conway, Marczak, Alvaro, Hellerstein & Maier 2012 (BloomL; lattice-typed monotonicity)
 - [[Relational Transducers for Declarative Networking]] — Ameloot, Neven & Van den Bussche 2011 (the formal CALM-theorem proof)
