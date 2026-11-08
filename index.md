@@ -356,6 +356,7 @@ See [[README]] for detailed conventions.
 
 ## Programming Languages & Extensibility
 
+- [[Freeze After Writing - Quasi-Deterministic Parallel Programming with LVars]] — Kuper, Turon, Krishnaswami & Newton POPL 2014 (LVish; handlers, freezing, and agreement of successful executions)
 - [[A First-Order Logic with Frames]] — Murali, Peña, Löding & Madhusudan, revised 2022 (formula supports, local heap reasoning, and recursive first-order verification conditions)
 - [[A Monad for Deterministic Parallelism]] — Marlow, Newton & Peyton Jones 2011 (Par monad; single-assignment IVars and library-level work stealing)
 - [[Exploring the Theory and Practice of Concurrency in the Entity-Component-System Pattern]] — Redmond, Castello, Calderón Trilla & Kuper 2025 (OOPSLA; Core ECS and deterministic concurrent schedules)
