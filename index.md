@@ -396,6 +396,7 @@ See [[README]] for detailed conventions.
 
 ## Gossip & Peer-to-Peer
 
+- [[Merkle-CRDTs - Merkle-DAGs meet CRDTs]] — Sanjuán, Pöyhtäri, Teixeira & Psaras 2020 (content-addressed causal histories as CRDT transport and persistence)
 - [[Gossiping in Distributed Systems]]
 - [[Gossip-based Aggregation in Large Dynamic Networks]]
 - [[Gossip-Based Computation of Aggregate Information]]
