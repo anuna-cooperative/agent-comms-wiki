@@ -17,6 +17,8 @@ The paper develops a heap-manipulating program logic with local proof rules and 
 
 ## Connections
 
+- [[Local Reasoning about Programs that Alter Data Structures]] — separating conjunction and the original heap-local frame rule.
+
 - [[First-Order Logic]]
 - [[Program Verification]]
 - [[Hoare Logic]]

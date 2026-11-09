@@ -63,6 +63,8 @@ See [[README]] for detailed conventions.
 
 ## Foundational
 
+- [[Local Reasoning about Programs that Alter Data Structures]] — O’Hearn, Reynolds & Yang, CSL 2001 (separating conjunction, heap footprints and the [[Frame Rule]])
+
 - [[The Semantics of a Simple Language for Parallel Programming]] — Kahn 1974 (deterministic FIFO process networks; continuous stream functions and least fixed points)
 - [[Keeping CALM - When Distributed Consistency is Easy]] — Hellerstein & Alvaro 2019 ([[CALM Theorem]])
 - [[Logic and Lattices for Distributed Programming]] — Conway, Marczak, Alvaro, Hellerstein & Maier 2012 (BloomL; lattice-typed monotonicity)
