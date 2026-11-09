@@ -6,3 +6,4 @@ An architectural constraint in which components are organised into hierarchical 
 - [[Principled Design Of The Modern Web Architecture]]
 - [[REST]]
 - [[Architectural Styles]]
+- [[Appia - A Flexible Protocol Kernel Supporting Multiple Coordinated Channels]]

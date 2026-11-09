@@ -345,6 +345,7 @@ See [[README]] for detailed conventions.
 
 ## Programming Languages & Extensibility
 
+- [[Appia - A Flexible Protocol Kernel Supporting Multiple Coordinated Channels]] — Miranda, Pinto & Rodrigues 2001 (protocol-kernel composition; shared sessions coordinate channels with different QoS)
 - [[The Extensible Language - Graham]]
 - [[Extensibility in Programming Language Design - Standish]]
 - [[A Modular Approach to Metatheoretic Reasoning for Extensible Languages]]
@@ -374,6 +375,7 @@ See [[README]] for detailed conventions.
 - [[Guns and Butter - Towards Formal Axioms of Input Validation]] — Hansen & Patterson 2005 (Black Hat USA; the seminal [[LangSec]] paper; input validation as formal-language recognition)
 - [[Security Applications Of Formal Language Theory]] — Sassaman et al. LangSec foundational
 - [[Exploit Programming - From Buffer Overflows To Weird Machines]] — Bratus et al.
+- [[Weird Machines as Insecure Compilation]] — Paykin et al. (2019 preprint; supplied 2020 PriSC PDF); exploits as target behaviors with no source-context simulation, robust property preservation, and compiler-stack composition
 
 ## Gossip & Peer-to-Peer
 
