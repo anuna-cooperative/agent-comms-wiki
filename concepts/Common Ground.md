@@ -8,3 +8,7 @@ Stalnakerian notion: the body of propositions mutually presupposed by participan
 - [[Deontic Scorekeeping]]
 - [[Languages and Language - Lewis]]
 - [[index]]
+
+## Complex-systems connection
+
+A related information-theoretic perspective appears in [[Dynamics of Complex Systems]] (§1.8.5, pp.233–235): [[Recipient-Relative Information]] depends on the recipient's prior knowledge and model of the source. Shared information alone does not establish mutual presupposition.

@@ -17,6 +17,7 @@ The paper catalogues a library of CRDTs spanning counters (G-Counter, PN-Counter
 - *Causal-broadcast assumption*: op-based CRDTs require the network layer to deliver operations in causal order; state-based CRDTs make weaker assumptions.
 
 ## Connections
+- [[CRDT Emulation, Simulation, and Representation Independence]] — formalizes emulation through weak simulations, with explicit network semantics and property-transfer boundaries
 - [[CRDTs]]
 - [[Keeping CALM - When Distributed Consistency is Easy]]
 - [[Logic and Lattices for Distributed Programming]]

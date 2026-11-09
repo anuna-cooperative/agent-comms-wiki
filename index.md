@@ -63,12 +63,19 @@ See [[README]] for detailed conventions.
 
 ## Foundational
 
+- [[Local Reasoning about Programs that Alter Data Structures]] — O’Hearn, Reynolds & Yang, CSL 2001 (separating conjunction, heap footprints and the [[Frame Rule]])
+
+- [[The Semantics of a Simple Language for Parallel Programming]] — Kahn 1974 (deterministic FIFO process networks; continuous stream functions and least fixed points)
 - [[Keeping CALM - When Distributed Consistency is Easy]] — Hellerstein & Alvaro 2019 ([[CALM Theorem]])
 - [[Logic and Lattices for Distributed Programming]] — Conway, Marczak, Alvaro, Hellerstein & Maier 2012 (BloomL; lattice-typed monotonicity)
 - [[Relational Transducers for Declarative Networking]] — Ameloot, Neven & Van den Bussche 2011 (the formal CALM-theorem proof)
 - [[A Comprehensive Study of Convergent and Commutative Replicated Data Types]] — Shapiro, Preguiça, Baquero & Zawirski 2011 (CRDTs canonical reference)
+- [[Lasp - A Language for Distributed, Coordination-Free Programming]] — Meiklejohn & Van Roy PPDP 2015 (metadata-aware CRDT composition and distributed dataflow)
+- [[CRDT Emulation, Simulation, and Representation Independence]] — Liittschwager, Castello, Tsampas & Kuper 2025 (formal emulation via weak simulation; observable behavior and client representation independence)
 - [[Concurrency Control in Groupware Systems]] — Ellis & Gibbs 1989 ([[Operational Transformation]]; foundational technique behind Google Docs)
 - [[Three Models for the Description of Language]] — Chomsky 1956
+- [[Language Generation in the Limit - Kleinberg and Mullainathan]] — Kleinberg & Mullainathan 2024 (valid novel generation without identifying the target; original [[Language Generation in the Limit|generation-in-the-limit]] theorem)
+- [[On Language Generation in the Limit with Bounded Memory]] — Kleinberg, Mehrotra, Saberi & Velegkas 2026 ([[Language Generation in the Limit|generation]], [[Generation Density|coverage]], and [[Identification in the Limit|identification]] under bounded memory)
 - [[Distributional Structure]] — Harris 1954 (the [[Distributional Hypothesis]]: *difference of meaning correlates with difference of distribution*; headwater of [[Distributional Semantics]] and [[Word Embeddings]])
 - [[A Mathematical Theory of Communication]] — Shannon 1948 (founding paper of information theory; [[Channel Capacity]], [[Shannon Entropy]])
 - [[The Development of Communication Models]] — Kuznar & Yager 2020 (SMA/DoD Quick Look; the linear → interactive → transactional arc of communication models — Lasswell, Shannon–Weaver, Schramm; the [[Information Environment]])
@@ -111,12 +118,13 @@ See [[README]] for detailed conventions.
 - [[The Bitter Lesson]] — Sutton 2019
 - [[Toward Principles for the Design of Ontologies Used for Knowledge Sharing]] — Gruber 1995
 - [[Time Clocks and the Ordering of Events in a Distributed System]] — Lamport 1978
+- [[Inductive Diagrams for Causal Reasoning]] — Castello, Redmond & Kuper OOPSLA 2024 (causal separation diagrams; Agda-verified logical clocks)
 - [[Reaching Agreement in the Presence of Faults]] — Pease, Shostak & Lamport 1980 (interactive consistency; tight `3f+1` Byzantine-fault bound; authenticators)
 - [[On Communicating Finite-State Machines]] — Brand & Zafiropulo 1983 (FIFO communicating automata; executable receptions, stable tuples, and verification limits)
 - [[The Existence of Refinement Mappings]] — Abadi & Lamport 1988 (history and prophecy variables; conditional completeness of refinement mappings)
 - [[Impossibility of Distributed Consensus with One Faulty Process]] — Fischer, Lynch & Paterson 1985 (FLP)
 - [[Brewers Conjecture and the Feasibility of Consistent Available Partition-Tolerant Web Services]] — Gilbert & Lynch 2002 (CAP proof)
-- [[Knowledge and Common Knowledge in a Distributed Environment]] — Halpern & Moses 1990
+- [[Knowledge and Common Knowledge in a Distributed Environment]] — Halpern & Moses 1984/1990 (why protocols: global coordination from local knowledge; [[Common Knowledge]], [[Coordinated Attack Problem]], and temporal knowledge variants; linked concept glossary)
 - [[Reasoning About Knowledge]] — Fagin, Halpern, Moses & Vardi 1995 (canonical textbook of [[Epistemic Logic|epistemic logic]]; [[Interpreted Systems|runs-and-systems]] semantics; [[Common Knowledge (Convention)|common knowledge]], [[Knowledge-Based Programs]])
 - [[End-to-End Arguments in System Design]] — Saltzer, Reed & Clark 1984
 - [[A Universal Modular Actor Formalism for Artificial Intelligence]] — Hewitt, Bishop & Steiger 1973
@@ -157,7 +165,7 @@ See [[README]] for detailed conventions.
 - [[In Search of an Understandable Consensus Algorithm]] — Ongaro & Ousterhout 2014 ([[Raft]]; understandability-driven consensus)
 - [[Practical Byzantine Fault Tolerance]] — Castro & Liskov 1999 ([[PBFT]]; the practical [[Byzantine Agreement]] protocol)
 - [[HotStuff]] — Yin et al. 2019 (linear-and-responsive BFT; [[Chained Consensus]] underlying Diem/Aptos)
-- [[Can You Keep a Secret - A New Protocol for Sender-Side Enforcement of Causal Message Delivery]] — Tong, Liittschwager & Kuper 2026 (PaPoC; [[Cykas]]; eager sender-side [[Causal Message Delivery]] without per-message metadata; Stateright-verified)
+- [[Can You Keep a Secret - A New Protocol for Sender-Side Enforcement of Causal Message Delivery]] — Tong, Liittschwager & Kuper 2026 (PaPoC; [[Cykas]]; eager sender-side [[Causal Message Delivery]] without per-message causal metadata; bounded Stateright checks)
 - [[Generative Communication in Linda]] — Gelernter 1985 ([[Linda (coordination)|Linda]] / [[Tuple Spaces|tuple spaces]]; canonical [[Coordination Language]])
 - [[KLAIM]] — De Nicola, Ferrari & Pugliese 1998 (Linda + [[Locality (KLAIM)|localities]] + mobile `eval`; formal model for mobile agents)
 - [[Reo]] — Arbab 2004 ([[Channel-based Coordination|channel-based]] coordination; programmable [[Connector (Reo)|connectors]]; algebraic counterpoint to Linda)
@@ -231,6 +239,7 @@ See [[README]] for detailed conventions.
 
 ## Agent Communication Languages (ACLs)
 
+- [[Desiderata for Agent Communication Languages]] — Mayfield, Labrou & Finin 1995 (seven groups of ACL design criteria; KQML assessment)
 - [[KQML Overview]]
 - [[KQML as an Agent Communication Language]]
 - [[KQML Language And Protocol]]
@@ -250,6 +259,7 @@ See [[README]] for detailed conventions.
 - [[Semantic Description For Agent Design Patterns]]
 - [[Commitment Machines - Yolum and Singh]] — Yolum & Singh 2002 (ATAL-01; CM→FSM compilation, declarative meaning for protocol states)
 - [[Flexible Protocol Specification and Execution]] — Yolum & Singh 2002 (commitment-based protocols, [[Event Calculus]])
+- [[Correctness Properties for Multiagent Systems]] — Singh & Chopra 2009 (DALT; interoperability, alignment, compliance, transparency, and protocol refinement; revised proceedings 2010)
 - [[A Commitment-Based Approach to Agent Communication]] — Fornara & Colombetti 2004 (operational commitment semantics, [[Precommitment]])
 - [[BSPL - The Blindingly Simple Protocol Language]] (Singh, AAMAS 2011; [[Information Protocols]]: protocols as message schemas with ⌜in⌝/⌜out⌝/⌜nil⌝ parameter adornments and keys, no control-flow operators; ordering and exclusion derived from information flow; shared-nothing asynchronous enactment)
 - [[Semantics and Verification of Information-Based Protocols]] (Singh, AAMAS 2012; formal semantics for [[BSPL]] by viable history vectors; [[Enactability]], safety and liveness verified by temporal satisfiability)
@@ -281,6 +291,9 @@ See [[README]] for detailed conventions.
 - [[HasChor - Functional Choreographic Programming]] — Shen, Kashiwa & Kuper ICFP 2023 (functional pearl; [[Choreographic Programming]] as a Haskell library; [[Endpoint Projection]] as monadic interpretation; higher-order, location-polymorphic choreographies)
 - [[ChoRus - Library-Level Choreographic Programming in Rust]] — Kashiwa, Shen, Zare & Kuper 2023 / CP 2024 (first CP library for Rust; endpoint-projection-as-dependency-injection; choreographic enclaves scope [[Knowledge of Choice]])
 - [[Introduction to Choreographies]] — Montesi 2023 (Cambridge UP; canonical textbook, citation-only)
+- [[Choreographies as Macros]] — Bohosian & Hirsch PLACES 2025 (Choret; Racket macros implement compile-time selection-and-merge projection)
+- [[Pirouette - Higher-Order Typed Functional Choreographies]] — Hirsch & Garg 2021 (typed higher-order functional choreographies; generic local languages and Coq-verified projection)
+- [[Efficient, Portable, Census-Polymorphic Choreographic Programming]] — Bates et al. PLDI 2025 (conclaves, multiply-located values, participant-count abstraction, and projection as dependency injection)
 - [[Knowledge of Choice]] — Montesi (bliki; realisability property requiring all affected participants be informed of a choice; [[Choreography Amendment|amendment]] via [[Selection (Choreography)|selections]])
 - [[Pact - A Choreographic Language for Agentic Ecosystems]] — Gopinathan et al. 2026 (CP 2026; [[Choreographic Programming]] + game theory; LLM-era revival of mentalistic semantics)
 - [[On the Monitorability of Session Types]] — Bartolo Burlò, Francalanza & Scalas 2021 (ECOOP; runtime monitor synthesis for [[Session Types]])
@@ -307,7 +320,7 @@ See [[README]] for detailed conventions.
 - [[MalTool Malicious Tool Attacks]]
 - [[ClawWorm Self-Propagating Attacks Across LLM Agent Ecosystems]]
 - [[SoK The Attack Surface of Agentic AI]]
-- [[Open Challenges in Multi-Agent Security]] — Schroeder de Witt et al. 2025 (definition of [[Multi-Agent Security]] as a field; secret collusion, swarm attacks, network-effect threats)
+- [[Open Challenges in Multi-Agent Security]] — Schroeder de Witt et al. 2025, revised 2026 (v2: [[Multi-Agent Security]], attacker coalitions, interaction-level threat taxonomy, provenance, and governance)
 - [[AgentDojo]] — Debenedetti et al. 2024 (NeurIPS; benchmark for prompt-injection attacks/defences on tool-using agents)
 - [[Defeating Prompt Injections by Design]] — Debenedetti et al. 2025 ([[CaMeL]]; control-flow/data-flow separation + capability-gated tools)
 - [[Privacy Reasoning in Ambiguous Contexts]] — Yi et al. 2025 (NeurIPS; [[Camber]] disambiguation framework; [[Contextual Integrity]])
@@ -331,6 +344,7 @@ See [[README]] for detailed conventions.
 
 ## Emergent Communication & Language Games
 
+- [[Language Is a Complex Adaptive System - Position Paper]] — Beckner et al. 2009 (Five Graces Group; [[Usage-Based Grammar]], [[Grammaticalization]], and language change through interacting speakers)
 - [[Language Games for Autonomous Robots]] — Steels
 - [[Multi-Agent Cooperation and the Emergence of Natural Language]]
 - [[Emergence of Grounded Compositional Language in Multi-Agent Populations]]
@@ -346,6 +360,11 @@ See [[README]] for detailed conventions.
 ## Programming Languages & Extensibility
 
 - [[Appia - A Flexible Protocol Kernel Supporting Multiple Coordinated Channels]] — Miranda, Pinto & Rodrigues 2001 (protocol-kernel composition; shared sessions coordinate channels with different QoS)
+- [[LVars - Lattice-based Data Structures for Deterministic Parallelism]] — Kuper & Newton FHPC 2013 (lattice-valued shared state; threshold reads and deterministic parallelism)
+- [[Freeze After Writing - Quasi-Deterministic Parallel Programming with LVars]] — Kuper, Turon, Krishnaswami & Newton POPL 2014 (LVish; handlers, freezing, and agreement of successful executions)
+- [[A First-Order Logic with Frames]] — Murali, Peña, Löding & Madhusudan, revised 2022 (formula supports, local heap reasoning, and recursive first-order verification conditions)
+- [[A Monad for Deterministic Parallelism]] — Marlow, Newton & Peyton Jones 2011 (Par monad; single-assignment IVars and library-level work stealing)
+- [[Exploring the Theory and Practice of Concurrency in the Entity-Component-System Pattern]] — Redmond, Castello, Calderón Trilla & Kuper 2025 (OOPSLA; Core ECS and deterministic concurrent schedules)
 - [[The Extensible Language - Graham]]
 - [[Extensibility in Programming Language Design - Standish]]
 - [[A Modular Approach to Metatheoretic Reasoning for Extensible Languages]]
@@ -379,12 +398,22 @@ See [[README]] for detailed conventions.
 
 ## Gossip & Peer-to-Peer
 
+- [[Merkle-CRDTs - Merkle-DAGs meet CRDTs]] — Sanjuán, Pöyhtäri, Teixeira & Psaras 2020 (content-addressed causal histories as CRDT transport and persistence)
 - [[Gossiping in Distributed Systems]]
 - [[Gossip-based Aggregation in Large Dynamic Networks]]
 - [[Gossip-Based Computation of Aggregate Information]]
 - [[Myconet Fungi Inspired Superpeer Overlay]]
 - [[Chord]] — Stoica et al. 2001 (canonical [[Distributed Hash Table]]; `O(log N)` lookup via finger table)
 - [[Kademlia]] — Maymounkov & Mazières 2002 ([[XOR Metric]] DHT underlying IPFS / Ethereum / BitTorrent)
+
+## Complex Systems and Collective Organisation
+
+- [[Dynamics of Complex Systems]] — Bar-Yam 1997; page-indexed references on recipient knowledge, subdivided networks, collective complexity and lateral coordination.
+- [[Recipient-Relative Information]]
+- [[Subdivided Networks]]
+- [[Complexity Profile]]
+- [[Hierarchical Control Bottleneck]]
+- [[Lateral Coordination]]
 
 ## Self-* Systems, Adaptation, Trust
 

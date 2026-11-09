@@ -3,6 +3,7 @@
 **Knowledge Query and Manipulation Language** — one of the first ACLs, developed in the early 1990s by the ARPA Knowledge Sharing Effort. Performative-based, separating content language from communication.
 
 ## Primary sources
+- [[Desiderata for Agent Communication Languages]] — design criteria and assessment of KQML's limitations in 1995
 - [[KQML Overview]]
 - [[KQML as an Agent Communication Language]]
 - [[KQML Language And Protocol]]

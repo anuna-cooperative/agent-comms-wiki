@@ -3,6 +3,7 @@
 Approach that grounds ACL message meaning in public social commitments rather than private mental states — making conformance verifiable.
 
 ## In this vault
+- [[Correctness Properties for Multiagent Systems]] — distinguishes commitment alignment, discharge, and the observability needed to verify compliance.
 - [[ACL Rethinking Principles]]
 - [[Agent Communication Languages - Rethinking the Principles]]
 - [[Agent Communication And Institutional Reality]]

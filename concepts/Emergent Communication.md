@@ -13,3 +13,4 @@ How communication arises between agents through interaction and learning.
 - [[Three Models for the Description of Language]]
 - [[Speech Act Theory]]
 - [[LLM Agents]]
+- [[Language Is a Complex Adaptive System - Position Paper]] — human language as an evolving system of interacting speakers; usage changes individual grammars and communal conventions.

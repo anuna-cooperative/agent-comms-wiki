@@ -20,6 +20,8 @@ Surveys mapping this debate: [[The State of the Art in Agent Communication Langu
 
 Messages compose into languages compose into protocols.
 
+**Why have protocols?** [[Knowledge and Common Knowledge in a Distributed Environment]] (Halpern & Moses 1984/1990) supplies an epistemic foundation: participants must achieve a global outcome using only local information. Interactions establish the knowledge needed to justify their actions. The required knowledge must be attainable under the delivery and timing model; coordinated attack demonstrates a limit, while weaker forms of [[Common Knowledge]] support practical coordination.
+
 | Layer | Concept | Representative papers |
 |---|---|---|
 | Content | **[[KIF]]**, ontology term sets | [[KQML Overview]], [[Ontolingua Portable Ontology Specifications]], [[Handbook On Ontologies]] |
@@ -30,6 +32,8 @@ Messages compose into languages compose into protocols.
 This same stack — content / message / conversation / transport — reappears in the modern LLM-agent protocol wave: see [[Survey Of AI Agent Protocols]] and [[Survey Of Agent Interoperability Protocols]], which place [[Model Context Protocol]] (tools), ACP, [[Agent-to-Agent Protocol]], and [[Agent Network Protocol]] at progressively higher layers.
 
 ## 3. How Does Shared Language *Arise*?
+
+**Language itself adapts through use.** [[Language Is a Complex Adaptive System - Position Paper]] (Beckner et al. 2009, including John Holland) treats speakers as interacting agents whose experience reshapes individual grammars and communal conventions. [[Usage-Based Grammar]] and [[Grammaticalization]] connect repeated interaction to changes in linguistic structure. This is a human-language account; applying it to evolving agent dialects requires separate evidence about learning, adoption, and coordination.
 
 A separate tradition asks where meaning comes from rather than what it contains.
 
@@ -114,6 +118,8 @@ A few papers anchor the abstract ground everything else stands on.
 - **[[Process Calculi]].** [[Communicating Sequential Processes]] (Hoare 1978), [[A Calculus of Communicating Systems]] (Milner 1980), and [[A Calculus of Mobile Processes]] (Milner, Parrow & Walker 1992) — the formal substrate underneath every later result on session types, choreographies, and distributed concurrency. The π-calculus's [[Name-Passing]] + [[Scope Extrusion]] is the missing semantic primitive under [[Multiparty Asynchronous Session Types]] and [[Pact - A Choreographic Language for Agentic Ecosystems]]; [[Mobile Ambients]] is the location-first sibling motivating administrative-domain reasoning; [[Spi Calculus]] adds cryptographic primitives, bridging to LangSec / [[BAN Logic]] verification.
 - **Program semantics.** [[Assigning Meanings to Programs]] (Floyd) — assertions on flowchart edges; birth of axiomatic semantics. [[Foundations of Logic Programming - Lloyd]] — the declarative/procedural unity under SLD-resolution.
 - **Information.** [[Algorithmic Information Theory - Grunwald Vitanyi]] — Kolmogorov complexity and MDL: the meaning of an object is the length of its shortest program.
+- **Generation without identification.** [[Language Generation in the Limit - Kleinberg and Mullainathan]] (Kleinberg & Mullainathan 2024) shows that an agent can eventually produce valid unseen examples without identifying their source language. [[Critical Languages|Critical-language chains]] support generation for countable candidate families; validity alone does not guarantee breadth.
+- **Learning with limited history.** [[On Language Generation in the Limit with Bounded Memory]] (Kleinberg et al. 2026) separates eventual valid generation from coverage and identification. A fixed sliding window does not improve worst-case coverage over memoryless generation; retaining selected examples improves the available bound under repetition-free input. This is a formal learning result, not a guarantee for finite-context LLMs.
 - **Concurrency substrate.** [[Programming Erlang Second Edition]] — the actor-model textbook, **let-it-crash** + supervision trees. This is the operational grain of most distributed agent systems discussed above.
 - **Architectural style.** [[Principled Design Of The Modern Web Architecture]] (Fielding / REST) — the explicit constraints (uniform interface, statelessness, hypermedia) that make internet-scale coordination possible. The modern LLM-agent protocols recapitulate these constraints deliberately.
 - **Blockchain / smart contracts.** [[Making Smart Contracts Smarter]] (semantic gap between intent and EVM), [[Formalise Blockchain Interoperability Patterns]] (Event-B refinement proofs) — formal-methods vocabulary applied to a new coordination substrate.
@@ -139,7 +145,7 @@ A 2024–2026 wave makes agentic *security* a field unto itself, with a clear th
 
 - **Runtime / prompt-injection defences.** [[AgentDojo]] (Debenedetti et al. 2024, NeurIPS) is the dynamic benchmark — four realistic environments, 97 user tasks × 629 injection tests, parallel user-success / attack-success metrics. [[Defeating Prompt Injections by Design]] (Debenedetti, Shumailov, Tramèr et al. 2025) is the architectural response — [[CaMeL]]: control-flow / data-flow separation between the trusted query and untrusted tool data, with [[Capabilities|capability]]-gated tool calls. Together they form the contemporary case for [[Prompt Injection]] being a *systems* problem solved by [[Information Flow Control]], not a model-content problem solved by classifiers.
 - **Privacy reasoning.** [[Privacy Reasoning in Ambiguous Contexts]] (Yi et al. 2025, NeurIPS) — [[Contextual Integrity]] operationalised: the dominant LLM privacy failure is unrecognised *ambiguity*, fixed by rationale-driven disambiguation ([[Camber]]).
-- **Multi-agent threat field.** [[Open Challenges in Multi-Agent Security]] (Schroeder de Witt et al. 2025) defines [[Multi-Agent Security]] as a discipline: **secret collusion** (covert/steganographic coordination defeating oversight), **swarm attacks**, **network-effect contagion** (privacy breaches, jailbreaks, disinformation spreading agent-to-agent), and **stealth optimisation** (dispersion-based evasion). Free-form protocols enable both task generalisation and these new threats — a fundamental security–utility trade-off.
+- **Multi-agent threat field.** [[Open Challenges in Multi-Agent Security]] (Schroeder de Witt et al. 2025) defines [[Multi-Agent Security]] as a discipline: **secret collusion** (covert/steganographic coordination defeating oversight), **swarm attacks**, **network-effect contagion** (privacy breaches, jailbreaks, disinformation spreading agent-to-agent), and **stealth optimisation** (dispersion-based evasion). Free-form protocols enable both task generalisation and these new threats — a fundamental security–utility trade-off. The April 2026 revision expands the taxonomy and attacker model, distinguishes provenance from truth, and argues that composition, emergence, and collective-action problems require governance beyond individual model certification.
 
 ## 15. The Agent Economy: Infrastructure, Markets, Mechanism Design
 
@@ -175,3 +181,13 @@ Mermaid lineage diagrams for each foundational cluster, embedded in the relevant
 - [[Program Semantics#Language, semantics, and concurrency lineage]] — Chomsky · McCarthy · Floyd · Hoare · Backus · Naur
 
 See [[index]] for the full paper listing, [[README]] for vault conventions.
+
+## 16. Complex Systems: What Makes a Collection Coordinate?
+
+[[Dynamics of Complex Systems]] supplies a complementary foundation for agent communication. [[Recipient-Relative Information]] asks what a message adds given the receiver's existing knowledge; this connects to [[Common Ground]] without equating shared information with mutual presupposition. [[Subdivided Networks]] asks how reusable local patterns can combine under compatibility constraints.
+
+[[Complexity Profile]] distinguishes a large collection, coherent repetition and richly differentiated collective behavior. [[Hierarchical Control Bottleneck]] then asks whether collective behavior can be simplified enough for a central controller; its bound assumes lateral communication is nonessential. [[Lateral Coordination]] supplies interactions among participants when central directives cannot provide the necessary correlations. These are grounded connections and architectural analogies, not results proving that all software-agent hierarchies fail or that peer communication alone creates intelligence.
+
+## Local Reasoning and Resource Separation
+
+[[Local Reasoning about Programs that Alter Data Structures]] introduces spatial assertions and the [[Frame Rule]] for sequential heap programs: reason about accessed cells and preserve a disjoint remainder. [[Separation Logic]] extends [[Hoare Logic]] with explicit resource composition. [[A First-Order Logic with Frames]] gives a later support-based approach. This locality differs from the causal-history reasoning of [[Inductive Diagrams for Causal Reasoning]]: absence of a causal dependency does not establish disjoint resource ownership.
