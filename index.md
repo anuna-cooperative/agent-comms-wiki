@@ -79,6 +79,7 @@ See [[README]] for detailed conventions.
 - [[Distributional Structure]] — Harris 1954 (the [[Distributional Hypothesis]]: *difference of meaning correlates with difference of distribution*; headwater of [[Distributional Semantics]] and [[Word Embeddings]])
 - [[A Mathematical Theory of Communication]] — Shannon 1948 (founding paper of information theory; [[Channel Capacity]], [[Shannon Entropy]])
 - [[The Development of Communication Models]] — Kuznar & Yager 2020 (SMA/DoD Quick Look; the linear → interactive → transactional arc of communication models — Lasswell, Shannon–Weaver, Schramm; the [[Information Environment]])
+- [[The Process and Effects of Mass Communication]] — Schramm (ed.) 1954, linked fourth printing 1960 (shared meaning, feedback, attention, persuasion, and group influence)
 - [[The Process of Communication]] — Berlo 1960 (the [[SMCR Model]] — Source/Message/Channel/Receiver; communication as *process*; "meanings are in people"; [[Fidelity]] of shared meaning)
 - [[On Computable Numbers with an Application to the Entscheidungsproblem]] — Turing 1936 (the [[Universal Turing Machine]]; [[Computability]] made precise; [[Halting Problem|circle-freeness]] undecidable; the Entscheidungsproblem is unsolvable — founding paper of computability with [[An Unsolvable Problem of Elementary Number Theory|Church 1936]])
 - [[Computing Machinery and Intelligence]] — Turing 1950 (the [[Turing Test|imitation game]]; intelligence judged by text-only conversation; the [[Machine Learning|child-machine]] proposal — founding paper of AI-as-behaviour)
@@ -360,6 +361,7 @@ See [[README]] for detailed conventions.
 ## Programming Languages & Extensibility
 
 - [[Appia - A Flexible Protocol Kernel Supporting Multiple Coordinated Channels]] — Miranda, Pinto & Rodrigues 2001 (protocol-kernel composition; shared sessions coordinate channels with different QoS)
+- [[Applying Design by Contract]] — Meyer 1992 (client/supplier obligations, invariants, inheritance, and Eiffel)
 - [[LVars - Lattice-based Data Structures for Deterministic Parallelism]] — Kuper & Newton FHPC 2013 (lattice-valued shared state; threshold reads and deterministic parallelism)
 - [[Freeze After Writing - Quasi-Deterministic Parallel Programming with LVars]] — Kuper, Turon, Krishnaswami & Newton POPL 2014 (LVish; handlers, freezing, and agreement of successful executions)
 - [[A First-Order Logic with Frames]] — Murali, Peña, Löding & Madhusudan, revised 2022 (formula supports, local heap reasoning, and recursive first-order verification conditions)
