@@ -16,6 +16,16 @@ Replicas announce roots through a **Broadcaster** and retrieve missing history t
 - Content addressing verifies bytes; it does not establish authorization or Byzantine-safe application semantics.
 - Retaining history creates storage and synchronization costs; compaction needs care.
 
+## Synchronization Mechanism
+
+Each local event creates a new root linking to all current roots. Following links reaches causally earlier events; unrelated branches represent concurrency. The clock's node set is a grow-only set, merged by union.
+
+After a root announcement, a replica fetches unknown nodes, skips known subgraphs, and processes new payloads in causal order. Concurrent roots remain until a later event links them. A missed announcement can be repaired through a later root containing that history, provided the replica learns that root and the nodes remain retrievable. The DAG supplies ordering and recovery; payloads must still satisfy CRDT convergence requirements.
+
+## Limits and Tradeoffs
+
+History grows with events rather than replica count. Deep histories make initial synchronization slow, and divergent histories can be expensive to compare. Full-state payloads duplicate storage; operations and deltas are often a better fit. These are architectural benefits and costs discussed in the paper, rather than a measured scalability guarantee. See [Sections IV–VI](https://arxiv.org/html/2004.00107v2#S4).
+
 ## Connections
 
 - [[CRDTs]]

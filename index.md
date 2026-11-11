@@ -72,6 +72,18 @@ See [[README]] for detailed conventions.
 - [[A Comprehensive Study of Convergent and Commutative Replicated Data Types]] — Shapiro, Preguiça, Baquero & Zawirski 2011 (CRDTs canonical reference)
 - [[Lasp - A Language for Distributed, Coordination-Free Programming]] — Meiklejohn & Van Roy PPDP 2015 (metadata-aware CRDT composition and distributed dataflow)
 - [[CRDT Emulation, Simulation, and Representation Independence]] — Liittschwager, Castello, Tsampas & Kuper 2025 (formal emulation via weak simulation; observable behavior and client representation independence)
+- [[GUARDTs - Decentralized Access Control for Replicated Data Types]] — Kuessner, Mogk, Haas, Bieniusa & Mezini 2026 (path-scoped capabilities and revocation over a replicated event graph)
+- [[The Blocklace - A Byzantine-repelling and Universal CRDT]] — Almeida & Shapiro 2025 (universal hash-DAG CRDT with equivocation evidence and eventual Byzantine exclusion)
+- [[Analysis of the Matrix Event Graph Replicated Data Type]] — Jacob, Beer, Henze & Hartenstein 2020 (Matrix causal histories as a Byzantine-tolerant CRDT)
+- [[Matrix Room Version 11 Specification]] — Matrix.org Foundation (normative event authorization, redaction, and state resolution)
+- [[ruma-state-res event_auth.rs]] — Ruma contributors (Rust implementation of Matrix auth-event selection and authorization)
+- [[Byzantine Eventual Consistency and the Fundamental Limits of Peer-to-Peer Databases]] — Kleppmann & Howard 2020 (BEC, Byzantine causal broadcast, and the limits of Sybil-immune databases)
+- [[Causal Unfoldings and Disjunctive Causes]] — de Visme & Winskel 2023 (event structures with equivalence and universal causal unfolding)
+- [[Petri Nets Event Structures and Domains Part I]] — Nielsen, Plotkin & Winskel 1981 (introduces [[Event Structure|event structures]] as the bridge from operational Petri nets to denotational domains)
+- [[Event Structures]] — Winskel 1987 (standard survey of prime, stable, and general event structures)
+- [[Concurrent Program Schemes and Their Interpretations]] — Mazurkiewicz 1977 ([[Mazurkiewicz Trace|traces]] quotient sequences by swaps of independent actions)
+- [[Modeling Concurrency with Partial Orders]] — Pratt 1986 ([[Pomset|pomsets]] model executions directly as partially ordered multisets)
+- [[Models for Concurrency]] — Winskel & Nielsen 1995 (categorical comparison of transition systems, traces, Petri nets, event structures, and pomsets)
 - [[Concurrency Control in Groupware Systems]] — Ellis & Gibbs 1989 ([[Operational Transformation]]; foundational technique behind Google Docs)
 - [[Three Models for the Description of Language]] — Chomsky 1956
 - [[Language Generation in the Limit - Kleinberg and Mullainathan]] — Kleinberg & Mullainathan 2024 (valid novel generation without identifying the target; original [[Language Generation in the Limit|generation-in-the-limit]] theorem)
@@ -376,6 +388,9 @@ See [[README]] for detailed conventions.
 
 ## Security & Robust Distributed Systems
 
+- [[PolicyMaker Compliance Checking]] — Blaze, Feigenbaum & Strauss 1998 (authorization as proof from policy and credentials; decidability and complexity limits)
+- [[SecPAL - The Role of Abduction in Declarative Authorization Policies]] — Becker & Nanz 2007 (abductive denial explanations and credential synthesis for Datalog policies)
+- [[Security Policy Languages and Enforcement]] — Stoller & Liu 2004 (trust management, RBAC, Datalog, and incremental enforcement)
 - [[A Logic of Authentication]] — Burrows, Abadi & Needham 1990 ([[BAN Logic]]; first widely-adopted protocol-verification method)
 - [[Spi Calculus]] — Abadi & Gordon 1997 ([[Pi-Calculus]] + cryptographic primitives; security as process equivalence)
 - [[Using Encryption for Authentication]] — Needham & Schroeder 1978 ([[Needham-Schroeder Protocol]]; canonical case-study under the [[Lowe Attack]])
