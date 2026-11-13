@@ -4,6 +4,7 @@ The property that, given the same inputs and initial state, a system always prod
 
 ## In this vault
 - [[LVars - Lattice-based Data Structures for Deterministic Parallelism]] — join-based writes and stable threshold reads
+- [[Joining Forces - Toward a Unified Account of LVars and Convergent Replicated Data Types]] — relates LVar determinism to CvRDT convergence and proposes commuting inflationary updates
 - [[The Semantics of a Simple Language for Parallel Programming]] — foundational stream semantics for deterministic process networks
 - [[Freeze After Writing - Quasi-Deterministic Parallel Programming with LVars]] — quasi-determinism and safe freezing of lattice-valued shared state
 - [[A Monad for Deterministic Parallelism]] — pure parallel computation with the Par monad and IVars

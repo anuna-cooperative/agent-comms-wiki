@@ -70,6 +70,7 @@ See [[README]] for detailed conventions.
 - [[Logic and Lattices for Distributed Programming]] — Conway, Marczak, Alvaro, Hellerstein & Maier 2012 (BloomL; lattice-typed monotonicity)
 - [[Relational Transducers for Declarative Networking]] — Ameloot, Neven & Van den Bussche 2011 (the formal CALM-theorem proof)
 - [[A Comprehensive Study of Convergent and Commutative Replicated Data Types]] — Shapiro, Preguiça, Baquero & Zawirski 2011 (CRDTs canonical reference)
+- [[Joining Forces - Toward a Unified Account of LVars and Convergent Replicated Data Types]] — Kuper & Newton 2014 (unifies LVars and CvRDTs; threshold queries and inflationary non-join updates)
 - [[Lasp - A Language for Distributed, Coordination-Free Programming]] — Meiklejohn & Van Roy PPDP 2015 (metadata-aware CRDT composition and distributed dataflow)
 - [[CRDT Emulation, Simulation, and Representation Independence]] — Liittschwager, Castello, Tsampas & Kuper 2025 (formal emulation via weak simulation; observable behavior and client representation independence)
 - [[GUARDTs - Decentralized Access Control for Replicated Data Types]] — Kuessner, Mogk, Haas, Bieniusa & Mezini 2026 (path-scoped capabilities and revocation over a replicated event graph)
