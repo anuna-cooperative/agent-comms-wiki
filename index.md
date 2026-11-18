@@ -70,6 +70,7 @@ See [[README]] for detailed conventions.
 - [[Logic and Lattices for Distributed Programming]] — Conway, Marczak, Alvaro, Hellerstein & Maier 2012 (BloomL; lattice-typed monotonicity)
 - [[Relational Transducers for Declarative Networking]] — Ameloot, Neven & Van den Bussche 2011 (the formal CALM-theorem proof)
 - [[A Comprehensive Study of Convergent and Commutative Replicated Data Types]] — Shapiro, Preguiça, Baquero & Zawirski 2011 (CRDTs canonical reference)
+- [[Katara - Synthesizing CRDTs with Verified Lifting]] — Laddad et al. 2022 (synthesizes verified state-based CRDTs from sequential data types and conflict-ordering constraints)
 - [[Joining Forces - Toward a Unified Account of LVars and Convergent Replicated Data Types]] — Kuper & Newton 2014 (unifies LVars and CvRDTs; threshold queries and inflationary non-join updates)
 - [[Lasp - A Language for Distributed, Coordination-Free Programming]] — Meiklejohn & Van Roy PPDP 2015 (metadata-aware CRDT composition and distributed dataflow)
 - [[CRDT Emulation, Simulation, and Representation Independence]] — Liittschwager, Castello, Tsampas & Kuper 2025 (formal emulation via weak simulation; observable behavior and client representation independence)
@@ -88,6 +89,8 @@ See [[README]] for detailed conventions.
 - [[Concurrency Control in Groupware Systems]] — Ellis & Gibbs 1989 ([[Operational Transformation]]; foundational technique behind Google Docs)
 - [[Three Models for the Description of Language]] — Chomsky 1956
 - [[Language Generation in the Limit - Kleinberg and Mullainathan]] — Kleinberg & Mullainathan 2024 (valid novel generation without identifying the target; original [[Language Generation in the Limit|generation-in-the-limit]] theorem)
+- [[Safe Language Generation in the Limit]] — Anastasopoulos, Ateniese & Kornaropoulos 2026 (safe set-difference generation, eventual abstention, and impossibility versus tractable cases)
+- [[Learning Indexed Families of Recursive Languages from Positive Data - A Survey]] — Lange, Zeugmann & Zilles 2008 (survey of positive-data identification, hypothesis spaces, learning constraints, and efficiency)
 - [[On Language Generation in the Limit with Bounded Memory]] — Kleinberg, Mehrotra, Saberi & Velegkas 2026 ([[Language Generation in the Limit|generation]], [[Generation Density|coverage]], and [[Identification in the Limit|identification]] under bounded memory)
 - [[Distributional Structure]] — Harris 1954 (the [[Distributional Hypothesis]]: *difference of meaning correlates with difference of distribution*; headwater of [[Distributional Semantics]] and [[Word Embeddings]])
 - [[A Mathematical Theory of Communication]] — Shannon 1948 (founding paper of information theory; [[Channel Capacity]], [[Shannon Entropy]])

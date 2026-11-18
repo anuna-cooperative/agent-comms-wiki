@@ -4,6 +4,7 @@ A learner receives positive examples of an unknown infinite target language from
 
 ## In this vault
 
+- [[Safe Language Generation in the Limit]] — adds harmful-language exclusions and eventual abstention.
 - [[Language Generation in the Limit - Kleinberg and Mullainathan]]
 
 - [[On Language Generation in the Limit with Bounded Memory]]

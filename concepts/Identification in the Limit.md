@@ -4,6 +4,8 @@ Learning a target language by producing hypotheses that eventually stabilise on 
 
 ## In this vault
 
+- [[Safe Language Generation in the Limit]] — reduces identification to the general safe-generation task.
+- [[Learning Indexed Families of Recursive Languages from Positive Data - A Survey]] — classical survey of identification from positive examples.
 - [[Language Generation in the Limit - Kleinberg and Mullainathan]]
 
 - [[On Language Generation in the Limit with Bounded Memory]]
